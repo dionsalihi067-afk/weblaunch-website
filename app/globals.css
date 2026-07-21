@@ -1,0 +1,302 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --surface: #ffffff;
+  --surface-muted: #f8fafc;
+  --surface-elevated: rgba(255, 255, 255, 0.72);
+  --ink: #0a1128;
+  --ink-muted: #64748b;
+  --glass-border: rgba(15, 23, 42, 0.08);
+  --glass-highlight: rgba(255, 255, 255, 0.65);
+  --glow-primary: rgba(0, 112, 243, 0.22);
+  --glow-soft: rgba(10, 17, 40, 0.06);
+  /* Mobile-first section rhythm — compact on phones, airy on desktop */
+  --section-space: clamp(3rem, 2.5rem + 4vw, 7rem);
+  --page-hero-space: clamp(3.5rem, 2.75rem + 5vw, 8rem);
+  --shadow-soft: 0 4px 24px -4px rgba(15, 23, 42, 0.06), 0 2px 8px -2px rgba(15, 23, 42, 0.04);
+  --shadow-premium: 0 20px 50px -20px rgba(15, 23, 42, 0.18), 0 8px 24px -8px rgba(0, 112, 243, 0.12);
+  --shadow-glow: 0 0 40px -8px rgba(0, 112, 243, 0.35);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    overflow-x: clip;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  body {
+    font-feature-settings: "rlig" 1, "calt" 1, "ss01" 1;
+    color: var(--ink);
+    background-color: var(--surface);
+    overflow-x: clip;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  img,
+  video,
+  svg {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h1,
+  h2,
+  h3,
+  .font-display {
+    font-family: var(--font-display), var(--font-sans), system-ui, sans-serif;
+    letter-spacing: -0.02em;
+  }
+
+  :focus-visible {
+    outline: 2px solid #0070f3;
+    outline-offset: 2px;
+  }
+}
+
+/* Custom utilities must be defined here so @apply and className usage both work */
+@layer utilities {
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+
+  .shadow-premium {
+    box-shadow: var(--shadow-premium);
+  }
+
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
+  }
+
+  .container-custom {
+    @apply mx-auto w-full max-w-7xl;
+    padding-left: max(1rem, env(safe-area-inset-left));
+    padding-right: max(1rem, env(safe-area-inset-right));
+  }
+
+  @media (min-width: 640px) {
+    .container-custom {
+      padding-left: max(1.5rem, env(safe-area-inset-left));
+      padding-right: max(1.5rem, env(safe-area-inset-right));
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container-custom {
+      padding-left: max(2rem, env(safe-area-inset-left));
+      padding-right: max(2rem, env(safe-area-inset-right));
+    }
+  }
+
+  /* Responsive display typography — elegant on 320px, premium on desktop */
+  .heading-hero {
+    font-family: var(--font-display), var(--font-sans), system-ui, sans-serif;
+    font-size: clamp(2rem, 1.35rem + 3.2vw, 4.5rem);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    font-weight: 700;
+  }
+
+  .heading-page {
+    font-family: var(--font-display), var(--font-sans), system-ui, sans-serif;
+    font-size: clamp(1.875rem, 1.35rem + 2.4vw, 3.75rem);
+    line-height: 1.12;
+    letter-spacing: -0.02em;
+    font-weight: 700;
+  }
+
+  .heading-section {
+    font-family: var(--font-display), var(--font-sans), system-ui, sans-serif;
+    font-size: clamp(1.625rem, 1.25rem + 1.6vw, 3rem);
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    font-weight: 700;
+  }
+
+  .heading-card {
+    font-family: var(--font-display), var(--font-sans), system-ui, sans-serif;
+    font-size: clamp(1.125rem, 1rem + 0.5vw, 1.5rem);
+    line-height: 1.3;
+    letter-spacing: -0.015em;
+    font-weight: 600;
+  }
+
+  .text-lead {
+    font-size: clamp(1rem, 0.925rem + 0.4vw, 1.25rem);
+    line-height: 1.65;
+  }
+
+  .page-hero {
+    padding-top: var(--page-hero-space);
+    padding-bottom: var(--page-hero-space);
+  }
+
+  .touch-target {
+    min-height: 2.75rem;
+    min-width: 2.75rem;
+  }
+
+  .gradient-primary {
+    @apply bg-gradient-to-r from-primary-500 to-primary-600;
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-500 via-primary-400 to-sky-500;
+  }
+
+  .section-pad {
+    padding-top: var(--section-space);
+    padding-bottom: var(--section-space);
+  }
+
+  .logo-frame {
+    @apply relative isolate bg-transparent border-0 shadow-none outline-none ring-0;
+    background-color: transparent !important;
+    box-shadow: none !important;
+  }
+
+  .logo-image {
+    background: transparent !important;
+    background-color: transparent !important;
+    mix-blend-mode: normal;
+    /* Avoid Next/Image decoder introducing a painted canvas box */
+    image-rendering: auto;
+  }
+
+  .text-display {
+    font-family: var(--font-display), var(--font-sans), system-ui, sans-serif;
+    letter-spacing: -0.02em;
+  }
+
+  .card-glow {
+    position: relative;
+  }
+
+  .card-glow::before {
+    content: '';
+    pointer-events: none;
+    position: absolute;
+    inset: -1px;
+    border-radius: inherit;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+    background: linear-gradient(
+      135deg,
+      rgba(0, 112, 243, 0.35),
+      transparent 40%,
+      rgba(56, 189, 248, 0.2)
+    );
+    z-index: 0;
+  }
+
+  .card-glow:hover::before,
+  .group:hover .card-glow::before {
+    opacity: 1;
+  }
+}
+
+@layer components {
+  .surface-glass {
+    @apply bg-white/70 backdrop-blur-xl border border-white/50;
+    box-shadow: var(--shadow-premium);
+  }
+
+  .surface-card {
+    @apply bg-white/90 backdrop-blur-sm border border-slate-200/80 rounded-2xl transition-all duration-300 ease-out;
+    box-shadow: var(--shadow-soft);
+  }
+
+  .surface-card-hover {
+    @apply hover:-translate-y-1.5 hover:border-primary-200/80;
+  }
+
+  .surface-card-hover:hover {
+    box-shadow: var(--shadow-premium);
+  }
+
+  .bg-mesh {
+    background:
+      radial-gradient(ellipse 80% 60% at 20% 10%, var(--glow-primary), transparent 55%),
+      radial-gradient(ellipse 70% 50% at 85% 20%, rgba(14, 165, 233, 0.12), transparent 50%),
+      radial-gradient(ellipse 60% 40% at 50% 90%, var(--glow-soft), transparent 55%),
+      linear-gradient(180deg, #f8fafc 0%, #ffffff 45%, #f1f5f9 100%);
+  }
+
+  .bg-mesh-dark {
+    background:
+      radial-gradient(ellipse 70% 50% at 15% 0%, rgba(0, 112, 243, 0.35), transparent 55%),
+      radial-gradient(ellipse 50% 40% at 90% 30%, rgba(56, 189, 248, 0.15), transparent 50%),
+      linear-gradient(160deg, #020617 0%, #0a1128 45%, #001527 100%);
+  }
+
+  .btn-premium {
+    @apply inline-flex w-full sm:w-auto items-center justify-center gap-2 rounded-xl px-6 py-3.5 text-sm sm:px-8 sm:py-4 sm:text-base font-semibold transition-all duration-300 ease-out;
+    min-height: 2.75rem;
+  }
+
+  .btn-premium:focus-visible {
+    outline: 2px solid #0070f3;
+    outline-offset: 2px;
+  }
+
+  .btn-premium-primary {
+    @apply inline-flex w-full sm:w-auto items-center justify-center gap-2 rounded-xl px-6 py-3.5 text-sm sm:px-8 sm:py-4 sm:text-base font-semibold transition-all duration-300 ease-out bg-primary-500 text-white shadow-lg hover:bg-primary-600 hover:-translate-y-0.5 hover:shadow-xl;
+    min-height: 2.75rem;
+  }
+
+  .btn-premium-primary:focus-visible {
+    outline: 2px solid #0070f3;
+    outline-offset: 2px;
+  }
+
+  .btn-premium-secondary {
+    @apply inline-flex w-full sm:w-auto items-center justify-center gap-2 rounded-xl px-6 py-3.5 text-sm sm:px-8 sm:py-4 sm:text-base font-semibold transition-all duration-300 ease-out bg-white/80 text-gray-900 border border-slate-200/90 backdrop-blur-sm hover:border-primary-300 hover:text-primary-600 hover:-translate-y-0.5;
+    min-height: 2.75rem;
+  }
+
+  .btn-premium-secondary:hover {
+    box-shadow: var(--shadow-premium);
+  }
+
+  .btn-premium-secondary:focus-visible {
+    outline: 2px solid #0070f3;
+    outline-offset: 2px;
+  }
+
+  .perspective-scene {
+    perspective: 1200px;
+    transform-style: preserve-3d;
+  }
+
+  .depth-layer {
+    transform: translateZ(0);
+  }
+}
+
+/* Mobile: pause infinite decorative loops — keeps scroll/INP smooth */
+@media (max-width: 767px) {
+  .animate-float-slow,
+  .animate-pulse-soft {
+    animation: none !important;
+  }
+
+  .perspective-scene {
+    perspective: none;
+  }
+}

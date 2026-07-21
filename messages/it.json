@@ -1,0 +1,2635 @@
+{
+  "navigation": {
+    "home": "Home",
+    "services": "Servizi",
+    "portfolio": "Portfolio",
+    "about": "Chi siamo",
+    "process": "Processo",
+    "contact": "Contatto",
+    "getStarted": "Inizia ora",
+    "selectLanguage": "Seleziona lingua",
+    "openMenu": "Apri menu",
+    "closeMenu": "Chiudi menu"
+  },
+  "home": {
+    "hero": {
+      "badge": "Soluzioni Digitali Premium",
+      "title": "Costruire Esperienze Digitali che Fanno Crescere le Aziende",
+      "subtitle": "WEB LAUNCH aiuta le aziende a creare siti web professionali, brand potenti, sistemi SEO e soluzioni digitali che attraggono clienti e aumentano la crescita online.",
+      "cta": {
+        "primary": "Inizia il tuo progetto",
+        "secondary": "Esplora i servizi"
+      },
+      "stats": {
+        "projectsValue": "30+",
+        "projects": "Progetti completati",
+        "languagesValue": "9+",
+        "languages": "Lingue supportate",
+        "satisfactionValue": "99%",
+        "satisfaction": "Soddisfazione cliente",
+        "supportValue": "24/7",
+        "support": "Supporto disponibile"
+      }
+    },
+    "trust": {
+      "title": "Perché scegliere WEB LAUNCH?",
+      "subtitle": "Combiniamo creatività, tecnologia e strategia per fornire soluzioni digitali che trasformano la tua azienda.",
+      "features": {
+        "design": {
+          "title": "Design Professionale",
+          "description": "Design premium che riflettono l'identità del tuo brand e affascinano il tuo pubblico."
+        },
+        "technology": {
+          "title": "Tecnologia Moderna",
+          "description": "Costruito con tecnologia all'avanguardia per prestazioni e scalabilità ottimali."
+        },
+        "conversion": {
+          "title": "Focalizzato sulla Conversione",
+          "description": "Ogni elemento progettato per trasformare i visitatori in clienti e ottenere risultati."
+        },
+        "complete": {
+          "title": "Servizi Completi",
+          "description": "Agenzia digitale a servizio completo che copre tutte le esigenze aziendali online."
+        },
+        "support": {
+          "title": "Supporto Dedicato",
+          "description": "Supporto e manutenzione continui per mantenere forte la tua presenza digitale."
+        },
+        "international": {
+          "title": "Portata internazionale",
+          "description": "Soluzioni in tutte le lingue per clienti in tutto il mondo."
+        }
+      }
+    },
+    "services": {
+      "title": "I Nostri Servizi",
+      "subtitle": "Soluzioni digitali complete per il successo online",
+      "learnMore": "Scopri di più",
+      "viewAll": "Vedi tutti i servizi",
+      "items": {
+        "website-development": {
+          "title": "Sviluppo Siti Web",
+          "description": "Siti web professionali che trasformano i visitatori in clienti con design moderno e funzionalità potenti."
+        },
+        "branding": {
+          "title": "Design Logo & Branding",
+          "description": "Creazione di identità visive potenti che rendono le aziende memorabili e distintive."
+        },
+        "seo": {
+          "title": "Servizi SEO",
+          "description": "Aiutare i siti a posizionarsi meglio sui motori di ricerca e attrarre clienti organici."
+        },
+        "google-business": {
+          "title": "Ottimizzazione Google Business",
+          "description": "Rendere le aziende visibili su Google Search e Maps."
+        },
+        "social-setup": {
+          "title": "Configurazione Social Media",
+          "description": "Creare basi professionali per i social media."
+        },
+        "social-management": {
+          "title": "Gestione Social Media",
+          "description": "Costruire una presenza digitale costante con contenuti strategici."
+        },
+        "ads": {
+          "title": "Pubblicità Facebook & Instagram",
+          "description": "Creare campagne pubblicitarie che generano lead qualificati e aumentano le vendite."
+        },
+        "email": {
+          "title": "Configurazione Email Aziendale",
+          "description": "Email aziendali professionali che migliorano credibilità e comunicazione."
+        },
+        "lead-forms": {
+          "title": "Moduli di Generazione Lead",
+          "description": "Convertire i visitatori del sito in potenziali clienti."
+        },
+        "maintenance": {
+          "title": "Manutenzione Siti Web",
+          "description": "Mantenere i siti sicuri, aggiornati e ad alte prestazioni."
+        },
+        "landing-pages": {
+          "title": "Landing Page",
+          "description": "Pagine ad alta conversione progettate per campagne marketing."
+        }
+      }
+    },
+    "cta": {
+      "badge": "Pronto a trasformare la tua azienda?",
+      "title": "Costruiamo insieme il tuo futuro digitale",
+      "subtitle": "Hai un'idea di progetto? Parlaci della tua azienda e il nostro team ti aiuterà a creare una soluzione digitale potente.",
+      "primary": "Inizia il tuo progetto",
+      "secondary": "Chiamaci ora"
+    }
+  },
+  "footer": {
+    "description": "WEB LAUNCH crea siti web premium, sistemi di branding e soluzioni digitali che aiutano le aziende a crescere online.",
+    "titles": {
+      "company": "Azienda",
+      "services": "Servizi",
+      "languages": "Lingue"
+    },
+    "company": {
+      "home": "Home",
+      "services": "Servizi",
+      "portfolio": "Portfolio",
+      "about": "Chi siamo",
+      "process": "Processo",
+      "contact": "Contatto"
+    },
+    "services": {
+      "website": "Sviluppo Web",
+      "branding": "Branding",
+      "seo": "Servizi SEO",
+      "google": "Google Business",
+      "social": "Social Media",
+      "ads": "Gestione Ads"
+    },
+    "rights": "Tutti i diritti riservati.",
+    "privacy": "Informativa sulla privacy",
+    "terms": "Termini e Condizioni"
+  },
+  "metadata": {
+    "home": {
+      "title": "WEB LAUNCH - Agenzia Digitale Premium | Siti Web, Branding, SEO",
+      "description": "WEB LAUNCH crea siti web professionali, branding, SEO e marketing digitale per far crescere il business online. Agenzia digitale internazionale con soluzioni in tutte le lingue."
+    },
+    "services": {
+      "title": "I Nostri Servizi - Agenzia Digitale WEB LAUNCH",
+      "description": "Soluzioni digitali complete incluso sviluppo siti web, branding, SEO, Google Business, social media e servizi di marketing digitale."
+    },
+    "contact": {
+      "title": "Contattaci - Agenzia Digitale WEB LAUNCH",
+      "description": "Mettiti in contatto con WEB LAUNCH per iniziare il tuo progetto digitale. Sviluppo siti web professionali, branding e servizi di marketing digitale."
+    },
+    "about": {
+      "title": "Chi Siamo - Agenzia Digitale WEB LAUNCH",
+      "description": "Scopri WEB LAUNCH - un'agenzia digitale premium che aiuta le aziende a crescere online con soluzioni digitali professionali."
+    },
+    "portfolio": {
+      "title": "Il Nostro Portfolio - Progetti WEB LAUNCH",
+      "description": "Esplora i nostri progetti digitali di successo e le trasformazioni. Guarda come WEB LAUNCH aiuta le aziende a raggiungere il successo online."
+    },
+    "process": {
+      "title": "Il Nostro Processo - WEB LAUNCH",
+      "description": "Scopri il nostro processo collaudato in 7 fasi per consegnare progetti digitali di successo dalla scoperta al lancio e oltre."
+    }
+  },
+  "services": {
+    "title": "I Nostri Servizi",
+    "subtitle": "Soluzioni digitali complete per il successo online",
+    "meta": {
+      "website-development": {
+        "title": "Sviluppo Siti Web Professionali | WEB LAUNCH",
+        "description": "Trasforma la tua presenza online con uno sviluppo web professionale. Design moderno, prestazioni veloci, ottimizzato SEO. Il tuo sito che converte i visitatori in clienti."
+      },
+      "branding": {
+        "title": "Servizi di Design Logo & Branding | WEB LAUNCH",
+        "description": "Crea una potente identità di marca con design logo professionale e branding completo. Distinguiti dalla concorrenza con un'identità visiva memorabile."
+      },
+      "seo": {
+        "title": "Servizi SEO - Ottimizzazione Motori Ricerca | WEB LAUNCH",
+        "description": "Migliora i tuoi posizionamenti e attira clienti organici con servizi SEO professionali. Ottimizzazione completa per crescita sostenibile."
+      },
+      "google-business": {
+        "title": "Servizi Ottimizzazione Google Business | WEB LAUNCH",
+        "description": "Fatti trovare dai clienti locali con l'ottimizzazione Google Business. Migliora la tua visibilità su Google Search e Maps."
+      },
+      "social-setup": {
+        "title": "Servizi Configurazione Social Media | WEB LAUNCH",
+        "description": "Lancia la tua presenza sui social media professionalmente con configurazione e ottimizzazione complete su tutte le principali piattaforme."
+      },
+      "social-management": {
+        "title": "Servizi Gestione Social Media | WEB LAUNCH",
+        "description": "Costruisci e fai crescere la tua presenza sui social media con contenuti professionali, pubblicazioni strategiche e coinvolgimento della comunità."
+      },
+      "ads": {
+        "title": "Gestione Pubblicità Facebook & Instagram | WEB LAUNCH",
+        "description": "Genera lead qualificati e aumenta le vendite con campagne pubblicitarie basate sui dati che offrono un ROI misurabile."
+      },
+      "email": {
+        "title": "Configurazione Email Aziendale | WEB LAUNCH",
+        "description": "Stabilisci credibilità e professionalità con indirizzi email aziendali personalizzati utilizzando il tuo nome di dominio."
+      },
+      "lead-forms": {
+        "title": "Form Generazione Lead | WEB LAUNCH",
+        "description": "Converti visitatori sito in lead qualificati con form strategicamente progettati che massimizzano conversioni."
+      },
+      "maintenance": {
+        "title": "Manutenzione Sito Web | WEB LAUNCH",
+        "description": "Mantieni il tuo sito web sicuro, veloce e aggiornato con manutenzione professionale e supporto."
+      },
+      "landing-pages": {
+        "title": "Landing Page Alta Conversione | WEB LAUNCH",
+        "description": "Aumenta performance campagne con landing page professionalmente progettate focalizzate sulla conversione visitatori in clienti."
+      }
+    },
+    "detail": {
+      "website-development": {
+        "hero": {
+          "title": "Sviluppo Web Professionale",
+          "subtitle": "Siti web professionali che trasformano i visitatori in clienti con design moderno e funzionalità potenti.",
+          "cta": "Avvia il Tuo Progetto"
+        },
+        "problem": {
+          "title": "La Sfida del Sito Web",
+          "description": "Nel mondo digitale di oggi, il tuo sito web è spesso la prima impressione che i clienti hanno della tua azienda. Tuttavia, molte aziende lottano con siti che non riescono a fornire risultati.",
+          "painPoints": [
+            "Siti web obsoleti che non riflettono la professionalità del tuo brand",
+            "Tempi di caricamento lenti che fanno andare via i visitatori prima di vedere i tuoi contenuti",
+            "Scarsa esperienza mobile che perde clienti su smartphone e tablet",
+            "Navigazione difficile che rende difficile per i clienti trovare informazioni",
+            "Mancanza di elementi di conversione che non trasformano i visitatori in lead",
+            "Problemi tecnici e vulnerabilità di sicurezza che mettono a rischio la tua azienda"
+          ]
+        },
+        "solution": {
+          "title": "La Nostra Soluzione di Sviluppo Web",
+          "description": "Siti web professionali che trasformano i visitatori in clienti con design moderno e funzionalità potenti.",
+          "differentiators": [
+            "Tecnologie Moderne",
+            "Design Mobile-First",
+            "Ottimizzato per Conversioni",
+            "Fondamenta SEO",
+            "Prestazioni Veloci",
+            "Sicuro & Affidabile"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "Rocket",
+            "title": "Prestazioni Ultra-Veloci",
+            "description": "Codice ottimizzato e tecnologia moderna assicurano che il tuo sito si carichi in meno di 2 secondi, mantenendo i visitatori coinvolti e migliorando il posizionamento SEO."
+          },
+          {
+            "icon": "Target",
+            "title": "Design Focalizzato sulla Conversione",
+            "description": "Posizionamento strategico di call-to-action, moduli e contenuti progettati specificamente per trasformare i visitatori in clienti e lead."
+          },
+          {
+            "icon": "Shield",
+            "title": "Sicuro & Affidabile",
+            "description": "Costruito con le migliori pratiche di sicurezza, certificati SSL, aggiornamenti regolari e hosting affidabile per proteggere la tua azienda e i tuoi clienti."
+          },
+          {
+            "icon": "Globe",
+            "title": "Mobile-Responsive",
+            "description": "Esperienza di visualizzazione perfetta su tutti i dispositivi - smartphone, tablet e desktop. Il tuo sito si adatta magnificamente a qualsiasi dimensione dello schermo."
+          },
+          {
+            "icon": "TrendingUp",
+            "title": "Ottimizzato SEO",
+            "description": "Best practice SEO integrate, codice pulito, caricamento rapido e struttura corretta aiutano il tuo sito a posizionarsi meglio nei risultati di ricerca."
+          },
+          {
+            "icon": "Zap",
+            "title": "Facile da Aggiornare",
+            "description": "Sistema di gestione contenuti user-friendly ti permette di aggiornare facilmente contenuti, immagini e pagine senza conoscenze tecniche."
+          }
+        ],
+        "features": {
+          "included": [
+            "Analisi di business e obiettivi",
+            "Design personalizzato basato sull’identità di marca",
+            "Design responsive per mobile, tablet e desktop",
+            "Struttura di navigazione professionale",
+            "Pagine principali del sito",
+            "Moduli di contatto",
+            "Integrazione Google Maps",
+            "Pulsante WhatsApp/contatto diretto",
+            "Ottimizzazione SEO di base",
+            "Alte prestazioni e caricamento rapido",
+            "Sicurezza di base del sito",
+            "Configurazione dominio e hosting"
+          ],
+          "additional": [
+            "Animazioni premium",
+            "Design 3D ed esperienze interattive",
+            "Siti multilingue",
+            "E-commerce",
+            "Sistemi di prenotazione online",
+            "Pagamenti online",
+            "Dashboard CMS",
+            "Integrazione chatbot AI",
+            "Integrazione CRM",
+            "Sistemi di lead generation",
+            "Blog professionale",
+            "SEO avanzata"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "Piccole Imprese",
+            "description": "Aziende che cercano di stabilire una presenza online professionale e attirare nuovi clienti attraverso canali digitali."
+          },
+          {
+            "type": "Aziende in Crescita",
+            "description": "Business pronti a scalare con un sito moderno che supporta la crescita e gestisce facilmente l'aumento del traffico."
+          },
+          {
+            "type": "Grandi Aziende Consolidate",
+            "description": "Organizzazioni che necessitano di funzionalità avanzate, integrazioni e una presenza web sofisticata che corrisponde al loro brand."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "Scoperta & Pianificazione",
+              "description": "Comprendiamo i tuoi obiettivi aziendali, il pubblico di riferimento e i requisiti specifici attraverso una consulenza dettagliata."
+            },
+            {
+              "title": "Design & Prototipazione",
+              "description": "I nostri designer creano bellissimi mockup e prototipi per la tua approvazione prima che inizi lo sviluppo."
+            },
+            {
+              "title": "Sviluppo",
+              "description": "Sviluppatori esperti costruiscono il tuo sito usando tecnologia moderna, best practice e codice pulito."
+            },
+            {
+              "title": "Integrazione Contenuti",
+              "description": "Aggiungiamo i tuoi contenuti, ottimizziamo le immagini e ci assicuriamo che tutto sia presentato perfettamente."
+            },
+            {
+              "title": "Test & Assicurazione Qualità",
+              "description": "Test approfonditi su tutti i dispositivi e browser per garantire funzionalità e prestazioni impeccabili."
+            },
+            {
+              "title": "Lancio & Deployment",
+              "description": "Lanciamo il tuo sito, configuriamo tutto correttamente e assicuriamo una transizione fluida."
+            },
+            {
+              "title": "Formazione & Supporto",
+              "description": "Formazione completa sulla gestione del tuo sito e supporto continuo per garantire il tuo successo."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Pronto per il Tuo Sito Web Professionale?",
+          "subtitle": "Creiamo insieme un sito web che genera risultati reali per la tua azienda",
+          "primary": "Avvia il Tuo Progetto",
+          "secondary": "Vedi il Portfolio"
+        },
+        "packages": {
+          "basic": {
+            "name": "Base",
+            "tagline": "Sito essenziale per presentare il business",
+            "features": [
+              "Fino a 5 pagine",
+              "Design responsive",
+              "Modulo contatto & SEO base"
+            ],
+            "ideal": "Startup e piccole imprese che iniziano online"
+          },
+          "professional": {
+            "name": "Professionale",
+            "tagline": "Sito orientato alla conversione",
+            "features": [
+              "Fino a 10 pagine",
+              "Design system personalizzato",
+              "Ottimizzazione velocità & SEO"
+            ],
+            "ideal": "Aziende in crescita che vogliono una soluzione completa",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "Sito avanzato per crescere",
+            "features": [
+              "Struttura pagine flessibile",
+              "Integrazioni avanzate",
+              "Supporto prioritario & analytics"
+            ],
+            "ideal": "Brand consolidati che cercano risultati premium"
+          }
+        }
+      },
+      "branding": {
+        "hero": {
+          "title": "Design Logo & Branding",
+          "subtitle": "Creazione di identità visive potenti che rendono le aziende memorabili e distintive.",
+          "cta": "Inizia il Tuo Branding"
+        },
+        "problem": {
+          "title": "La Sfida del Branding",
+          "description": "Il tuo brand è più di un logo - è il modo in cui i clienti percepiscono e ricordano la tua azienda. Molte aziende lottano con un branding debole o incoerente che non produce impatto.",
+          "painPoints": [
+            "Loghi generici o dall'aspetto amatoriale che non ispirano fiducia",
+            "Identità visiva incoerente su diverse piattaforme",
+            "Messaggio di marca poco chiaro che non risuona con il pubblico target",
+            "Difficoltà a distinguersi in un mercato affollato",
+            "Mancanza di materiali di marca professionali per il marketing",
+            "Identità di marca che non riflette i valori e la visione dell'azienda"
+          ]
+        },
+        "solution": {
+          "title": "La Nostra Soluzione di Branding",
+          "description": "Creazione di identità visive potenti che rendono le aziende memorabili e distintive.",
+          "differentiators": [
+            "Posizionamento Strategico del Brand",
+            "Identità Visiva Memorabile",
+            "Linee Guida Complete del Brand",
+            "Concetti Multipli",
+            "Revisioni Illimitate",
+            "Diritti di Proprietà Completi"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "Star",
+            "title": "Credibilità Professionale",
+            "description": "Un'identità di marca premium stabilisce istantaneamente fiducia e professionalità, rendendo i clienti più propensi a scegliere la tua azienda."
+          },
+          {
+            "icon": "Target",
+            "title": "Differenziazione di Mercato",
+            "description": "Distinguiti dai concorrenti con un'identità di marca unica che comunica chiaramente ciò che rende speciale la tua azienda."
+          },
+          {
+            "icon": "Heart",
+            "title": "Connessione Emotiva",
+            "description": "Crea connessioni significative con i clienti attraverso un branding che risuona con i loro valori e aspirazioni."
+          },
+          {
+            "icon": "TrendingUp",
+            "title": "Crescita del Business",
+            "description": "Un branding forte attira più clienti, consente prezzi premium e costruisce valore aziendale a lungo termine."
+          },
+          {
+            "icon": "Award",
+            "title": "Riconoscimento del Brand",
+            "description": "Un branding coerente e professionale rende la tua azienda istantaneamente riconoscibile e memorabile per i clienti."
+          },
+          {
+            "icon": "Zap",
+            "title": "Efficienza del Marketing",
+            "description": "Un sistema di marca completo ottimizza tutti i tuoi sforzi di marketing con risorse pronte all'uso e linee guida chiare."
+          }
+        ],
+        "features": {
+          "included": [
+            "Analisi di business e settore",
+            "Ricerca creativa e concetti",
+            "Design logo unico",
+            "Selezione colori di marca",
+            "Selezione tipografica",
+            "Creazione dell’identità visiva",
+            "Linee guida base per l’uso del logo",
+            "Versioni multiple del logo",
+            "Formati digitali e print"
+          ],
+          "additional": [
+            "Brand book professionale",
+            "Biglietti da visita",
+            "Brochure",
+            "Design catalogo",
+            "Materiali promozionali",
+            "Packaging prodotto",
+            "Template per social media",
+            "Materiali business",
+            "Linee guida di marca complete"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "Nuove Aziende",
+            "description": "Start-up e nuove aziende che necessitano di un'identità di marca completa per lanciare professionalmente e fare una forte prima impressione."
+          },
+          {
+            "type": "Aziende in Rebranding",
+            "description": "Aziende consolidate pronte a rinfrescare la loro immagine, modernizzare il loro look o riposizionarsi sul mercato."
+          },
+          {
+            "type": "Brand in Crescita",
+            "description": "Aziende che espandono la loro presenza e necessitano di branding professionale per supportare la crescita e attrarre clienti più grandi."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "Scoperta del Brand",
+              "description": "Analisi approfondita della tua azienda, valori, pubblico target e panorama competitivo per comprendere il tuo posizionamento unico."
+            },
+            {
+              "title": "Sviluppo della Strategia",
+              "description": "Definizione della personalità del brand, messaggi e direzione visiva basata su insight strategici e posizionamento di mercato."
+            },
+            {
+              "title": "Creazione di Concetti",
+              "description": "Design di concetti di logo multipli e direzioni visive per la tua revisione e feedback."
+            },
+            {
+              "title": "Raffinamento",
+              "description": "Perfezionamento della direzione scelta con revisioni illimitate fino a quando l'identità di marca è esattamente giusta."
+            },
+            {
+              "title": "Sviluppo del Sistema di Brand",
+              "description": "Creazione di linee guida complete del brand, palette di colori, tipografia e tutti gli elementi visivi."
+            },
+            {
+              "title": "Creazione di Risorse",
+              "description": "Design di tutti i materiali di marca necessari inclusi biglietti da visita, modelli e risorse di marketing."
+            },
+            {
+              "title": "Consegna & Formazione",
+              "description": "Fornitura di tutti i file, linee guida del brand e formazione su come mantenere la coerenza del brand."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Pronto a Costruire il Tuo Brand?",
+          "subtitle": "Creiamo un'identità di marca che rende la tua azienda indimenticabile",
+          "primary": "Inizia il Tuo Branding",
+          "secondary": "Vedi Portfolio"
+        },
+        "packages": {
+          "basic": {
+            "name": "Base",
+            "tagline": "Identità logo chiara per il tuo brand",
+            "features": [
+              "Logo principale",
+              "Palette colori",
+              "Guida d'uso base"
+            ],
+            "ideal": "Startup e piccole imprese che iniziano online"
+          },
+          "professional": {
+            "name": "Professionale",
+            "tagline": "Sistema completo di brand identity",
+            "features": [
+              "Suite logo e varianti",
+              "Tipografia e colori",
+              "Brand guidelines PDF"
+            ],
+            "ideal": "Aziende in crescita che vogliono una soluzione completa",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "Sistema brand premium per crescere",
+            "features": [
+              "Identità visiva completa",
+              "Template marketing",
+              "Strategia brand estesa"
+            ],
+            "ideal": "Brand consolidati che cercano risultati premium"
+          }
+        }
+      },
+      "seo": {
+        "hero": {
+          "title": "Servizi SEO",
+          "subtitle": "Aiutare i siti a posizionarsi meglio sui motori di ricerca e attrarre clienti organici.",
+          "cta": "Potenzia i Tuoi Posizionamenti"
+        },
+        "problem": {
+          "title": "La Sfida del SEO",
+          "description": "La maggior parte delle aziende fatica ad apparire nella prima pagina di Google, perdendo migliaia di potenziali clienti che cercano attivamente i loro servizi.",
+          "painPoints": [
+            "Invisibile nei risultati di ricerca quando i clienti cercano i tuoi servizi",
+            "Concorrenti posizionati più in alto che catturano i tuoi potenziali clienti",
+            "Basso traffico web nonostante un ottimo prodotto o servizio",
+            "Difficoltà nel comprendere requisiti SEO complessi e algoritmi",
+            "Precedenti sforzi SEO non hanno mostrato risultati misurabili",
+            "Spreco di denaro in pubblicità quando il traffico organico potrebbe essere gratuito"
+          ]
+        },
+        "solution": {
+          "title": "La Nostra Soluzione SEO",
+          "description": "Aiutare i siti a posizionarsi meglio sui motori di ricerca e attrarre clienti organici.",
+          "differentiators": [
+            "Tecniche White-Hat",
+            "Strategia Basata sui Dati",
+            "Ottimizzazione Completa",
+            "Report Regolari",
+            "Risultati Sostenibili",
+            "Track Record Provato"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "TrendingUp",
+            "title": "Posizionamenti Più Alti",
+            "description": "Raggiungi la prima pagina di Google per le parole chiave importanti per la tua azienda, aumentando drasticamente la tua visibilità."
+          },
+          {
+            "icon": "Target",
+            "title": "Traffico Qualificato",
+            "description": "Attira visitatori che cercano attivamente i tuoi servizi, ottenendo tassi di conversione più alti e un ROI migliore."
+          },
+          {
+            "icon": "Rocket",
+            "title": "Crescita Sostenibile",
+            "description": "A differenza degli annunci a pagamento, il SEO fornisce valore a lungo termine con risultati cumulativi che continuano a crescere nel tempo."
+          },
+          {
+            "icon": "Award",
+            "title": "Costruzione di Autorità",
+            "description": "Stabilisci la tua azienda come autorità del settore, guadagnando fiducia e credibilità sia con i motori di ricerca che con i clienti."
+          },
+          {
+            "icon": "Globe",
+            "title": "Vantaggio Competitivo",
+            "description": "Supera i concorrenti e conquista quote di mercato dominando i risultati di ricerca nel tuo settore."
+          },
+          {
+            "icon": "Zap",
+            "title": "Conveniente",
+            "description": "Genera traffico organico costante senza spese pubblicitarie continue, fornendo un ROI a lungo termine migliore rispetto alla pubblicità a pagamento."
+          }
+        ],
+        "features": {
+          "included": [
+            "Analisi SEO del sito",
+            "Ricerca keyword",
+            "Ottimizzazione title e meta description",
+            "Ottimizzazione della struttura del sito",
+            "Miglioramenti di velocità",
+            "Ottimizzazione immagini",
+            "Basi di SEO tecnica",
+            "Creazione sitemap",
+            "Setup Google Search Console",
+            "Report di performance"
+          ],
+          "additional": [
+            "SEO locale",
+            "Strategia di contenuti",
+            "Articoli blog",
+            "Link building",
+            "Analisi competitor",
+            "SEO e-commerce",
+            "Monitoraggio ranking",
+            "Ottimizzazione continua"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "Aziende Locali",
+            "description": "Aziende che desiderano dominare i risultati di ricerca locali e attrarre clienti vicini che cercano i loro servizi."
+          },
+          {
+            "type": "Negozi E-commerce",
+            "description": "Rivenditori online che devono posizionarsi per parole chiave di prodotto e generare vendite tramite traffico di ricerca organico."
+          },
+          {
+            "type": "Fornitori di Servizi",
+            "description": "Studi professionali che cercano di attrarre lead qualificati attraverso la visibilità sui motori di ricerca."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "Audit & Analisi SEO",
+              "description": "Analisi completa del tuo stato SEO attuale, problemi tecnici e panorama competitivo."
+            },
+            {
+              "title": "Ricerca Parole Chiave",
+              "description": "Identificazione di parole chiave ad alto valore che i tuoi clienti cercano e sviluppo di strategia di targeting."
+            },
+            {
+              "title": "Ottimizzazione Tecnica",
+              "description": "Correzione problemi tecnici, miglioramento velocità del sito, reattività mobile e scansionabilità dei motori di ricerca."
+            },
+            {
+              "title": "Ottimizzazione On-Page",
+              "description": "Ottimizzazione contenuti, meta tag, header e linking interno per parole chiave target."
+            },
+            {
+              "title": "Strategia Contenuti",
+              "description": "Creazione e ottimizzazione di contenuti che si posizionano bene e forniscono valore al tuo pubblico."
+            },
+            {
+              "title": "Link Building",
+              "description": "Costruzione di backlink di alta qualità per aumentare l'autorità del dominio e i posizionamenti di ricerca."
+            },
+            {
+              "title": "Monitorare & Ottimizzare",
+              "description": "Monitoraggio continuo, reporting e ottimizzazione per migliorare i risultati nel tempo."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Pronto a Posizionarti Più in Alto su Google?",
+          "subtitle": "Creiamo una strategia SEO che porta clienti qualificati alla tua azienda",
+          "primary": "Avvia Strategia SEO",
+          "secondary": "Vedi Case Study"
+        },
+        "packages": {
+          "basic": {
+            "name": "Base",
+            "tagline": "Basi SEO per essere indicizzati",
+            "features": [
+              "Audit SEO tecnico",
+              "Ottimizzazione on-page",
+              "Setup Search Console"
+            ],
+            "ideal": "Startup e piccole imprese che iniziano online"
+          },
+          "professional": {
+            "name": "Professionale",
+            "tagline": "SEO di crescita per ranking stabili",
+            "features": [
+              "Strategia keyword",
+              "Ottimizzazione contenuti",
+              "Report mensile"
+            ],
+            "ideal": "Aziende in crescita che vogliono una soluzione completa",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "SEO avanzata per mercati competitivi",
+            "features": [
+              "SEO tecnica + contenuti",
+              "Piano authority e link",
+              "Sprint di ottimizzazione continui"
+            ],
+            "ideal": "Brand consolidati che cercano risultati premium"
+          }
+        }
+      },
+      "google-business": {
+        "hero": {
+          "title": "Ottimizzazione Google Business",
+          "subtitle": "Rendere le aziende visibili su Google Search e Maps.",
+          "cta": "Ottimizza la Mia Scheda"
+        },
+        "problem": {
+          "title": "La Sfida della Visibilità Locale",
+          "description": "I tuoi potenziali clienti cercano attività come la tua su Google ogni giorno, ma se il tuo profilo Google Business non è ottimizzato, trovano i tuoi concorrenti invece.",
+          "painPoints": [
+            "Non apparire nei risultati di ricerca locale e Google Maps",
+            "Informazioni aziendali incomplete o inaccurate che allontanano i clienti",
+            "Concorrenti che dominano il pacchetto locale con migliori recensioni e visibilità",
+            "Perdere clienti che cercano servizi nella tua area",
+            "Nessuna recensione o testimonianza per costruire fiducia con potenziali clienti",
+            "Incertezza su come ottimizzare e gestire efficacemente la tua presenza Google"
+          ]
+        },
+        "solution": {
+          "title": "La Nostra Soluzione Google Business",
+          "description": "Rendere le aziende visibili su Google Search e Maps.",
+          "differentiators": [
+            "Ottimizzazione Completa del Profilo",
+            "Strategia Generazione Recensioni",
+            "Aggiornamenti Contenuti Regolari",
+            "Monitoraggio Performance",
+            "Integrazione SEO Locale",
+            "Analisi Competitiva"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "MapPin",
+            "title": "Visibilità Locale",
+            "description": "Appari in modo prominente quando i clienti cercano attività come la tua su Google Search e Maps."
+          },
+          {
+            "icon": "Star",
+            "title": "Costruire Fiducia",
+            "description": "Mostra recensioni positive, foto e informazioni aziendali che costruiscono credibilità e fiducia."
+          },
+          {
+            "icon": "Target",
+            "title": "Attrarre Clienti Locali",
+            "description": "Raggiungi clienti nella tua area che cercano attivamente i tuoi prodotti e servizi proprio ora."
+          },
+          {
+            "icon": "TrendingUp",
+            "title": "Aumentare il Traffico Fisico",
+            "description": "Porta più clienti alla tua posizione fisica con indicazioni precise e informazioni aziendali convincenti."
+          },
+          {
+            "icon": "Award",
+            "title": "Distinguiti dai Concorrenti",
+            "description": "Un profilo ottimizzato professionalmente ti aiuta a distinguerti nei risultati di ricerca locale contro i concorrenti."
+          },
+          {
+            "icon": "Globe",
+            "title": "Marketing Gratuito",
+            "description": "Sfrutta la piattaforma Google per commercializzare la tua attività ai clienti locali senza costi pubblicitari."
+          }
+        ],
+        "features": {
+          "included": [
+            "Creazione/ottimizzazione profilo Google Business",
+            "Aggiornamento informazioni aziendali",
+            "Categorie business corrette",
+            "Descrizione professionale",
+            "Aggiunta servizi",
+            "Ottimizzazione foto",
+            "Ottimizzazione ricerca locale",
+            "Configurazione orari"
+          ],
+          "additional": [
+            "Strategia recensioni",
+            "Gestione recensioni clienti",
+            "Post settimanali Google Business",
+            "Monitoraggio statistiche",
+            "Ottimizzazione multi-sede",
+            "SEO locale avanzata"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "Attività Locali",
+            "description": "Attività fisiche che servono clienti locali che devono essere trovate nella loro area."
+          },
+          {
+            "type": "Fornitori di Servizi",
+            "description": "Aziende che servono aree geografiche specifiche che desiderano attrarre clienti locali che cercano attivamente."
+          },
+          {
+            "type": "Attività Multi-Sede",
+            "description": "Attività con più sedi che necessitano di ottimizzazione coerente su tutti i profili Google."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "Rivendica & Verifica",
+              "description": "Rivendica il tuo profilo Google Business, verifica la proprietà e assicura accesso completo a tutte le funzionalità."
+            },
+            {
+              "title": "Ottimizzazione Completa",
+              "description": "Compila tutte le informazioni aziendali, ottimizza descrizioni, seleziona categorie e aggiungi foto di alta qualità."
+            },
+            {
+              "title": "Strategia Contenuti",
+              "description": "Crea descrizione aziendale convincente, aggiungi servizi/prodotti e configura il calendario dei post."
+            },
+            {
+              "title": "Generazione Recensioni",
+              "description": "Implementa strategia richiesta recensioni e rispondi professionalmente a tutte le recensioni."
+            },
+            {
+              "title": "Aggiornamenti Regolari",
+              "description": "Mantieni profilo attivo con post regolari, foto e aggiornamenti aziendali."
+            },
+            {
+              "title": "Monitoraggio Performance",
+              "description": "Monitora metriche, analizza performance e ottimizza continuamente per risultati migliori."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Pronto a Farti Trovare su Google?",
+          "subtitle": "Ottimizziamo il tuo profilo Google Business per attrarre più clienti locali",
+          "primary": "Avvia Ottimizzazione",
+          "secondary": "Vedi Risultati"
+        },
+        "packages": {
+          "basic": {
+            "name": "Base",
+            "tagline": "Profilo Google Business ottimizzato",
+            "features": [
+              "Setup e verifica",
+              "Categorie e descrizione",
+              "Guida foto"
+            ],
+            "ideal": "Startup e piccole imprese che iniziano online"
+          },
+          "professional": {
+            "name": "Professionale",
+            "tagline": "Visibilità locale che converte",
+            "features": [
+              "Ottimizzazione completa",
+              "Strategia post e recensioni",
+              "Monitoraggio insights"
+            ],
+            "ideal": "Aziende in crescita che vogliono una soluzione completa",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "Pacchetto dominio locale",
+            "features": [
+              "SEO locale avanzata",
+              "Sistema crescita recensioni",
+              "Gestione continua listing"
+            ],
+            "ideal": "Brand consolidati che cercano risultati premium"
+          }
+        }
+      },
+      "social-setup": {
+        "hero": {
+          "title": "Configurazione Social Media",
+          "subtitle": "Creare basi professionali per i social media.",
+          "cta": "Configura i Miei Profili"
+        },
+        "problem": {
+          "title": "La Sfida dei Social Media",
+          "description": "Iniziare sui social media può essere travolgente. Molte aziende creano profili ma non riescono a configurarli correttamente, perdendo elementi cruciali che impattano credibilità e scopribilità.",
+          "painPoints": [
+            "Profili social media incompleti o dall'aspetto non professionale",
+            "Branding incoerente su diverse piattaforme",
+            "Informazioni aziendali e contatti importanti mancanti",
+            "Immagini profilo e copertina di scarsa qualità",
+            "Confusione su quali piattaforme usare e come configurarle",
+            "Nessuna strategia chiara o fondazione per presenza social media"
+          ]
+        },
+        "solution": {
+          "title": "La Nostra Soluzione di Configurazione",
+          "description": "Creare basi professionali per i social media.",
+          "differentiators": [
+            "Configurazione Multi-Piattaforma",
+            "Coerenza di Brand",
+            "Design Professionale",
+            "Ottimizzazione Completa",
+            "Fondazione Strategica",
+            "Formazione Inclusa"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "Globe",
+            "title": "Presenza Professionale",
+            "description": "Lancia con profili raffinati e professionali che stabiliscono immediatamente credibilità e fiducia con il tuo pubblico."
+          },
+          {
+            "icon": "Award",
+            "title": "Coerenza di Brand",
+            "description": "Mantieni branding, messaggi e identità visiva coerenti su tutte le piattaforme social media."
+          },
+          {
+            "icon": "Target",
+            "title": "Scopribilità",
+            "description": "Profili ottimizzati rendono facile per i clienti trovarti quando cercano aziende come la tua."
+          },
+          {
+            "icon": "Rocket",
+            "title": "Lancio Veloce",
+            "description": "Diventa operativo rapidamente con profili configurati professionalmente pronti per coinvolgere i clienti."
+          },
+          {
+            "icon": "Shield",
+            "title": "Best Practice Piattaforma",
+            "description": "Profili configurati secondo le best practice e linee guida di ottimizzazione di ogni piattaforma."
+          },
+          {
+            "icon": "Zap",
+            "title": "Pronto a Crescere",
+            "description": "Base solida rende facile iniziare a pubblicare contenuti e far crescere la tua presenza social media."
+          }
+        ],
+        "features": {
+          "included": [
+            "Creazione profili social",
+            "Ottimizzazione bio",
+            "Immagini profilo e cover",
+            "Descrizione business professionale",
+            "Informazioni di contatto",
+            "Collegamento al sito",
+            "Setup pulsanti di contatto"
+          ],
+          "additional": [
+            "Design identità social",
+            "Template post professionali",
+            "Strategia contenuti",
+            "Calendario editoriale",
+            "Integrazione strumenti marketing"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "Nuove Aziende",
+            "description": "Aziende in lancio che necessitano di presenza professionale sui social media dal primo giorno."
+          },
+          {
+            "type": "Aziende in Rebranding",
+            "description": "Aziende che rinnovano la loro immagine e desiderano profili social media aggiornati e coerenti."
+          },
+          {
+            "type": "Brand in Espansione",
+            "description": "Aziende pronte a stabilire presenza su nuove piattaforme o consolidare profili esistenti."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "Selezione Piattaforma",
+              "description": "Identifica quali piattaforme social si adattano meglio ai tuoi obiettivi aziendali e al tuo pubblico target."
+            },
+            {
+              "title": "Creazione Account",
+              "description": "Crea o rivendica account aziendali sulle piattaforme selezionate con denominazione e configurazione appropriate."
+            },
+            {
+              "title": "Design Visivo",
+              "description": "Progetta immagini profilo, foto copertina e risorse visive professionali per ogni piattaforma."
+            },
+            {
+              "title": "Ottimizzazione Profilo",
+              "description": "Completa tutte le informazioni profilo, descrizioni, dettagli contatto e ottimizzazione impostazioni."
+            },
+            {
+              "title": "Integrazione Brand",
+              "description": "Assicura branding, messaggi e identità visiva coerenti su tutte le piattaforme."
+            },
+            {
+              "title": "Formazione & Consegna",
+              "description": "Fornisci accesso, formazione sulla gestione profili e linee guida per mantenere la coerenza."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Pronto a Lanciare i Tuoi Social Media?",
+          "subtitle": "Creiamo profili professionali che stabiliscono una forte presenza di marca",
+          "primary": "Configura i Miei Profili",
+          "secondary": "Vedi Esempi"
+        },
+        "packages": {
+          "basic": {
+            "name": "Base",
+            "tagline": "Profili social professionali pronti al lancio",
+            "features": [
+              "Setup sulle piattaforme chiave",
+              "Bio e allineamento brand",
+              "Cover highlight"
+            ],
+            "ideal": "Startup e piccole imprese che iniziano online"
+          },
+          "professional": {
+            "name": "Professionale",
+            "tagline": "Presenza multi-piattaforma curata",
+            "features": [
+              "Tutte le piattaforme principali",
+              "Pack identità visiva",
+              "Starter kit contenuti"
+            ],
+            "ideal": "Aziende in crescita che vogliono una soluzione completa",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "Sistema completo di lancio social",
+            "features": [
+              "Architettura canali completa",
+              "Libreria template contenuti",
+              "Supporto campagna di lancio"
+            ],
+            "ideal": "Brand consolidati che cercano risultati premium"
+          }
+        }
+      },
+      "social-management": {
+        "hero": {
+          "title": "Gestione Social Media",
+          "subtitle": "Costruire una presenza digitale costante con contenuti strategici.",
+          "cta": "Fai Crescere la Mia Presenza"
+        },
+        "problem": {
+          "title": "La Sfida della Gestione",
+          "description": "Mantenere una presenza attiva e coinvolgente sui social media richiede tempo ed è complessa. Molte aziende pubblicano in modo incoerente o faticano a creare contenuti che risuonano con il loro pubblico.",
+          "painPoints": [
+            "Nessun tempo per creare e pubblicare costantemente contenuti di qualità",
+            "Difficoltà a coinvolgere i follower e costruire comunità",
+            "Pubblicazioni incoerenti che danneggiano reach e engagement",
+            "Mancanza di strategia che porta a scarsi risultati",
+            "Opportunità perse di connettere con clienti potenziali",
+            "Difficoltà nel misurare il ROI dei social media"
+          ]
+        },
+        "solution": {
+          "title": "La Nostra Soluzione di Gestione",
+          "description": "Costruire una presenza digitale costante con contenuti strategici.",
+          "differentiators": [
+            "Pianificazione Contenuti Strategica",
+            "Creazione Contenuti Professionale",
+            "Calendario Pubblicazioni Coerente",
+            "Gestione Comunitaria Attiva",
+            "Analisi Performance",
+            "Expertise Piattaforme"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "TrendingUp",
+            "title": "Crescita Costante",
+            "description": "Pubblicazioni regolari e strategiche fanno crescere il tuo pubblico e aumentano l'engagement con il tuo brand."
+          },
+          {
+            "icon": "Users",
+            "title": "Costruzione Comunità",
+            "description": "Coinvolgimento attivo costruisce comunità leale intorno al tuo brand e crea ambasciatori del marchio."
+          },
+          {
+            "icon": "Target",
+            "title": "Raggiungi il Tuo Pubblico",
+            "description": "Contenuti strategici raggiungono e risuonano con i tuoi clienti ideali dove trascorrono il tempo."
+          },
+          {
+            "icon": "Clock",
+            "title": "Risparmia Tempo",
+            "description": "Libera il tuo tempo per concentrarti sul core business mentre professionisti gestiscono i tuoi social media."
+          },
+          {
+            "icon": "Award",
+            "title": "Contenuti Professionali",
+            "description": "Contenuti di alta qualità e coinvolgenti che rappresentano professionalmente il tuo brand e si distinguono."
+          },
+          {
+            "icon": "Zap",
+            "title": "Genera Risultati",
+            "description": "Presenza sociale strategica genera traffico web, genera lead e aumenta le vendite."
+          }
+        ],
+        "features": {
+          "included": [
+            "Pianificazione contenuti",
+            "Post professionali",
+            "Graphic design",
+            "Copywriting marketing",
+            "Pubblicazione regolare",
+            "Miglioramento engagement",
+            "Analisi risultati"
+          ],
+          "additional": [
+            "Video Reels/TikTok",
+            "Fotografia professionale",
+            "Video marketing",
+            "Influencer marketing",
+            "Community management",
+            "Strategie mensili",
+            "Report avanzati"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "Proprietari Impegnati",
+            "description": "Aziende che desiderano presenza sociale professionale senza impegno di tempo per gestione quotidiana."
+          },
+          {
+            "type": "Brand in Crescita",
+            "description": "Aziende pronte a scalare la loro presenza social media e costruire comunità coinvolte."
+          },
+          {
+            "type": "Aziende B2C",
+            "description": "Aziende rivolte ai consumatori che necessitano di coinvolgimento costante con clienti su piattaforme social."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "Sviluppo Strategia",
+              "description": "Crea strategia social media completa allineata con i tuoi obiettivi aziendali e pubblico target."
+            },
+            {
+              "title": "Pianificazione Contenuti",
+              "description": "Sviluppa calendario contenuti mensile con temi, argomenti e programma pubblicazioni."
+            },
+            {
+              "title": "Creazione Contenuti",
+              "description": "Progetta e scrivi post coinvolgenti, grafiche e contenuti multimediali per ogni piattaforma."
+            },
+            {
+              "title": "Pubblicazione Programmata",
+              "description": "Pubblica contenuti in modo coerente nei momenti ottimali per massima reach e engagement."
+            },
+            {
+              "title": "Coinvolgimento Comunità",
+              "description": "Monitora, rispondi e coinvolgi con il tuo pubblico per costruire relazioni e comunità."
+            },
+            {
+              "title": "Ottimizzazione Performance",
+              "description": "Analizza risultati, ottimizza strategia e migliora continuamente le performance."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Pronto a Far Crescere i Tuoi Social Media?",
+          "subtitle": "Costruiamo una comunità coinvolta attorno al tuo brand",
+          "primary": "Avvia Gestione",
+          "secondary": "Vedi il Nostro Lavoro"
+        },
+        "packages": {
+          "basic": {
+            "name": "Base",
+            "tagline": "Posting costante on-brand",
+            "features": [
+              "8 post / mese",
+              "Scrittura caption",
+              "Risposte community base"
+            ],
+            "ideal": "Startup e piccole imprese che iniziano online"
+          },
+          "professional": {
+            "name": "Professionale",
+            "tagline": "Social management orientato alla crescita",
+            "features": [
+              "16 post / mese",
+              "Calendario contenuti",
+              "Engagement e reporting"
+            ],
+            "ideal": "Aziende in crescita che vogliono una soluzione completa",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "Motore completo di crescita social",
+            "features": [
+              "24+ post / mese",
+              "Strategia reels/stories",
+              "Creatività e analytics prioritari"
+            ],
+            "ideal": "Brand consolidati che cercano risultati premium"
+          }
+        }
+      },
+      "ads": {
+        "hero": {
+          "title": "Gestione Pubblicità Facebook & Instagram",
+          "subtitle": "Creare campagne pubblicitarie che generano lead qualificati e aumentano le vendite.",
+          "cta": "Avvia le Mie Campagne"
+        },
+        "problem": {
+          "title": "La Sfida della Pubblicità",
+          "description": "Molte aziende sprecano denaro su annunci sui social media che non convertono, faticano con il targeting o mancano dell'esperienza per ottimizzare le campagne per il massimo ROI.",
+          "painPoints": [
+            "Spreco budget pubblicitario su campagne che non convertono",
+            "Difficoltà nel raggiungere il pubblico target giusto",
+            "Creatività pubblicitarie scadenti che non catturano l'attenzione",
+            "Mancanza di esperienza nell'ottimizzazione delle campagne",
+            "Impossibilità di misurare o comprendere le prestazioni degli annunci",
+            "Concorrenti che ottengono risultati migliori con costi inferiori"
+          ]
+        },
+        "solution": {
+          "title": "La Nostra Soluzione di Gestione Ads",
+          "description": "Creare campagne pubblicitarie che generano lead qualificati e aumentano le vendite.",
+          "differentiators": [
+            "Strategia Basata Dati",
+            "Targeting Avanzato",
+            "Creatività Convincenti",
+            "Ottimizzazione Continua",
+            "Reportistica Trasparente",
+            "Track Record Provato"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "Target",
+            "title": "Lead Qualificati",
+            "description": "Raggiungi clienti ideali con targeting preciso basato su demografia, interessi, comportamenti e altro."
+          },
+          {
+            "icon": "TrendingUp",
+            "title": "ROI Misurabile",
+            "description": "Traccia ogni euro speso con analisi dettagliate che mostrano esattamente come gli annunci impattano il tuo risultato."
+          },
+          {
+            "icon": "Zap",
+            "title": "Risultati Rapidi",
+            "description": "Inizia a generare lead e vendite immediatamente, a differenza dei metodi organici che richiedono mesi."
+          },
+          {
+            "icon": "Award",
+            "title": "Creatività Professionali",
+            "description": "Creatività pubblicitarie accattivanti progettate per fermare lo scrolling e guidare l'azione del tuo pubblico."
+          },
+          {
+            "icon": "Shield",
+            "title": "Prestazioni Ottimizzate",
+            "description": "Test e ottimizzazione continui assicurano che le tue campagne migliorino nel tempo e i costi diminuiscano."
+          },
+          {
+            "icon": "Rocket",
+            "title": "Crescita Scalabile",
+            "description": "Le campagne di successo possono essere scalate per raggiungere più clienti e guidare una crescita esponenziale."
+          }
+        ],
+        "features": {
+          "included": [
+            "Analisi audience",
+            "Strategia pubblicitaria",
+            "Setup Meta Business Manager",
+            "Creazione ads",
+            "Copywriting",
+            "Targeting clienti",
+            "Monitoraggio performance"
+          ],
+          "additional": [
+            "Video pubblicitari professionali",
+            "A/B testing",
+            "Remarketing",
+            "Pixel e Conversion API",
+            "Landing page",
+            "Automazione lead",
+            "Ottimizzazione continua"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "Aziende E-commerce",
+            "description": "Negozi online che vogliono aumentare vendite prodotti e scalare entrate tramite pubblicità a pagamento."
+          },
+          {
+            "type": "Generazione Lead",
+            "description": "Aziende di servizi che necessitano flusso costante di lead qualificati e richieste consulenza."
+          },
+          {
+            "type": "Aziende Locali",
+            "description": "Aziende che targetizzano clienti locali e guidano traffico pedonale o conversioni locali."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "Strategia & Pianificazione",
+              "description": "Definisci obiettivi campagna, pubblico target, budget e metriche di successo."
+            },
+            {
+              "title": "Ricerca Pubblico",
+              "description": "Identifica e segmenta clienti ideali con parametri di targeting dettagliati."
+            },
+            {
+              "title": "Sviluppo Creatività",
+              "description": "Progetta creatività pubblicitarie convincenti e scrivi copy persuasivi che guidano l'azione."
+            },
+            {
+              "title": "Lancio Campagna",
+              "description": "Configura tracking, imposta campagne e lancia annunci con impostazioni ottimali."
+            },
+            {
+              "title": "Monitorare & Ottimizzare",
+              "description": "Monitoraggio e ottimizzazione quotidiani per migliorare prestazioni e ridurre costi."
+            },
+            {
+              "title": "Scalare & Crescere",
+              "description": "Scala campagne di successo ed espandi portata per guidare crescita esponenziale."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Pronto a Generare Lead e Vendite?",
+          "subtitle": "Creiamo campagne pubblicitarie che offrono risultati aziendali reali",
+          "primary": "Avvia Campagne",
+          "secondary": "Vedi Case Study"
+        },
+        "packages": {
+          "basic": {
+            "name": "Base",
+            "tagline": "Campagne ads pronte al lancio",
+            "features": [
+              "Setup campagna",
+              "Targeting audience base",
+              "Upload creative e tracking"
+            ],
+            "ideal": "Startup e piccole imprese che iniziano online"
+          },
+          "professional": {
+            "name": "Professionale",
+            "tagline": "Ads performance che generano lead",
+            "features": [
+              "Struttura multi-adset",
+              "Test A/B creative",
+              "Ottimizzazione settimanale"
+            ],
+            "ideal": "Aziende in crescita che vogliono una soluzione completa",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "Sistema advertising scalabile",
+            "features": [
+              "Campagne full-funnel",
+              "Tracking avanzato",
+              "Strategist ads dedicato"
+            ],
+            "ideal": "Brand consolidati che cercano risultati premium"
+          }
+        }
+      },
+      "email": {
+        "hero": {
+          "title": "Configurazione Email Aziendale",
+          "subtitle": "Email aziendali professionali che migliorano credibilità e comunicazione.",
+          "cta": "Configura la Mia Email"
+        },
+        "problem": {
+          "title": "La Sfida dell'Email",
+          "description": "Utilizzare provider email gratuiti come Gmail o Yahoo per comunicazioni aziendali danneggia la credibilità e fa apparire la tua azienda non professionale a clienti e partner.",
+          "painPoints": [
+            "Indirizzi @gmail.com o @yahoo.com che appaiono non professionali",
+            "Mancanza coerenza marchio nelle comunicazioni email",
+            "Credibilità mancante con clienti e partner commerciali",
+            "Nessun controllo su consegna e sicurezza email",
+            "Difficoltà gestione email multipli membri team",
+            "Rischio perdita accesso account email gratuiti"
+          ]
+        },
+        "solution": {
+          "title": "La Nostra Soluzione Email Aziendale",
+          "description": "Email aziendali professionali che migliorano credibilità e comunicazione.",
+          "differentiators": [
+            "Email Dominio Personalizzato",
+            "Sicuro & Affidabile",
+            "Setup Professionale",
+            "Gestione Facile",
+            "Account Multipli",
+            "Supporto Completo"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "Award",
+            "title": "Credibilità Professionale",
+            "description": "Indirizzi email personalizzati come nome@tuaazienda.it stabiliscono istantaneamente professionalità e fiducia."
+          },
+          {
+            "icon": "Shield",
+            "title": "Sicurezza Migliorata",
+            "description": "Hosting email aziendale offre migliore sicurezza, filtraggio spam e controllo sulle tue comunicazioni."
+          },
+          {
+            "icon": "Target",
+            "title": "Coerenza Marchio",
+            "description": "Ogni email rafforza il tuo marchio con il dominio aziendale in ogni comunicazione."
+          },
+          {
+            "icon": "Users",
+            "title": "Collaborazione Team",
+            "description": "Gestione facile di account email multipli per i membri del tuo team."
+          },
+          {
+            "icon": "Globe",
+            "title": "Migliore Consegna",
+            "description": "Hosting email professionale assicura che i tuoi messaggi raggiungano le caselle dei clienti, non cartelle spam."
+          },
+          {
+            "icon": "Zap",
+            "title": "Accesso Facile",
+            "description": "Accedi email da qualsiasi dispositivo con webmail, client desktop e app mobili."
+          }
+        ],
+        "features": {
+          "included": [
+            "Creazione email di dominio",
+            "Configurazione dispositivi",
+            "Firma professionale",
+            "Configurazione sicurezza di base",
+            "Sincronizzazione con app email"
+          ],
+          "additional": [
+            "Microsoft 365",
+            "Google Workspace",
+            "Calendari business",
+            "Cloud storage",
+            "Gestione utenti",
+            "Sistemi di collaborazione team"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "Nuove Aziende",
+            "description": "Aziende che stabiliscono presenza professionale e necessitano comunicazioni aziendali credibili."
+          },
+          {
+            "type": "Team in Crescita",
+            "description": "Aziende che aggiungono membri team e necessitano sistema gestione email organizzato."
+          },
+          {
+            "type": "Aziende Rebranding",
+            "description": "Aziende con nuovi nomi dominio che necessitano configurazione email e migrazione da vecchi account."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "Raccolta Requisiti",
+              "description": "Identifica indirizzi email necessari, requisiti storage e necessità speciali."
+            },
+            {
+              "title": "Configurazione Hosting Email",
+              "description": "Configura hosting email professionale con sicurezza e protezione spam."
+            },
+            {
+              "title": "Configurazione DNS",
+              "description": "Configura record DNS appropriati per consegna email e sicurezza (SPF, DKIM, DMARC)."
+            },
+            {
+              "title": "Creazione Account",
+              "description": "Crea tutti account email con password sicure e impostazioni appropriate."
+            },
+            {
+              "title": "Configurazione Dispositivi",
+              "description": "Configura email su computer, telefoni e tablet per accesso facile."
+            },
+            {
+              "title": "Formazione & Documentazione",
+              "description": "Fornisci formazione utilizzo sistema email e documentazione di riferimento."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Pronto per Email Aziendale Professionale?",
+          "subtitle": "Configuriamo email che migliora la tua credibilità professionale",
+          "primary": "Configura Email",
+          "secondary": "Scopri di Più"
+        },
+        "packages": {
+          "basic": {
+            "name": "Base",
+            "tagline": "Setup email business professionale",
+            "features": [
+              "Configurazione email dominio",
+              "Creazione mailbox",
+              "Setup dispositivi e app"
+            ],
+            "ideal": "Startup e piccole imprese che iniziano online"
+          },
+          "professional": {
+            "name": "Professionale",
+            "tagline": "Sistema email business affidabile",
+            "features": [
+              "Più mailbox",
+              "Alias e forwarding",
+              "Best practice di sicurezza"
+            ],
+            "ideal": "Aziende in crescita che vogliono una soluzione completa",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "Infrastruttura email enterprise",
+            "features": [
+              "Routing avanzato",
+              "Onboarding team",
+              "Supporto email continuo"
+            ],
+            "ideal": "Brand consolidati che cercano risultati premium"
+          }
+        }
+      },
+      "lead-forms": {
+        "hero": {
+          "title": "Form Generazione Lead",
+          "subtitle": "Convertire i visitatori del sito in potenziali clienti.",
+          "cta": "Crea i Miei Form"
+        },
+        "problem": {
+          "title": "La Sfida Conversione Form",
+          "description": "La maggior parte siti ha form che chiedono troppo, appaiono non professionali o creano attrito che impedisce ai visitatori di diventare lead.",
+          "painPoints": [
+            "Bassi tassi completamento form sprecando traffico",
+            "Form che chiedono troppe domande causando abbandono",
+            "Design form scadente creando confusione frustrazione",
+            "Nessuna strategia per catturare diversi tipi lead",
+            "Opportunità mancate per qualificare lead automaticamente",
+            "Mancanza automazione follow-up dopo invio form"
+          ]
+        },
+        "solution": {
+          "title": "La Nostra Soluzione Form Lead",
+          "description": "Convertire i visitatori del sito in potenziali clienti.",
+          "differentiators": [
+            "Ottimizzazione Conversione",
+            "Domande Strategiche",
+            "Validazione Intelligente",
+            "Auto-Qualificazione",
+            "Integrazione CRM",
+            "Ottimizzato Mobile"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "TrendingUp",
+            "title": "Conversioni Superiori",
+            "description": "Form ottimizzati convertono più visitatori in lead riducendo attrito e guidando utenti dolcemente."
+          },
+          {
+            "icon": "Target",
+            "title": "Lead Qualificati",
+            "description": "Domande strategiche aiutano qualificare lead automaticamente, risparmiando tempo e concentrandosi su migliori opportunità."
+          },
+          {
+            "icon": "Zap",
+            "title": "Notifiche Istantanee",
+            "description": "Ricevi notifica immediata nuovi lead per poter fare follow-up rapidamente mentre interesse è alto."
+          },
+          {
+            "icon": "Shield",
+            "title": "Protezione Spam",
+            "description": "Protezione spam integrata assicura ricevere solo richieste legittime, non invii bot."
+          },
+          {
+            "icon": "Users",
+            "title": "Migliore Esperienza Utente",
+            "description": "Form user-friendly creano impressione positiva e rendono facile per clienti contattarti."
+          },
+          {
+            "icon": "Rocket",
+            "title": "Follow-up Automatizzato",
+            "description": "Email conferma automatiche e integrazione CRM semplificano processo gestione lead."
+          }
+        ],
+        "features": {
+          "included": [
+            "Design professionale del form",
+            "Moduli di contatto",
+            "Raccolta dati clienti",
+            "Notifiche automatiche",
+            "Integrazione email",
+            "Ottimizzazione conversioni"
+          ],
+          "additional": [
+            "Integrazione CRM",
+            "Automazione email",
+            "Form intelligenti",
+            "Chatbot",
+            "Sistemi di prenotazione",
+            "Dashboard contatti"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "Aziende Servizi",
+            "description": "Aziende che generano lead per consulenze, preventivi e richieste servizi."
+          },
+          {
+            "type": "Aziende B2B",
+            "description": "Aziende che qualificano catturano lead enterprise per team vendite."
+          },
+          {
+            "type": "Servizi Alto Valore",
+            "description": "Aziende con offerte complesse che necessitano qualificazione lead dettagliata."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "Definizione Obiettivi",
+              "description": "Definisci obiettivi form, criteri qualificazione lead e obiettivi conversione."
+            },
+            {
+              "title": "Strategia Form",
+              "description": "Progetta flusso domande, selezione campi e logica per massimizzare conversioni."
+            },
+            {
+              "title": "Design & Costruzione",
+              "description": "Crea form visivamente attraenti, user-friendly che corrispondono al tuo brand."
+            },
+            {
+              "title": "Setup Integrazione",
+              "description": "Connetti form a email, CRM e altri sistemi per gestione lead senza interruzioni."
+            },
+            {
+              "title": "Test & Lancio",
+              "description": "Testa accuratamente tutte funzionalità e distribuisci sul tuo sito."
+            },
+            {
+              "title": "Ottimizzazione",
+              "description": "Monitora performance e ottimizza continuamente per migliori tassi conversione."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Pronto a Catturare Più Lead?",
+          "subtitle": "Creiamo form che trasformano visitatori sito in lead qualificati",
+          "primary": "Crea Form",
+          "secondary": "Vedi Esempi"
+        },
+        "packages": {
+          "basic": {
+            "name": "Base",
+            "tagline": "Modulo lead chiaro e mirato",
+            "features": [
+              "Campi personalizzati",
+              "Notifiche email",
+              "Protezione spam"
+            ],
+            "ideal": "Startup e piccole imprese che iniziano online"
+          },
+          "professional": {
+            "name": "Professionale",
+            "tagline": "Sistema lead ottimizzato alla conversione",
+            "features": [
+              "Form multi-step",
+              "Consegna CRM-ready",
+              "Flusso thank-you"
+            ],
+            "ideal": "Aziende in crescita che vogliono una soluzione completa",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "Stack avanzato di lead generation",
+            "features": [
+              "Logica condizionale",
+              "Integrazioni e automazione",
+              "Analytics di conversione"
+            ],
+            "ideal": "Brand consolidati che cercano risultati premium"
+          }
+        }
+      },
+      "maintenance": {
+        "hero": {
+          "title": "Manutenzione Sito Web",
+          "subtitle": "Mantenere i siti sicuri, aggiornati e ad alte prestazioni.",
+          "cta": "Proteggi il Mio Sito"
+        },
+        "problem": {
+          "title": "La Sfida della Manutenzione",
+          "description": "I siti web richiedono manutenzione continua per rimanere sicuri, veloci e funzionali. I siti web trascurati diventano vulnerabili, lenti e alla fine si rompono, danneggiando la tua azienda.",
+          "painPoints": [
+            "Sito web hackerato o infettato da malware",
+            "Velocità caricamento lente frustrando visitatori",
+            "Funzionalità rotte e plugin obsoleti causando errori",
+            "Nessun backup rischiando perdita completa dati",
+            "Vulnerabilità sicurezza mettendo azienda a rischio",
+            "Nessun supporto tecnico quando sorgono problemi"
+          ]
+        },
+        "solution": {
+          "title": "La Nostra Soluzione Manutenzione",
+          "description": "Mantenere i siti sicuri, aggiornati e ad alte prestazioni.",
+          "differentiators": [
+            "Monitoraggio Proattivo",
+            "Aggiornamenti Regolari",
+            "Backup Giornalieri",
+            "Protezione Sicurezza",
+            "Ottimizzazione Performance",
+            "Supporto Prioritario"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "Shield",
+            "title": "Sicurezza Migliorata",
+            "description": "Aggiornamenti sicurezza regolari e monitoraggio proteggono il tuo sito web da hacker e malware."
+          },
+          {
+            "icon": "Zap",
+            "title": "Performance Ottimale",
+            "description": "Ottimizzazione continua assicura che il tuo sito web carichi veloce e funzioni perfettamente."
+          },
+          {
+            "icon": "Clock",
+            "title": "Risparmia Tempo",
+            "description": "Concentrati sulla tua azienda mentre professionisti gestiscono tutta manutenzione tecnica e aggiornamenti."
+          },
+          {
+            "icon": "Award",
+            "title": "Supporto Professionale",
+            "description": "Supporto esperto disponibile quando hai bisogno aiuto o domande sul tuo sito web."
+          },
+          {
+            "icon": "Rocket",
+            "title": "Prevenire Problemi",
+            "description": "Manutenzione proattiva rileva e risolve problemi prima che impattino la tua azienda."
+          },
+          {
+            "icon": "Heart",
+            "title": "Tranquillità",
+            "description": "Sappi che il tuo sito web è protetto, salvato e mantenuto professionalmente."
+          }
+        ],
+        "features": {
+          "included": [
+            "Aggiornamenti tecnici",
+            "Monitoraggio",
+            "Controlli di sicurezza",
+            "Backup",
+            "Controlli performance",
+            "Correzione bug",
+            "Aggiornamenti contenuti"
+          ],
+          "additional": [
+            "Miglioramenti design mensili",
+            "Nuove funzionalità",
+            "Ottimizzazione SEO continua",
+            "Monitoraggio 24/7",
+            "Report mensili",
+            "Gestione hosting/dominio"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "Siti Web Aziendali",
+            "description": "Aziende che fanno affidamento sul loro sito web per affari e necessitano operazione affidabile e sicura."
+          },
+          {
+            "type": "Negozi E-commerce",
+            "description": "Negozi online che richiedono massimo uptime, sicurezza e performance per vendite."
+          },
+          {
+            "type": "Professionisti Occupati",
+            "description": "Proprietari aziendali che desiderano manutenzione professionale senza coinvolgimento tecnico."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "Valutazione Iniziale",
+              "description": "Audit completo stato attuale sito web, sicurezza e performance."
+            },
+            {
+              "title": "Setup & Ottimizzazione",
+              "description": "Configura monitoraggio, backup, sicurezza e esegui ottimizzazione iniziale."
+            },
+            {
+              "title": "Aggiornamenti Regolari",
+              "description": "Controlli e aggiornamenti settimanali per mantenere tutti componenti sicuri e attuali."
+            },
+            {
+              "title": "Monitoraggio",
+              "description": "Monitoraggio uptime 24/7 e scansione sicurezza per rilevare problemi immediatamente."
+            },
+            {
+              "title": "Ottimizzazione Performance",
+              "description": "Ottimizzazione mensile per mantenere caricamento veloce e operazione fluida."
+            },
+            {
+              "title": "Reportistica",
+              "description": "Report regolari mostrando attività manutenzione, stato sicurezza e performance."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Pronto a Proteggere il Tuo Sito Web?",
+          "subtitle": "Manteniamo il tuo sito web sicuro, veloce e senza preoccupazioni",
+          "primary": "Avvia Manutenzione",
+          "secondary": "Scopri di Più"
+        },
+        "packages": {
+          "basic": {
+            "name": "Base",
+            "tagline": "Manutenzione essenziale del sito",
+            "features": [
+              "Aggiornamenti mensili",
+              "Controlli di sicurezza",
+              "Monitoraggio backup"
+            ],
+            "ideal": "Startup e piccole imprese che iniziano online"
+          },
+          "professional": {
+            "name": "Professionale",
+            "tagline": "Manutenzione e support proattivi",
+            "features": [
+              "Fix prioritari",
+              "Check performance",
+              "Ore di aggiornamento contenuti"
+            ],
+            "ideal": "Aziende in crescita che vogliono una soluzione completa",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "Piano completo di affidabilità",
+            "features": [
+              "Monitoring 24/7",
+              "Piccoli update illimitati",
+              "Canale di supporto dedicato"
+            ],
+            "ideal": "Brand consolidati che cercano risultati premium"
+          }
+        }
+      },
+      "landing-pages": {
+        "hero": {
+          "title": "Landing Page Alta Conversione",
+          "subtitle": "Pagine ad alta conversione progettate per campagne marketing.",
+          "cta": "Crea Landing Page"
+        },
+        "problem": {
+          "title": "La Sfida Landing Page",
+          "description": "Maggior parte campagne marketing inviano traffico a pagine sito web generiche che non convertono bene. Landing page scadenti sprecano spesa pubblicitaria e perdono opportunità conversione.",
+          "painPoints": [
+            "Bassi tassi conversione sprecando budget pubblicitario",
+            "Pagine generiche non corrispondenti messaggio annuncio",
+            "Troppe distrazioni e opzioni navigazione",
+            "Esperienza mobile scadente perdendo traffico mobile",
+            "Velocità caricamento lente aumentando tassi rimbalzo",
+            "Nessun chiaro call-to-action o proposta valore"
+          ]
+        },
+        "solution": {
+          "title": "La Nostra Soluzione Landing Page",
+          "description": "Pagine ad alta conversione progettate per campagne marketing.",
+          "differentiators": [
+            "Design Focalizzato Conversione",
+            "Velocità Caricamento Veloce",
+            "Pronto Test A/B",
+            "Ottimizzato Mobile",
+            "Messaggio Chiaro",
+            "Integrazione Analytics"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "Target",
+            "title": "Conversioni Superiori",
+            "description": "Pagine appositamente costruite convertono significativamente meglio di pagine sito web generiche, massimizzando ROI campagne."
+          },
+          {
+            "icon": "Zap",
+            "title": "Corrispondenza Messaggio",
+            "description": "Landing page allineate con messaggio annuncio creano esperienza coerente che costruisce fiducia e converte."
+          },
+          {
+            "icon": "Rocket",
+            "title": "Risultati Veloci",
+            "description": "Lancia campagne più velocemente con landing page dedicate pronte catturare lead dal primo giorno."
+          },
+          {
+            "icon": "Award",
+            "title": "Design Professionale",
+            "description": "Design bello moderno che rappresenta tuo brand professionalmente e si distingue da concorrenti."
+          },
+          {
+            "icon": "TrendingUp",
+            "title": "Performance Ottimizzata",
+            "description": "Pagine caricamento veloce ottimizzate mobile assicurano performance massima su tutti dispositivi."
+          },
+          {
+            "icon": "Users",
+            "title": "Migliore Esperienza Utente",
+            "description": "Pagine focalizzate senza distrazioni guidano visitatori dolcemente verso conversione."
+          }
+        ],
+        "features": {
+          "included": [
+            "Design orientato alla conversione",
+            "Struttura marketing",
+            "Contenuti persuasivi",
+            "Moduli di contatto",
+            "Sezioni call-to-action",
+            "Ottimizzazione mobile",
+            "Integrazione advertising"
+          ],
+          "additional": [
+            "A/B testing",
+            "Video promozionali",
+            "Chatbot",
+            "Integrazione CRM",
+            "Facebook/Google Pixel",
+            "Automazione lead",
+            "Analisi comportamento visitatori"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "Campagne Marketing",
+            "description": "Aziende che eseguono pubblicità pagata necessitando landing page dedicate per campagne."
+          },
+          {
+            "type": "Lanci Prodotti",
+            "description": "Aziende che lanciano nuovi prodotti o servizi richiedendo pagine conversione focalizzate."
+          },
+          {
+            "type": "Generazione Lead",
+            "description": "Aziende che massimizzano cattura lead da sforzi marketing con landing page ottimizzate."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "Strategia Campagna",
+              "description": "Comprendi tua offerta, pubblico e obiettivi campagna per informare strategia landing page."
+            },
+            {
+              "title": "Wireframe & Pianificazione",
+              "description": "Pianifica struttura pagina, gerarchia contenuto e flusso conversione per risultati ottimali."
+            },
+            {
+              "title": "Design & Copy",
+              "description": "Crea design convincente e copy persuasivo che guida azione."
+            },
+            {
+              "title": "Sviluppo",
+              "description": "Costruisci landing page veloce ottimizzata mobile con tutta integrazione tecnica."
+            },
+            {
+              "title": "Test & Lancio",
+              "description": "Testa accuratamente su dispositivi e browser prima lancio campagna."
+            },
+            {
+              "title": "Ottimizza",
+              "description": "Monitora performance e ottimizza continuamente per migliori tassi conversione."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Pronto ad Aumentare Conversioni?",
+          "subtitle": "Creiamo landing page che guidano risultati marketing",
+          "primary": "Crea Pagine",
+          "secondary": "Vedi Esempi"
+        },
+        "packages": {
+          "basic": {
+            "name": "Base",
+            "tagline": "Landing page focalizzata che converte",
+            "features": [
+              "1 landing page",
+              "Layout mobile-first",
+              "Integrazione form lead"
+            ],
+            "ideal": "Startup e piccole imprese che iniziano online"
+          },
+          "professional": {
+            "name": "Professionale",
+            "tagline": "Pagine campagna ad alta conversione",
+            "features": [
+              "Fino a 3 landing page",
+              "Struttura A/B-ready",
+              "Tracking e pixel"
+            ],
+            "ideal": "Aziende in crescita che vogliono una soluzione completa",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "Sistema completo di crescita landing",
+            "features": [
+              "Pagine campagna illimitate",
+              "Elementi CRO avanzati",
+              "Supporto iterazioni continuo"
+            ],
+            "ideal": "Brand consolidati che cercano risultati premium"
+          }
+        }
+      }
+    },
+    "common": {
+      "whatsIncluded": "Cosa è incluso",
+      "idealFor": "Ideale per",
+      "choosePackage": "Scegli il tuo pacchetto",
+      "selectPerfect": "Seleziona la soluzione perfetta per le esigenze della tua azienda",
+      "mostPopular": "Più popolare",
+      "idealForLabel": "Ideale per:",
+      "getStarted": "Inizia ora",
+      "additionalOptions": "Opzioni aggiuntive",
+      "capabilitiesHeading": "Dettagli del servizio",
+      "keyBenefits": "Vantaggi principali",
+      "ourProcess": "Il nostro processo"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Chi Siamo - WEB LAUNCH",
+      "subtitle": "Siamo un'agenzia digitale premium che trasforma le aziende attraverso soluzioni digitali innovative"
+    },
+    "mission": {
+      "title": "La Nostra Missione",
+      "description1": "In WEB LAUNCH, crediamo che ogni azienda meriti una presenza digitale potente. La nostra missione è aiutare le aziende di tutte le dimensioni a stabilire e far crescere la loro presenza online attraverso siti web professionali, branding strategico e marketing digitale efficace.",
+      "description2": "Combiniamo creatività, tecnologia e strategie basate sui dati per fornire soluzioni digitali che non solo hanno un aspetto fantastico, ma generano anche risultati aziendali reali.",
+      "values": {
+        "resultsFocused": {
+          "title": "Focalizzato sui Risultati",
+          "description": "Ogni progetto progettato per raggiungere obiettivi aziendali misurabili"
+        },
+        "clientCentric": {
+          "title": "Centrato sul Cliente",
+          "description": "Il tuo successo è il nostro successo - siamo partner nella crescita"
+        },
+        "innovationDriven": {
+          "title": "Guidato dall'Innovazione",
+          "description": "Utilizzo di tecnologia all'avanguardia e soluzioni creative"
+        }
+      }
+    },
+    "values": {
+      "title": "I Nostri Valori",
+      "subtitle": "I principi che guidano tutto ciò che facciamo",
+      "excellence": {
+        "title": "Eccellenza",
+        "description": "Forniamo qualità premium in ogni progetto, senza compromessi"
+      },
+      "growth": {
+        "title": "Crescita",
+        "description": "Ci concentriamo sulla creazione di soluzioni che guidano la crescita aziendale sostenibile"
+      },
+      "integrity": {
+        "title": "Integrità",
+        "description": "Comunicazione onesta e processi trasparenti in tutto ciò che facciamo"
+      }
+    },
+    "whyChoose": {
+      "title": "Perché le Aziende Scelgono WEB LAUNCH",
+      "international": "Portata internazionale: soluzioni in tutte le lingue per clienti in tutto il mondo",
+      "fullService": "Soluzioni a Servizio Completo: Tutto ciò di cui hai bisogno sotto un unico tetto",
+      "provenTrack": "Risultati comprovati: oltre 30 progetti di successo",
+      "modernTech": "Tecnologia Moderna: Costruito con gli ultimi strumenti e framework",
+      "ongoingSupport": "Supporto Continuo: Siamo qui per te molto tempo dopo il lancio"
+    }
+  },
+  "portfolio": {
+    "hero": {
+      "title": "Il Nostro Portfolio",
+      "subtitle": "Esplora i nostri progetti di successo e le trasformazioni digitali"
+    },
+    "comingSoon": {
+      "title": "Progetti Emozionanti in Arrivo",
+      "description": "Stiamo attualmente aggiornando il nostro portfolio con i nostri ultimi progetti di successo. Torna presto per vedere come abbiamo aiutato le aziende a trasformare la loro presenza digitale."
+    }
+  },
+  "process": {
+    "hero": {
+      "title": "Il Nostro Processo",
+      "subtitle": "Una metodologia collaudata che garantisce una consegna del progetto di successo ogni volta"
+    },
+    "steps": {
+      "1": {
+        "number": "01",
+        "title": "Scoperta",
+        "description": "Iniziamo comprendendo la tua azienda, gli obiettivi, il pubblico target e i requisiti del progetto attraverso consultazioni dettagliate."
+      },
+      "2": {
+        "number": "02",
+        "title": "Strategia",
+        "description": "Sviluppiamo una strategia completa incluso ambito del progetto, tempistica, approccio tecnico e metriche di successo."
+      },
+      "3": {
+        "number": "03",
+        "title": "Design",
+        "description": "Il nostro team di design crea interfacce belle e user-friendly che riflettono il tuo brand e coinvolgono il tuo pubblico."
+      },
+      "4": {
+        "number": "04",
+        "title": "Sviluppo",
+        "description": "Costruiamo la tua soluzione utilizzando tecnologia moderna, best practice e codice pulito per prestazioni ottimali."
+      },
+      "5": {
+        "number": "05",
+        "title": "Test",
+        "description": "Test rigorosi di garanzia della qualità su dispositivi e browser per assicurare che tutto funzioni perfettamente."
+      },
+      "6": {
+        "number": "06",
+        "title": "Lancio",
+        "description": "Distribuiamo il tuo progetto in produzione, configuriamo tutto correttamente e garantiamo un lancio senza intoppi."
+      },
+      "7": {
+        "number": "07",
+        "title": "Supporto",
+        "description": "Manutenzione, aggiornamenti e supporto continui per mantenere la tua presenza digitale forte e aggiornata."
+      }
+    },
+    "cta": {
+      "title": "Pronto a Iniziare il Tuo Progetto?",
+      "subtitle": "Discutiamo dei tuoi obiettivi e creiamo una strategia per il successo",
+      "button": "Inizia Oggi"
+    }
+  },
+  "contact": {
+    "title": "Costruiamo insieme il tuo futuro digitale",
+    "subtitle": "Hai un'idea di progetto? Raccontaci del tuo business e il nostro team ti aiuterà a creare una soluzione digitale potente.",
+    "phone": {
+      "label": "Chiamaci"
+    },
+    "email": {
+      "label": "Inviaci un'email"
+    },
+    "instagram": {
+      "label": "Seguici"
+    },
+    "whatsapp": {
+      "label": "WhatsApp"
+    },
+    "form": {
+      "steps": {
+        "1": {
+          "title": "Informazioni business e contatto",
+          "fullName": "Persona di contatto",
+          "businessName": "Nome dell'azienda",
+          "email": "E-mail",
+          "phone": "Numero di telefono",
+          "country": "Paese",
+          "preferredLanguage": "Lingua preferita",
+          "selectLanguage": "Seleziona la lingua preferita",
+          "subtitle": "Raccontaci della tua attività. Questi dettagli valgono per tutti i servizi selezionati."
+        },
+        "2": {
+          "title": "Seleziona i servizi",
+          "subtitle": "Scegli uno o più servizi"
+        }
+      },
+      "services": {
+        "website-development": "Sviluppo siti web",
+        "branding": "Design logo & Branding",
+        "seo": "Servizi SEO",
+        "google-business": "Ottimizzazione Google Business",
+        "social-setup": "Configurazione social media",
+        "social-management": "Gestione social media",
+        "ads": "Pubblicità Facebook & Instagram",
+        "email": "Configurazione email aziendale",
+        "lead-forms": "Moduli di generazione lead",
+        "maintenance": "Manutenzione siti web",
+        "landing-pages": "Landing page"
+      },
+      "languages": {
+        "albanian": "Albanese",
+        "english": "Inglese",
+        "german": "Tedesco",
+        "french": "Francese",
+        "italian": "Italiano",
+        "turkish": "Turco",
+        "spanish": "Spagnolo"
+      },
+      "privacy": {
+        "title": "Riservatezza & Protezione dei dati",
+        "message": "Tutte le informazioni che fornisci sono trattate come strettamente riservate. I tuoi dati sono archiviati in modo sicuro e accessibili solo dal team WEB LAUNCH allo scopo di erogare i servizi richiesti. Non condividiamo mai le tue informazioni con terze parti senza il tuo consenso."
+      },
+      "consent": {
+        "text": "Accetto l’<privacy>Informativa sulla privacy</privacy> e i <terms>Termini e Condizioni</terms> di WEB LAUNCH."
+      },
+      "validation": {
+        "required": "Questo campo è obbligatorio",
+        "emailInvalid": "Inserisci un indirizzo email valido",
+        "phoneInvalid": "Inserisci un numero di telefono valido",
+        "selectService": "Seleziona almeno un servizio",
+        "urlInvalid": "Inserisci un URL del sito web valido",
+        "consentRequired": "Accetta l’Informativa sulla privacy e i Termini e Condizioni per continuare"
+      },
+      "step": "Passo",
+      "of": "di",
+      "back": "Indietro",
+      "next": "Avanti",
+      "submit": "Invia progetto",
+      "submitting": "Invio in corso...",
+      "error": "Qualcosa è andato storto. Riprova.",
+      "additionalNotes": "Note aggiuntive",
+      "additionalNotesPlaceholder": "C'è altro che dovremmo sapere?",
+      "success": {
+        "title": "Controlla la tua email",
+        "message": "Ti abbiamo inviato un’email di conferma. Clicca su “Conferma richiesta” per inviare ufficialmente il progetto a WEB LAUNCH. Il link scade tra 48 ore."
+      },
+      "title": "Questionario di scoperta del progetto",
+      "subtitle": "Aiutaci a capire i requisiti del tuo progetto rispondendo ad alcune domande.",
+      "questionnaire": {
+        "subtitle": "Rispondi alle seguenti domande",
+        "common": {
+          "yes": "Sì",
+          "no": "No",
+          "uploadButton": "Clicca per caricare i file",
+          "removeFile": "Rimuovi file"
+        },
+        "website-development": {
+          "sections": {
+            "businessInfo": "Informazioni aziendali",
+            "business": "Business e obiettivi",
+            "design": "Design",
+            "files": "File"
+          },
+          "businessName": "Nome dell'azienda",
+          "contactPerson": "Persona di contatto",
+          "email": "E-mail",
+          "phone": "Numero di telefono",
+          "describe": "Descrivi la tua attività",
+          "products": "Servizi o prodotti",
+          "goal": "Obiettivo principale del sito",
+          "goalOther": "Descrivi l'obiettivo aggiuntivo",
+          "pages": "Pagine del sito",
+          "pagesOther": "Descrivi la/le pagina/e aggiuntiva/e",
+          "style": "Stile del sito",
+          "reference": "Sito web di riferimento (Facoltativo)",
+          "referencePlaceholder": "https://example.com",
+          "logo": "Carica logo",
+          "photos": "Carica foto",
+          "options": {
+            "goals": {
+              "lead-generation": "Generazione lead",
+              "information": "Informazione",
+              "bookings": "Prenotazioni",
+              "online-store": "Negozio online",
+              "portfolio": "Portfolio",
+              "other": "Altro"
+            },
+            "pages": {
+              "home": "Home",
+              "about": "Chi siamo",
+              "services": "Servizi",
+              "products": "Prodotti",
+              "gallery": "Galleria",
+              "blog": "Blog",
+              "faq": "FAQ",
+              "contact": "Contatti",
+              "portfolio": "Portfolio",
+              "other": "Altro"
+            }
+          },
+          "websiteUrl": "URL del sito esistente (Facoltativo)",
+          "websiteUrlPlaceholder": "https://example.com",
+          "brandGuide": "Guida del brand"
+        },
+        "branding": {
+          "businessName": "Nome dell'azienda",
+          "industry": "Settore",
+          "describe": "Descrizione dell'attività",
+          "logoLook": "Descrivi il logo ideale",
+          "colors": "Colori preferiti",
+          "references": "Riferimenti logo",
+          "referencesPlaceholder": "Incolla URL o descrivi loghi che ti piacciono...",
+          "brandGuide": "Guida del brand",
+          "logo": "Carica asset logo esistenti (opzionale)"
+        },
+        "seo": {
+          "websiteUrl": "URL del sito (Facoltativo)",
+          "mainServices": "Servizi principali",
+          "cities": "Città target",
+          "keywords": "Parole chiave target",
+          "keywordsPlaceholder": "es. web design Kosovo, digital marketing Pristina",
+          "competitors": "Competitor"
+        },
+        "google-business": {
+          "exists": "Il profilo Google Business esiste già?",
+          "businessName": "Nome dell'azienda",
+          "address": "Indirizzo aziendale",
+          "phone": "Telefono aziendale",
+          "hours": "Orari di apertura",
+          "hoursPlaceholder": "es. Lun–Ven 09:00–17:00",
+          "category": "Categoria aziendale",
+          "categoryPlaceholder": "es. Ristorante, Dentista, Hotel",
+          "loginEmail": "Email di accesso Google Business",
+          "loginPassword": "Password Google Business",
+          "credentialsNotice": "Le credenziali sono utilizzate solo per la configurazione e trattate come strettamente riservate.",
+          "sections": {
+            "profile": "Profilo aziendale",
+            "credentials": "Accesso Google Business"
+          }
+        },
+        "social-setup": {
+          "platforms": "Piattaforme",
+          "describe": "Descrizione dell'attività",
+          "facebookLogin": "Username o email Facebook",
+          "facebookPassword": "Password Facebook",
+          "instagramUsername": "Username Instagram",
+          "instagramPassword": "Password Instagram",
+          "tiktokUsername": "Username TikTok",
+          "tiktokPassword": "Password TikTok",
+          "linkedinUsername": "Username LinkedIn",
+          "linkedinPassword": "Password LinkedIn",
+          "logo": "Carica logo",
+          "credentialsNotice": "Le credenziali sono utilizzate solo per la configurazione e trattate come strettamente riservate.",
+          "options": {
+            "platforms": {
+              "facebook": "Facebook",
+              "instagram": "Instagram",
+              "tiktok": "TikTok",
+              "linkedin": "LinkedIn",
+              "youtube": "YouTube"
+            }
+          },
+          "sections": {
+            "setup": "Dettagli setup",
+            "credentials": "Accesso account"
+          },
+          "brandGuide": "Guida del brand"
+        },
+        "social-management": {
+          "objective": "Obiettivo",
+          "platforms": "Piattaforme",
+          "postsPerMonth": "Post al mese",
+          "postsPlaceholder": "es. 20",
+          "logo": "Carica logo",
+          "photos": "Carica foto",
+          "videos": "Carica video",
+          "facebookLogin": "Accesso Facebook",
+          "instagramLogin": "Accesso Instagram",
+          "options": {
+            "objectives": {
+              "brand-awareness": "Brand awareness",
+              "lead-generation": "Generazione lead",
+              "sales": "Vendite",
+              "follower-growth": "Crescita follower"
+            },
+            "platforms": {
+              "facebook": "Facebook",
+              "instagram": "Instagram",
+              "tiktok": "TikTok",
+              "linkedin": "LinkedIn",
+              "youtube": "YouTube"
+            }
+          },
+          "sections": {
+            "plan": "Piano contenuti",
+            "assets": "Asset media",
+            "credentials": "Accesso account"
+          },
+          "brandGuide": "Guida del brand"
+        },
+        "ads": {
+          "objective": "Obiettivo campagna",
+          "budget": "Budget mensile",
+          "targetArea": "Città target",
+          "targetPlaceholder": "es. Pristina, Kosovo",
+          "offer": "Offerta",
+          "bmEmail": "Email Facebook Business Manager",
+          "bmPassword": "Password Facebook Business Manager",
+          "adAccountId": "ID account pubblicitario Meta",
+          "images": "Carica immagini",
+          "videos": "Carica video",
+          "credentialsNotice": "Le credenziali sono utilizzate solo per la configurazione e trattate come strettamente riservate.",
+          "options": {
+            "objectives": {
+              "lead-generation": "Generazione lead",
+              "traffic": "Traffico",
+              "sales": "Vendite",
+              "messages": "Messaggi"
+            }
+          },
+          "sections": {
+            "campaign": "Dettagli campagna",
+            "credentials": "Accesso Business Manager",
+            "creatives": "Asset creativi"
+          }
+        },
+        "email": {
+          "domain": "Dominio",
+          "howMany": "Numero di account email",
+          "names": "Nomi email desiderati",
+          "namesPlaceholder": "es. info, contatto, supporto, mario"
+        },
+        "lead-forms": {
+          "purpose": "Scopo",
+          "fields": "Campi richiesti",
+          "fieldsOther": "Descrivi i campi aggiuntivi",
+          "emailDestination": "Email di destinazione",
+          "options": {
+            "fields": {
+              "name": "Nome",
+              "surname": "Cognome",
+              "phone": "Telefono",
+              "email": "E-mail",
+              "company": "Azienda",
+              "message": "Messaggio",
+              "file-upload": "Caricamento file",
+              "other": "Altro"
+            }
+          }
+        },
+        "maintenance": {
+          "websiteUrl": "URL del sito (Facoltativo)",
+          "problem": "Problemi attuali",
+          "tasks": "Lavoro richiesto",
+          "tasksOther": "Descrivi il lavoro aggiuntivo",
+          "options": {
+            "tasks": {
+              "updates": "Aggiornamenti",
+              "backups": "Backup",
+              "content": "Modifiche contenuti",
+              "security": "Sicurezza",
+              "performance": "Performance",
+              "other": "Altro"
+            }
+          }
+        },
+        "landing-pages": {
+          "product": "Prodotto o servizio",
+          "goal": "Obiettivo",
+          "offer": "Offerta",
+          "action": "Azione del visitatore",
+          "actionOther": "Descrivi l'azione aggiuntiva",
+          "images": "Carica immagini",
+          "videos": "Carica video",
+          "options": {
+            "goals": {
+              "lead-generation": "Generazione lead",
+              "sales": "Vendite",
+              "bookings": "Prenotazione",
+              "event": "Evento"
+            },
+            "actions": {
+              "submit-form": "Invia modulo",
+              "call": "Chiama",
+              "whatsapp": "WhatsApp",
+              "purchase": "Acquista",
+              "other": "Altro"
+            }
+          }
+        }
+      },
+      "shared": {
+        "title": "Informazioni condivise del progetto",
+        "subtitle": "Questi dettagli valgono per più servizi selezionati. Forniscili una sola volta.",
+        "businessDescription": "Descrizione dell’attività",
+        "websiteUrl": "URL del sito (Facoltativo)",
+        "websiteUrlPlaceholder": "https://example.com",
+        "logo": "Logo aziendale",
+        "photos": "Foto aziendali",
+        "videos": "Video aziendali",
+        "brandGuide": "Guida del brand"
+      },
+      "errorPrefix": "Errore"
+    }
+  },
+  "confirm": {
+    "success": {
+      "title": "Richiesta confermata",
+      "message": "Grazie. La tua richiesta è stata confermata con successo.\n\nIl team di WEB LAUNCH esaminerà il tuo invio e ti contatterà entro le prossime 24 ore per i prossimi passi.\n\nNon è richiesta alcuna ulteriore azione.",
+      "cta": "Torna alla Home"
+    },
+    "expired": {
+      "title": "Link di conferma scaduto",
+      "message": "Questo link di conferma è scaduto (valido 48 ore). Invia di nuovo il modulo di contatto.",
+      "cta": "Vai a Contatti"
+    },
+    "invalid": {
+      "title": "Link di conferma non valido",
+      "message": "Questo link di conferma non è valido o è incompleto. Usa il pulsante dell’email oppure invia di nuovo il modulo.",
+      "cta": "Vai a Contatti"
+    },
+    "already": {
+      "title": "Già confermata",
+      "message": "Questa richiesta è già stata confermata. WEB LAUNCH ha ricevuto i dettagli e ti contatterà presto.",
+      "cta": "Torna alla Home"
+    }
+  },
+  "whatsapp": {
+    "ariaLabel": "Contattaci su WhatsApp",
+    "prefill": "Ciao! Vorrei discutere il mio progetto con WEB LAUNCH."
+  },
+  "legal": {
+    "privacy": {
+      "metaTitle": "Informativa sulla privacy - WEB LAUNCH",
+      "metaDescription": "Informativa sulla privacy dell'agenzia digitale WEB LAUNCH",
+      "title": "Informativa sulla privacy",
+      "updated": "Ultimo aggiornamento: 11 luglio 2026",
+      "sections": [
+        {
+          "title": "1. Information We Collect",
+          "intro": "We collect information that you provide directly to us when you:",
+          "items": [
+            "Submit a contact form or project inquiry",
+            "Communicate with us via email, phone, or social media",
+            "Use our website and services"
+          ]
+        },
+        {
+          "title": "2. How We Use Your Information",
+          "intro": "We use the information we collect to:",
+          "items": [
+            "Respond to your inquiries and provide customer support",
+            "Process your project requests",
+            "Improve our website and services",
+            "Comply with legal obligations"
+          ]
+        },
+        {
+          "title": "3. Information Sharing",
+          "body": "We do not sell, trade, or rent your personal information to third parties. We may share your information only with your consent, to comply with legal requirements, or with service providers who assist in our operations."
+        },
+        {
+          "title": "4. Data Security",
+          "body": "We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction."
+        },
+        {
+          "title": "5. Cookies",
+          "body": "We use cookies and similar tracking technologies to improve your browsing experience and analyze website traffic. You can control cookies through your browser settings."
+        },
+        {
+          "title": "6. Your Rights",
+          "intro": "You have the right to:",
+          "items": [
+            "Access your personal information",
+            "Correct inaccurate data",
+            "Request deletion of your data",
+            "Object to processing of your data",
+            "Withdraw consent at any time"
+          ]
+        },
+        {
+          "title": "7. Contact Us",
+          "body": "If you have questions about this Privacy Policy, please contact us:"
+        }
+      ]
+    },
+    "terms": {
+      "metaTitle": "Termini e condizioni - WEB LAUNCH",
+      "metaDescription": "Termini e condizioni dell'agenzia digitale WEB LAUNCH",
+      "title": "Termini e condizioni",
+      "updated": "Ultimo aggiornamento: 11 luglio 2026",
+      "sections": [
+        {
+          "title": "1. Agreement to Terms",
+          "body": "By accessing and using WEB LAUNCH services, you agree to be bound by these Terms and Conditions. If you do not agree with any part of these terms, please do not use our services."
+        },
+        {
+          "title": "2. Services",
+          "body": "WEB LAUNCH provides digital agency services including website development, branding, SEO, social media, and digital marketing. Service specifications, deliverables, and timelines will be agreed upon in a separate service agreement."
+        },
+        {
+          "title": "3. Client Responsibilities",
+          "body": "Clients are responsible for providing accurate information, required content, timely feedback, and any credentials needed to deliver the agreed services."
+        },
+        {
+          "title": "4. Payments",
+          "body": "Payment terms are defined in each project agreement. Work may pause if invoices remain unpaid beyond the agreed terms."
+        },
+        {
+          "title": "5. Intellectual Property",
+          "body": "Upon full payment, agreed deliverables are transferred to the client as specified in the service agreement. WEB LAUNCH retains the right to showcase non-confidential work in its portfolio unless otherwise agreed."
+        },
+        {
+          "title": "6. Limitation of Liability",
+          "body": "WEB LAUNCH is not liable for indirect or consequential damages arising from the use of our services, except where required by applicable law."
+        },
+        {
+          "title": "7. Contact",
+          "body": "For questions about these Terms, contact WEB LAUNCH at weblaunchdigital@gmail.com or +383 45 949 507."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2635 @@
+{
+  "navigation": {
+    "home": "Ballina",
+    "services": "Shërbimet",
+    "portfolio": "Portofoli",
+    "about": "Rreth Nesh",
+    "process": "Procesi",
+    "contact": "Kontakti",
+    "getStarted": "Fillo Tani",
+    "selectLanguage": "Zgjidh Gjuhën",
+    "openMenu": "Hap menunë",
+    "closeMenu": "Mbyll menunë"
+  },
+  "home": {
+    "hero": {
+      "badge": "Zgjidhje Digjitale Premium",
+      "title": "Ndërtimi i Përvojave Digjitale që Rrisin Bizneset",
+      "subtitle": "WEB LAUNCH ndihmon bizneset të krijojnë faqe interneti profesionale, marka të fuqishme, sisteme SEO dhe zgjidhje digjitale që tërheqin klientë dhe rrisin zhvillimin online.",
+      "cta": {
+        "primary": "Fillo Projektin",
+        "secondary": "Eksploro Shërbimet"
+      },
+      "stats": {
+        "projectsValue": "30+",
+        "projects": "Projekte të Përfunduara",
+        "languagesValue": "9+",
+        "languages": "Gjuhë të Mbështetura",
+        "satisfactionValue": "99%",
+        "satisfaction": "Kënaqësia e Klientit",
+        "supportValue": "24/7",
+        "support": "Mbështetje e Disponueshme"
+      }
+    },
+    "trust": {
+      "title": "Pse të Zgjedhësh WEB LAUNCH?",
+      "subtitle": "Ne kombinojmë kreativitetin, teknologjinë dhe strategjinë për të ofruar zgjidhje digjitale që transformojnë biznesin tuaj.",
+      "features": {
+        "design": {
+          "title": "Dizajn Profesional",
+          "description": "Dizajne premium që pasqyrojnë identitetin tuaj të markës dhe magjepsin audiencën tuaj."
+        },
+        "technology": {
+          "title": "Teknologji Moderne",
+          "description": "Ndërtuar me teknologji të avancuar për performancë dhe shkallëzim optimal."
+        },
+        "conversion": {
+          "title": "Fokusuar në Konvertim",
+          "description": "Çdo element i dizajnuar për të kthyer vizitorët në klientë dhe për të arritur rezultate."
+        },
+        "complete": {
+          "title": "Shërbime të Plota",
+          "description": "Agjenci digjitale me shërbim të plotë që mbulon të gjitha nevojat tuaja të biznesit online."
+        },
+        "support": {
+          "title": "Mbështetje e Dedikuar",
+          "description": "Mbështetje dhe mirëmbajtje e vazhdueshme për të mbajtur prezencën tuaj digjitale të fortë."
+        },
+        "international": {
+          "title": "Arritje Ndërkombëtare",
+          "description": "Ofrojmë zgjidhje në të gjitha gjuhët për klientë në mbarë botën."
+        }
+      }
+    },
+    "services": {
+      "title": "Shërbimet Tona",
+      "subtitle": "Zgjidhje digjitale të plota për sukses online",
+      "learnMore": "Mëso Më Shumë",
+      "viewAll": "Shiko të Gjitha Shërbimet",
+      "items": {
+        "website-development": {
+          "title": "Zhvillimi i Faqeve Interneti",
+          "description": "Faqe interneti profesionale që i shndërrojnë vizitorët në klientë përmes dizajnit modern dhe funksionalitetit të fuqishëm."
+        },
+        "branding": {
+          "title": "Dizajni i Logos & Brandingu",
+          "description": "Krijimi i identiteteve vizuale të fuqishme që e bëjnë biznesin të paharrueshëm dhe të ndryshëm nga konkurrentët."
+        },
+        "seo": {
+          "title": "Shërbimet SEO",
+          "description": "Ndihmojmë website-et të renditen më lart në motorët e kërkimit dhe të tërheqin klientë organikë."
+        },
+        "google-business": {
+          "title": "Optimizimi i Google Business",
+          "description": "Bëjmë bizneset të dukshme në Google Search dhe Maps."
+        },
+        "social-setup": {
+          "title": "Konfigurimi i Mediave Sociale",
+          "description": "Krijimi i bazave profesionale për rrjetet sociale."
+        },
+        "social-management": {
+          "title": "Menaxhimi i Mediave Sociale",
+          "description": "Ndërtimi i pranisë digjitale të qëndrueshme me përmbajtje strategjike."
+        },
+        "ads": {
+          "title": "Reklamat Facebook & Instagram",
+          "description": "Krijimi i fushatave reklamuese që gjenerojnë lead-e të kualifikuara dhe rrisin shitjet."
+        },
+        "email": {
+          "title": "Konfigurimi i Emailit të Biznesit",
+          "description": "Email biznesi profesional që rrit besueshmërinë dhe komunikimin."
+        },
+        "lead-forms": {
+          "title": "Formularët e Gjenerimit të Udhëheqësve",
+          "description": "Shndërrimi i vizitorëve të website-it në klientë potencialë."
+        },
+        "maintenance": {
+          "title": "Mirëmbajtja e Faqeve Interneti",
+          "description": "Mbajtja e website-eve të sigurta, të përditësuara dhe me performancë maksimale."
+        },
+        "landing-pages": {
+          "title": "Faqet e Uljes",
+          "description": "Faqe me konvertim të lartë, të dizajnuara posaçërisht për fushata marketingu."
+        }
+      }
+    },
+    "cta": {
+      "badge": "Gati për të Transformuar Biznesin Tuaj?",
+      "title": "Le të Ndërtojmë së Bashku të Ardhmen Tuaj Digjitale",
+      "subtitle": "Keni një ide projekti? Na tregoni për biznesin tuaj dhe ekipi ynë do t'ju ndihmojë të krijoni një zgjidhje të fuqishme digjitale.",
+      "primary": "Fillo Projektin",
+      "secondary": "Na Telefono Tani"
+    }
+  },
+  "footer": {
+    "description": "WEB LAUNCH krijon faqe interneti premium, sisteme brandingu dhe zgjidhje digjitale që ndihmojnë bizneset të rriten online.",
+    "titles": {
+      "company": "Kompania",
+      "services": "Shërbimet",
+      "languages": "Gjuhët"
+    },
+    "company": {
+      "home": "Ballina",
+      "services": "Shërbimet",
+      "portfolio": "Portofoli",
+      "about": "Rreth Nesh",
+      "process": "Procesi",
+      "contact": "Kontakti"
+    },
+    "services": {
+      "website": "Zhvillimi Web",
+      "branding": "Brandingu",
+      "seo": "Shërbimet SEO",
+      "google": "Google Business",
+      "social": "Mediat Sociale",
+      "ads": "Menaxhimi i Reklamave"
+    },
+    "rights": "Të gjitha të drejtat e rezervuara.",
+    "privacy": "Politika e Privatësisë",
+    "terms": "Termat dhe Kushtet"
+  },
+  "metadata": {
+    "home": {
+      "title": "WEB LAUNCH - Agjenci Digjitale Premium | Faqe Interneti, Branding, SEO",
+      "description": "WEB LAUNCH krijon faqe interneti profesionale, branding, SEO dhe marketing digjital që ndihmojnë bizneset të rriten online. Agjenci digjitale ndërkombëtare me zgjidhje në të gjitha gjuhët."
+    },
+    "services": {
+      "title": "Shërbimet Tona - Agjencia Digjitale WEB LAUNCH",
+      "description": "Zgjidhje digjitale të plota përfshirë zhvillimin e faqeve interneti, branding, SEO, Google Business, media sociale dhe shërbime marketingu digjital."
+    },
+    "contact": {
+      "title": "Na Kontaktoni - Agjencia Digjitale WEB LAUNCH",
+      "description": "Kontaktoni me WEB LAUNCH për të filluar projektin tuaj digjital. Zhvillim profesional i faqeve interneti, branding dhe shërbime marketingu digjital."
+    },
+    "about": {
+      "title": "Rreth Nesh - Agjencia Digjitale WEB LAUNCH",
+      "description": "Mësoni rreth WEB LAUNCH - një agjenci digjitale premium që ndihmon bizneset të rriten online me zgjidhje digjitale profesionale."
+    },
+    "portfolio": {
+      "title": "Portofoli Ynë - Projektet WEB LAUNCH",
+      "description": "Eksploroni projektet tona të suksesshme digjitale dhe transformimet. Shikoni se si WEB LAUNCH ndihmon bizneset të arrijnë sukses online."
+    },
+    "process": {
+      "title": "Procesi Ynë - WEB LAUNCH",
+      "description": "Zbuloni procesin tonë të provuar në 7 hapa për dhënien e projekteve të suksesshme digjitale nga zbulimi deri në lansim dhe përtej."
+    }
+  },
+  "services": {
+    "title": "Shërbimet Tona",
+    "subtitle": "Zgjidhje digjitale të plota për sukses online",
+    "meta": {
+      "website-development": {
+        "title": "Zhvillim Profesional i Faqes Web | WEB LAUNCH",
+        "description": "Transformoni prezencën tuaj online me zhvillim profesional të faqes web. Dizajn modern, performancë e shpejtë, e optimizuar për SEO. Faqja juaj web që konverton vizitorët në klientë."
+      },
+      "branding": {
+        "title": "Dizajn Logoje & Identitet Marke | WEB LAUNCH",
+        "description": "Krijoni një identitet të fuqishëm marke me dizajn profesional logoje dhe markë të plotë. Daloni nga konkurrenca me një identitet vizual të paharrueshëm."
+      },
+      "seo": {
+        "title": "Shërbime SEO - Optimizim për Motorët Kërkimi | WEB LAUNCH",
+        "description": "Përmirësoni renditjet tuaja dhe tërhiqni klientë organikë me shërbime profesionale SEO. Optimizim i plotë për rritje të qëndrueshme."
+      },
+      "google-business": {
+        "title": "Shërbime Optimizimi Google Business | WEB LAUNCH",
+        "description": "Gjendeni nga klientët lokalë me optimizimin Google Business. Përmirësoni dukshmërinë tuaj në Google Search dhe Maps."
+      },
+      "social-setup": {
+        "title": "Shërbime Konfigurimi Mediash Sociale | WEB LAUNCH",
+        "description": "Filloni prezencën tuaj në mediat sociale profesionalisht me konfigurimin dhe optimizimin e plotë në të gjitha platformat kryesore."
+      },
+      "social-management": {
+        "title": "Shërbime Menaxhimi Mediash Sociale | WEB LAUNCH",
+        "description": "Ndërto dhe rrit prezencën tënde në mediat sociale me përmbajtje profesionale, postime strategjike dhe angazhim komuniteti."
+      },
+      "ads": {
+        "title": "Menaxhimi i Reklamave Facebook & Instagram | WEB LAUNCH",
+        "description": "Gjenero klientë të kualifikuar dhe rrit shitjet me fushata reklamuese të bazuara në të dhëna që ofrojnë kthim të matshëm të investimit."
+      },
+      "email": {
+        "title": "Konfigurimi Email Biznesi | WEB LAUNCH",
+        "description": "Vendos besueshmëri dhe profesionalizëm me adresa email biznesi të personalizuara duke përdorur emrin e domenit tuaj."
+      },
+      "lead-forms": {
+        "title": "Formulare Gjenerimi Klientësh | WEB LAUNCH",
+        "description": "Konverto vizitorët e faqes në klientë të kualifikuar me formulare të dizajnuar strategjikisht që maksimizojnë konvertimet."
+      },
+      "maintenance": {
+        "title": "Mirëmbajtje Faqe Interneti | WEB LAUNCH",
+        "description": "Mbani faqen tuaj të internetit të sigurt, të shpejtë dhe të përditësuar me mirëmbajtje profesionale dhe mbështetje."
+      },
+      "landing-pages": {
+        "title": "Landing Pages Konvertim të Lartë | WEB LAUNCH",
+        "description": "Rrit performancën e fushatave me landing pages të dizajnuara profesionalisht të fokusuara në konvertimin e vizitorëve në klientë."
+      }
+    },
+    "detail": {
+      "website-development": {
+        "hero": {
+          "title": "Zhvillim Profesional i Faqes Web",
+          "subtitle": "Faqe interneti profesionale që i shndërrojnë vizitorët në klientë përmes dizajnit modern dhe funksionalitetit të fuqishëm.",
+          "cta": "Filloni Projektin Tuaj"
+        },
+        "problem": {
+          "title": "Sfida e Faqes Web",
+          "description": "Në botën e sotme digjitale, faqja juaj web është shpesh përshtypja e parë që klientët kanë për biznesin tuaj. Megjithatë, shumë kompani luftojnë me faqe që dështojnë të japin rezultate.",
+          "painPoints": [
+            "Faqe web të vjetëruara që nuk pasqyrojnë profesionalizmin e markës tuaj",
+            "Kohë ngarkimi të ngadalta që bëjnë vizitorët të largoh në përpara se të shohin përmbajtjen tuaj",
+            "Përvojë e dobët mobile që humb klientë në smartphone dhe tablet",
+            "Navigim i vështirë që e bën të vështirë për klientët të gjejnë informacion",
+            "Mungojnë elementë konvertimi që dështojnë të kthejnë vizitorët në klientë potencial",
+            "Probleme teknike dhe cenueshmëri sigurie që vënë biznesin tuaj në rrezik"
+          ]
+        },
+        "solution": {
+          "title": "Zgjidhja Jonë e Zhvillimit Web",
+          "description": "Faqe interneti profesionale që i shndërrojnë vizitorët në klientë përmes dizajnit modern dhe funksionalitetit të fuqishëm.",
+          "differentiators": [
+            "Teknologji Moderne",
+            "Dizajn Mobile-First",
+            "Optimizuar për Konvertim",
+            "Themel SEO",
+            "Performancë e Shpejtë",
+            "E Sigurt dhe e Besueshme"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "Rocket",
+            "title": "Performancë Jashtëzakonisht e Shpejtë",
+            "description": "Kodi i optimizuar dhe teknologjia moderne sigurojnë që faqja juaj web të ngarkohet në më pak se 2 sekonda, duke mbajtur vizitorët të angazhuar dhe duke përmirësuar renditjen SEO."
+          },
+          {
+            "icon": "Target",
+            "title": "Dizajn i Fokusuar në Konvertim",
+            "description": "Vendosje strategjike e thirrjeve në veprim, formularëve dhe përmbajtjes të krijuar posaçërisht për të kthyer vizitorët në klientë dhe klientë potencial."
+          },
+          {
+            "icon": "Shield",
+            "title": "E Sigurt dhe e Besueshme",
+            "description": "Ndërtuar me praktikat më të mira të sigurisë, çertifikata SSL, përditësime të rregullta dhe hosting të besueshëm për të mbrojtur biznesin tuaj dhe klientët."
+          },
+          {
+            "icon": "Globe",
+            "title": "Mobile-Responsive",
+            "description": "Përvojë e përkryer shikimi në të gjitha pajisjet - smartphone, tablet dhe desktop. Faqja juaj web përshtatet bukur me çdo madhësi ekrani."
+          },
+          {
+            "icon": "TrendingUp",
+            "title": "E Optimizuar për SEO",
+            "description": "Praktikat më të mira SEO të integruara, kod i pastër, ngarkim i shpejtë dhe strukturë e duhur ndihmojnë faqen tuaj web të renditetet më lart në rezultatet e kërkimit."
+          },
+          {
+            "icon": "Zap",
+            "title": "E Lehtë për t'u Përditësuar",
+            "description": "Sistemi i menaxhimit të përmbajtjes miqësor me përdoruesin ju lejon të përditësoni lehtësisht përmbajtjen, imazhet dhe faqet pa njohuri teknike."
+          }
+        ],
+        "features": {
+          "included": [
+            "Analizë e biznesit dhe objektivave",
+            "Dizajn modern i personalizuar sipas identitetit të markës",
+            "Dizajn responsive për celular, tablet dhe desktop",
+            "Strukturë profesionale navigimi",
+            "Faqet kryesore të website-it",
+            "Formulare kontakti",
+            "Integrim Google Maps",
+            "Buton WhatsApp/kontakt i drejtpërdrejtë",
+            "Optimizim bazë SEO",
+            "Performancë e lartë dhe ngarkim i shpejtë",
+            "Siguri bazë e website-it",
+            "Konfigurim domain dhe hosting"
+          ],
+          "additional": [
+            "Animacione premium",
+            "Dizajn 3D dhe përvoja interaktive",
+            "Website shumëgjuhësh",
+            "E-commerce",
+            "Sisteme rezervimi online",
+            "Pagesa online",
+            "Panel CMS",
+            "Integrim chatbot AI",
+            "Integrim CRM",
+            "Sisteme gjenerimi lead-esh",
+            "Blog profesional",
+            "SEO e avancuar"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "Biznese të Vogla",
+            "description": "Kompani që kërkojnë të krijojnë një prezencë profesionale online dhe të tërheqin klientë të rinj përmes kanaleve digjitale."
+          },
+          {
+            "type": "Kompani në Rritje",
+            "description": "Biznese të gatshme për të shkallëzuar me një faqe web moderne që mbështet rritjen dhe trajton trafikun e shtuar pa përpjekje."
+          },
+          {
+            "type": "Ndërmarrje të Vendosura",
+            "description": "Organizata që kanë nevojë për karakteristika të avancuara, integrime dhe një prezencë web të sofistikuar që përputhet me markën e tyre."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "Zbulimi dhe Planifikimi",
+              "description": "Ne kuptojmë objektivat tuaja të biznesit, audiencën e synuar dhe kërkesat specifike përmes konsultimit të detajuar."
+            },
+            {
+              "title": "Dizajni dhe Prototipimi",
+              "description": "Dizajnerët tanë krijojnë maket dhe prototipe të bukura për miratimin tuaj përpara se të fillojë zhvillimi."
+            },
+            {
+              "title": "Zhvillimi",
+              "description": "Zhvilluesit ekspertë ndërtojnë faqen tuaj web duke përdorur teknologji moderne, praktikat më të mira dhe kod të pastër."
+            },
+            {
+              "title": "Integrimi i Përmbajtjes",
+              "description": "Ne shtojmë përmbajtjen tuaj, optimizojmë imazhet dhe sigurohemi që çdo gjë të jetë e prezantuar në mënyrë të përsosur."
+            },
+            {
+              "title": "Testimi dhe Sigurimi i Cilësisë",
+              "description": "Testim i plotë në të gjitha pajisjet dhe shfletuesit për të siguruar funksionalitet dhe performancë të papërshtatshme."
+            },
+            {
+              "title": "Lansimi dhe Deployment-i",
+              "description": "Ne lansojmë faqen tuaj web, konfigurojmë gjithçka siç duhet dhe sigurojmë një tranzicion të qetë."
+            },
+            {
+              "title": "Trajnimi dhe Mbështetja",
+              "description": "Trajnim gjithëpërfshirës për menaxhimin e faqes tuaj web dhe mbështetje të vazhdueshme për të siguruar suksesin tuaj."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Gati për Faqen Tuaj Web Profesionale?",
+          "subtitle": "Le të ndërtojmë një faqe web që sjell rezultate të vërteta për biznesin tuaj",
+          "primary": "Filloni Projektin Tuaj",
+          "secondary": "Shikoni Portfolion"
+        },
+        "packages": {
+          "basic": {
+            "name": "Bazik",
+            "tagline": "Faqe thelbësore për biznesin tuaj",
+            "features": [
+              "Deri në 5 faqe",
+              "Dizajn responsiv",
+              "Formular kontakti & SEO bazë"
+            ],
+            "ideal": "Biznese të vogla që fillojnë online"
+          },
+          "professional": {
+            "name": "Profesional",
+            "tagline": "Faqe e fokusuar në konvertime",
+            "features": [
+              "Deri në 10 faqe",
+              "Sistem dizajni i personalizuar",
+              "Optimizim shpejtësie & SEO"
+            ],
+            "ideal": "Biznese në rritje që duan një zgjidhje të plotë",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "Faqe e avancuar për rritje",
+            "features": [
+              "Strukturë fleksibile faqesh",
+              "Integrime të avancuara",
+              "Mbështetje prioritare & analitika"
+            ],
+            "ideal": "Brande të konsoliduara që duan rezultate premium"
+          }
+        }
+      },
+      "branding": {
+        "hero": {
+          "title": "Dizajn Logoje & Markë",
+          "subtitle": "Krijimi i identiteteve vizuale të fuqishme që e bëjnë biznesin të paharrueshëm dhe të ndryshëm nga konkurrentët.",
+          "cta": "Filloni Markën Tuaj"
+        },
+        "problem": {
+          "title": "Sfida e Markës",
+          "description": "Marka juaj është më shumë se një logo - është mënyra se si klientët perceptojnë dhe mbajnë mend biznesin tuaj. Shumë kompani luftojnë me markë të dobët ose të paqëndrueshme që nuk arrin të krijojë ndikim.",
+          "painPoints": [
+            "Logo gjenerike ose me pamje amatore që nuk frymëzojnë besim",
+            "Identitet vizual i paqëndrueshëm në platforma të ndryshme",
+            "Mesazh i paqartë marke që nuk rezonon me audiencën e synuar",
+            "Vështirësi në daljen në pah në një treg të mbushur",
+            "Mungesë materialesh profesionale marke për marketing",
+            "Identitet marke që nuk reflekton vlerat dhe vizionin e kompanisë"
+          ]
+        },
+        "solution": {
+          "title": "Zgjidhja Jonë e Markës",
+          "description": "Krijimi i identiteteve vizuale të fuqishme që e bëjnë biznesin të paharrueshëm dhe të ndryshëm nga konkurrentët.",
+          "differentiators": [
+            "Pozicionim Strategjik i Markës",
+            "Identitet Vizual i Paharrueshëm",
+            "Udhëzime të Plota të Markës",
+            "Koncepte të Shumta",
+            "Revizione të Pakufizuara",
+            "Të Drejta të Plota Pronësie"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "Star",
+            "title": "Besueshmëri Profesionale",
+            "description": "Një identitet premium marke vendos menjëherë besim dhe profesionalizëm, duke e bërë klientët më të prirur të zgjedhin biznesin tuaj."
+          },
+          {
+            "icon": "Target",
+            "title": "Diferencim në Treg",
+            "description": "Daloni nga konkurrentët me një identitet unik marke që komunikon qartë atë që e bën biznesin tuaj të veçantë."
+          },
+          {
+            "icon": "Heart",
+            "title": "Lidhje Emocionale",
+            "description": "Krijoni lidhje kuptimplota me klientët përmes markës që rezonon me vlerat dhe aspiratat e tyre."
+          },
+          {
+            "icon": "TrendingUp",
+            "title": "Rritje Biznesi",
+            "description": "Marka e fortë tërheq më shumë klientë, mundëson çmime premium dhe ndërton vlerë afatgjatë biznesi."
+          },
+          {
+            "icon": "Award",
+            "title": "Njohje e Markës",
+            "description": "Marka e qëndrueshme dhe profesionale e bën biznesin tuaj menjëherë të njohur dhe të paharrueshëm për klientët."
+          },
+          {
+            "icon": "Zap",
+            "title": "Efikasitet Marketingu",
+            "description": "Një sistem i plotë marke optimizon të gjitha përpjekjet tuaja të marketingut me mjete gati për përdorim dhe udhëzime të qarta."
+          }
+        ],
+        "features": {
+          "included": [
+            "Analizë e biznesit dhe industrisë",
+            "Kërkim kreativ dhe koncepte",
+            "Dizajn unik i logos",
+            "Përzgjedhje e ngjyrave të markës",
+            "Përzgjedhje tipografie",
+            "Krijim i identitetit vizual",
+            "Udhëzime bazë për përdorimin e logos",
+            "Versione të shumta të logos",
+            "Formate digjitale dhe për print"
+          ],
+          "additional": [
+            "Brand book profesional",
+            "Kartëvizita",
+            "Broshura",
+            "Dizajn katalogu",
+            "Materiale promocionale",
+            "Paketim produkti",
+            "Shabllone për rrjete sociale",
+            "Materiale biznesi",
+            "Udhëzues i plotë i markës"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "Biznese të Reja",
+            "description": "Start-upe dhe kompani të reja që kanë nevojë për një identitet të plotë marke për të nisur profesionalisht dhe për të bërë një përshtypje të fortë të parë."
+          },
+          {
+            "type": "Kompani në Rimarkë",
+            "description": "Biznese të konsoliduara gati për të rifreskuar imazhin e tyre, modernizuar pamjen e tyre ose ripozicionuar në treg."
+          },
+          {
+            "type": "Marka në Rritje",
+            "description": "Kompani që zgjerojnë prezencën e tyre dhe kanë nevojë për markë profesionale për të mbështetur rritjen dhe tërhequr klientë më të mëdhenj."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "Zbulim Marke",
+              "description": "Zhytje e thellë në biznesin tuaj, vlerat, audiencën e synuar dhe peizazhin konkurrues për të kuptuar pozicionimin tuaj unik."
+            },
+            {
+              "title": "Zhvillim Strategjie",
+              "description": "Përcaktim personaliteti të markës, mesazhit dhe drejtimit vizual bazuar në njohuri strategjike dhe pozicionim tregu."
+            },
+            {
+              "title": "Krijim Konceptesh",
+              "description": "Dizajnim konceptesh të shumta logoje dhe drejtimesh vizuale për rishikimin dhe vlerësimin tuaj."
+            },
+            {
+              "title": "Përsosje",
+              "description": "Përsosim drejtimin tuaj të zgjedhur me revizione të pakufizuara derisa identiteti i markës të jetë saktësisht i drejtë."
+            },
+            {
+              "title": "Zhvillim Sistemi Marke",
+              "description": "Krijim udhëzimesh gjithëpërfshirëse të markës, paletash ngjyrash, tipografie dhe të gjitha elementeve vizuale."
+            },
+            {
+              "title": "Krijim Mjetesh",
+              "description": "Dizajnim të gjitha materialeve të nevojshme të markës duke përfshirë kartëvizitat, shabllonet dhe mjetet e marketingut."
+            },
+            {
+              "title": "Dorëzim & Trajnim",
+              "description": "Ofrimi i të gjitha skedarëve, udhëzimeve të markës dhe trajnim për mbajtjen e qëndrueshmërisë së markës."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Gati për të Ndërtuar Markën Tuaj?",
+          "subtitle": "Le të krijojmë një identitet marke që e bën biznesin tuaj të paharrueshëm",
+          "primary": "Filloni Markën Tuaj",
+          "secondary": "Shihni Portfolion"
+        },
+        "packages": {
+          "basic": {
+            "name": "Bazik",
+            "tagline": "Identitet i qartë logoje për markën tuaj",
+            "features": [
+              "Dizajn logoje kryesore",
+              "Paletë ngjyrash",
+              "Udhëzues bazë përdorimi"
+            ],
+            "ideal": "Biznese të vogla që fillojnë online"
+          },
+          "professional": {
+            "name": "Profesional",
+            "tagline": "Sistem i plotë identiteti marke",
+            "features": [
+              "Suite logoje & variante",
+              "Tipografi & ngjyra",
+              "Brand guidelines PDF"
+            ],
+            "ideal": "Biznese në rritje që duan një zgjidhje të plotë",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "Sistem premium marke për rritje",
+            "features": [
+              "Identitet vizual i plotë",
+              "Shabllone marketingu",
+              "Strategji e zgjeruar marke"
+            ],
+            "ideal": "Brande të konsoliduara që duan rezultate premium"
+          }
+        }
+      },
+      "seo": {
+        "hero": {
+          "title": "Shërbime SEO",
+          "subtitle": "Ndihmojmë website-et të renditen më lart në motorët e kërkimit dhe të tërheqin klientë organikë.",
+          "cta": "Forconi Renditjet Tuaja"
+        },
+        "problem": {
+          "title": "Sfida e SEO",
+          "description": "Shumica e bizneseve luftojnë për të shfaqur në faqen e parë të Google, duke humbur mijëra klientë potencialë që kërkojnë aktivisht shërbimet e tyre.",
+          "painPoints": [
+            "I padukshëm në rezultatet e kërkimit kur klientët kërkojnë shërbimet tuaja",
+            "Konkurrentët renditen më lart dhe kapin klientët tuaj potencialë",
+            "Trafik i ulët në faqe pavarësisht produktit ose shërbimit të shkëlqyer",
+            "Vështirësi në kuptimin e kërkesave komplekse SEO dhe algoritmeve",
+            "Përpjekjet e mëparshme SEO nuk treguan rezultate të matshme",
+            "Harxhim parash në reklama kur trafiku organik mund të ishte falas"
+          ]
+        },
+        "solution": {
+          "title": "Zgjidhja Jonë SEO",
+          "description": "Ndihmojmë website-et të renditen më lart në motorët e kërkimit dhe të tërheqin klientë organikë.",
+          "differentiators": [
+            "Teknika White-Hat",
+            "Strategji e Bazuar në të Dhëna",
+            "Optimizim i Plotë",
+            "Raportim i Rregullt",
+            "Rezultate të Qëndrueshme",
+            "Histori e Provuar Suksesi"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "TrendingUp",
+            "title": "Renditje më të Larta",
+            "description": "Arrini faqen e parë të Google për fjalë kyçe që kanë rëndësi për biznesin tuaj, duke rritur ndjeshëm dukshmërinë tuaj."
+          },
+          {
+            "icon": "Target",
+            "title": "Trafik i Kualifikuar",
+            "description": "Tërhiqni vizitorë që kërkojnë aktivisht shërbimet tuaja, duke rezultuar në norma më të larta konvertimi dhe ROI më të mirë."
+          },
+          {
+            "icon": "Rocket",
+            "title": "Rritje e Qëndrueshme",
+            "description": "Ndryshe nga reklamat e paguara, SEO ofron vlerë afatgjatë me rezultate kumulative që vazhdojnë të rriten me kalimin e kohës."
+          },
+          {
+            "icon": "Award",
+            "title": "Ndërtim Autoriteti",
+            "description": "Vendoseni biznesin tuaj si autoritet i industrisë, duke fituar besim dhe besueshmëri si te motorët e kërkimit ashtu edhe te klientët."
+          },
+          {
+            "icon": "Globe",
+            "title": "Avantazh Konkurrues",
+            "description": "Tejkaloni konkurrentët dhe kapni kuotë tregu duke dominuar rezultatet e kërkimit në industrinë tuaj."
+          },
+          {
+            "icon": "Zap",
+            "title": "Kosto-Efektiv",
+            "description": "Gjeneroni trafik organik të qëndrueshëm pa shpenzime të vazhdueshme reklamash, duke ofruar ROI afatgjatë më të mirë se reklamimi i paguar."
+          }
+        ],
+        "features": {
+          "included": [
+            "Analizë SEO e website-it",
+            "Kërkim fjalësh kyçe",
+            "Optimizim i titujve dhe meta përshkrimeve",
+            "Optimizim i strukturës së website-it",
+            "Përmirësime shpejtësie",
+            "Optimizim imazhesh",
+            "Bazat e SEO teknike",
+            "Krijim sitemap",
+            "Konfigurim Google Search Console",
+            "Raporte performance"
+          ],
+          "additional": [
+            "SEO lokale",
+            "Strategji përmbajtjeje",
+            "Artikuj blogu",
+            "Link building",
+            "Analizë konkurruesish",
+            "SEO për e-commerce",
+            "Monitorim i renditjes",
+            "Optimizim i vazhdueshëm"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "Biznese Lokale",
+            "description": "Kompani që dëshirojnë të dominojnë rezultatet e kërkimit lokal dhe të tërheqin klientë të afërt që kërkojnë shërbimet e tyre."
+          },
+          {
+            "type": "Dyqane E-commerce",
+            "description": "Shitës online që kanë nevojë të renditen për fjalë kyçe produktesh dhe të gjenerojnë shitje përmes trafikut organik të kërkimit."
+          },
+          {
+            "type": "Ofrues Shërbimesh",
+            "description": "Firma shërbimesh profesionale që kërkojnë të tërheqin klientë të kualifikuar përmes dukshmërisë së motorëve të kërkimit."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "Auditim & Analizë SEO",
+              "description": "Analizë gjithëpërfshirëse e statusit tuaj aktual SEO, problemeve teknike dhe peizazhit konkurrues."
+            },
+            {
+              "title": "Kërkimi i Fjalëve Kyçe",
+              "description": "Identifikimi i fjalëve kyçe me vlerë të lartë që klientët tuaj kërkojnë dhe zhvillimi i strategjisë së synimit."
+            },
+            {
+              "title": "Optimizim Teknik",
+              "description": "Rregullimi i problemeve teknike, përmirësimi i shpejtësisë së faqes, reagimit mobil dhe mundësisë së kërkimit nga motorët."
+            },
+            {
+              "title": "Optimizim në Faqe",
+              "description": "Optimizimi i përmbajtjes, meta tags, headers dhe lidhjesh të brendshme për fjalë kyçe cak."
+            },
+            {
+              "title": "Strategji Përmbajtjeje",
+              "description": "Krijimi dhe optimizimi i përmbajtjes që renditet mirë dhe ofron vlerë për audiencën tuaj."
+            },
+            {
+              "title": "Ndërtim Lidhjesh",
+              "description": "Ndërtimi i backlink-eve me cilësi të lartë për të rritur autoritetin e domenit dhe renditjet e kërkimit."
+            },
+            {
+              "title": "Monitorim & Optimizim",
+              "description": "Monitorim i vazhdueshëm, raportim dhe optimizim për të përmirësuar rezultatet me kalimin e kohës."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Gati për të Renditet më Lart në Google?",
+          "subtitle": "Le të krijojmë një strategji SEO që sjell klientë të kualifikuar në biznesin tuaj",
+          "primary": "Filloni Strategjinë SEO",
+          "secondary": "Shihni Studime Rasti"
+        },
+        "packages": {
+          "basic": {
+            "name": "Bazik",
+            "tagline": "Themelet SEO për indeksim",
+            "features": [
+              "Audit teknik SEO",
+              "Optimizim on-page",
+              "Konfigurim Search Console"
+            ],
+            "ideal": "Biznese të vogla që fillojnë online"
+          },
+          "professional": {
+            "name": "Profesional",
+            "tagline": "SEO rritjeje për renditje të qëndrueshme",
+            "features": [
+              "Strategji fjalësh kyçe",
+              "Optimizim përmbajtjeje",
+              "Raport mujor performancë"
+            ],
+            "ideal": "Biznese në rritje që duan një zgjidhje të plotë",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "SEO e avancuar për tregje konkurruese",
+            "features": [
+              "SEO teknike + përmbajtje",
+              "Plan autoriteti & linkesh",
+              "Optimizime të vazhdueshme"
+            ],
+            "ideal": "Brande të konsoliduara që duan rezultate premium"
+          }
+        }
+      },
+      "google-business": {
+        "hero": {
+          "title": "Optimizim Google Business",
+          "subtitle": "Bëjmë bizneset të dukshme në Google Search dhe Maps.",
+          "cta": "Optimizo Listimin Tim"
+        },
+        "problem": {
+          "title": "Sfida e Dukshmërisë Lokale",
+          "description": "Klientët tuaj potencialë kërkojnë për biznese si i juaji në Google çdo ditë, por nëse Profili juaj Google Business nuk është i optimizuar, ata gjejnë konkurrentët tuaj në vend të tij.",
+          "painPoints": [
+            "Nuk shfaqeni në rezultatet e kërkimit lokal dhe Google Maps",
+            "Informacion i paplotë ose i pasaktë biznesi që largon klientët",
+            "Konkurrentët dominojnë paketin lokal me komente më të mira dhe dukshmëri",
+            "Humbja e klientëve që kërkojnë shërbime në zonën tuaj",
+            "Asnjë koment ose dëshmi për të ndërtuar besim me klientët potencialë",
+            "E paqartë se si të optimizoni dhe menaxhoni efektivisht prezencën tuaj Google"
+          ]
+        },
+        "solution": {
+          "title": "Zgjidhja Jonë Google Business",
+          "description": "Bëjmë bizneset të dukshme në Google Search dhe Maps.",
+          "differentiators": [
+            "Optimizim i Plotë i Profilit",
+            "Strategji Gjenerimi Komentesh",
+            "Përditësime të Rregullta Përmbajtjeje",
+            "Gjurmim Performance",
+            "Integrim SEO Lokal",
+            "Analizë Konkurrence"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "MapPin",
+            "title": "Dukshmëri Lokale",
+            "description": "Shfaquni në mënyrë të dukshme kur klientët kërkojnë për biznese si i juaji në Google Search dhe Maps."
+          },
+          {
+            "icon": "Star",
+            "title": "Ndërtoni Besim",
+            "description": "Shfaqni komente pozitive, fotografi dhe informacion biznesi që ndërton besueshmëri dhe besim."
+          },
+          {
+            "icon": "Target",
+            "title": "Tërhiqni Klientë Lokalë",
+            "description": "Arrini klientët në zonën tuaj që kërkojnë aktivisht për produktet dhe shërbimet tuaja tani."
+          },
+          {
+            "icon": "TrendingUp",
+            "title": "Rritni Trafikun Fizik",
+            "description": "Sillni më shumë klientë në vendndodhjen tuaj fizike me drejtime të sakta dhe informacion bindës biznesi."
+          },
+          {
+            "icon": "Award",
+            "title": "Daloni nga Konkurrentët",
+            "description": "Profili i optimizuar profesionalisht ju ndihmon të dilni në pah në rezultatet e kërkimit lokal kundër konkurrentëve."
+          },
+          {
+            "icon": "Globe",
+            "title": "Marketing Falas",
+            "description": "Shfrytëzoni platformën Google për të marketuar biznesin tuaj te klientët lokalë pa kosto reklamimi."
+          }
+        ],
+        "features": {
+          "included": [
+            "Krijim/optimizim i profilit Google Business",
+            "Përditësime të informacionit të biznesit",
+            "Kategori të sakta biznesi",
+            "Përshkrim profesional",
+            "Shtim shërbimesh",
+            "Optimizim fotosh",
+            "Optimizim kërkimi lokal",
+            "Konfigurim orari pune"
+          ],
+          "additional": [
+            "Strategji recensash",
+            "Menaxhim recensash klientësh",
+            "Postime javore në Google Business",
+            "Monitorim statistikash",
+            "Optimizim multi-lokacion",
+            "SEO lokale e avancuar"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "Biznese Lokale",
+            "description": "Biznese fizike që shërbejnë klientë lokalë që duhet të gjenden në zonën e tyre."
+          },
+          {
+            "type": "Ofrues Shërbimesh",
+            "description": "Kompani që shërbejnë zona të veçanta gjeografike që dëshirojnë të tërheqin klientë lokalë që kërkojnë aktivisht."
+          },
+          {
+            "type": "Biznese me Shumë Vendndodhje",
+            "description": "Biznese me vendndodhje të shumta që kanë nevojë për optimizim të qëndrueshëm në të gjitha profilet Google."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "Pretendoni & Verifikoni",
+              "description": "Pretendoni Profilin tuaj Google Business, verifikoni pronësinë dhe siguroni akses të plotë në të gjitha veçoritë."
+            },
+            {
+              "title": "Optimizim i Plotë",
+              "description": "Plotësoni të gjithë informacionin e biznesit, optimizoni përshkrimet, zgjidhni kategoritë dhe shtoni fotografi me cilësi të lartë."
+            },
+            {
+              "title": "Strategji Përmbajtjeje",
+              "description": "Krijoni përshkrim bindës biznesi, shtoni shërbime/produkte dhe konfiguroni orarin e postimeve."
+            },
+            {
+              "title": "Gjenerim Komentesh",
+              "description": "Zbatoni strategjinë e kërkesës së komenteve dhe përgjigjuni profesionalisht të gjitha komenteve."
+            },
+            {
+              "title": "Përditësime të Rregullta",
+              "description": "Mbani profilin aktiv me postime, fotografi dhe përditësime biznesi të rregullta."
+            },
+            {
+              "title": "Monitorim Performance",
+              "description": "Gjurmoni metrikat, analizoni performancën dhe optimizoni vazhdimisht për rezultate më të mira."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Gati për t'u Gjetur në Google?",
+          "subtitle": "Le të optimizojmë Profilin tuaj Google Business për të tërhequr më shumë klientë lokalë",
+          "primary": "Filloni Optimizimin",
+          "secondary": "Shihni Rezultatet"
+        },
+        "packages": {
+          "basic": {
+            "name": "Bazik",
+            "tagline": "Profil i optimizuar Google Business",
+            "features": [
+              "Konfigurim & verifikim",
+              "Kategori & përshkrim",
+              "Udhëzim për foto"
+            ],
+            "ideal": "Biznese të vogla që fillojnë online"
+          },
+          "professional": {
+            "name": "Profesional",
+            "tagline": "Dukshmëri lokale që konverton",
+            "features": [
+              "Optimizim i plotë profili",
+              "Strategji postimesh & vlerësimesh",
+              "Monitorim insights"
+            ],
+            "ideal": "Biznese në rritje që duan një zgjidhje të plotë",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "Paketa e dominimit lokal",
+            "features": [
+              "SEO lokale e avancuar",
+              "Sistem rritjeje vlerësimesh",
+              "Menaxhim i vazhdueshëm"
+            ],
+            "ideal": "Brande të konsoliduara që duan rezultate premium"
+          }
+        }
+      },
+      "social-setup": {
+        "hero": {
+          "title": "Konfigurimi i Mediave Sociale",
+          "subtitle": "Krijimi i bazave profesionale për rrjetet sociale.",
+          "cta": "Konfiguro Profilet e Mia"
+        },
+        "problem": {
+          "title": "Sfida e Mediave Sociale",
+          "description": "Fillimi në mediat sociale mund të jetë mbytës. Shumë biznese krijojnë profile por dështojnë t'i konfigurojnë ato siç duhet, duke humbur elementë thelbësorë që ndikojnë besueshmërinë dhe zbulueshmerinë.",
+          "painPoints": [
+            "Profile të mediave sociale të papërfunduara ose që duken joprofesionale",
+            "Markë e paqëndrueshme në platforma të ndryshme",
+            "Informacion i rëndësishëm biznesi dhe detaje kontakti që mungojnë",
+            "Fotografi profili dhe kapaku me cilësi të dobët",
+            "Konfuzion për cilat platforma të përdoren dhe si t'i konfiguroni ato",
+            "Asnjë strategji e qartë ose themel për prezencën në mediat sociale"
+          ]
+        },
+        "solution": {
+          "title": "Zgjidhja Jonë e Konfigurimit",
+          "description": "Krijimi i bazave profesionale për rrjetet sociale.",
+          "differentiators": [
+            "Konfigurimi Multi-Platformë",
+            "Qëndrueshmëri Marke",
+            "Dizajn Profesional",
+            "Optimizim i Plotë",
+            "Themel Strategjik",
+            "Trajnim i Përfshirë"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "Globe",
+            "title": "Prezencë Profesionale",
+            "description": "Filloni me profile të lustruara dhe profesionale që krijojnë menjëherë besueshmëri dhe besim me audiencën tuaj."
+          },
+          {
+            "icon": "Award",
+            "title": "Qëndrueshmëri Marke",
+            "description": "Mbani markë, mesazh dhe identitet vizual të qëndrueshëm në të gjitha platformat e mediave sociale."
+          },
+          {
+            "icon": "Target",
+            "title": "Zbulueshm ri",
+            "description": "Profilet e optimizuara e bëjnë të lehtë për klientët t'ju gjejnë kur kërkojnë për biznese si i juaji."
+          },
+          {
+            "icon": "Rocket",
+            "title": "Fillim i Shpejtë",
+            "description": "Filloni shpejt me profile të konfiguruara profesionalisht gati për të angazhuar klientët."
+          },
+          {
+            "icon": "Shield",
+            "title": "Praktikat më të Mira të Platformës",
+            "description": "Profile të konfiguruara sipas praktikave më të mira dhe udhëzimeve të optimizimit të çdo platforme."
+          },
+          {
+            "icon": "Zap",
+            "title": "Gati për Rritje",
+            "description": "Themeli i fortë e bën të lehtë fillimin e publikimit të përmbajtjes dhe rritjen e prezencës tuaj në mediat sociale."
+          }
+        ],
+        "features": {
+          "included": [
+            "Krijim profili social",
+            "Optimizim bio",
+            "Imazhe profili dhe cover",
+            "Përshkrim profesional i biznesit",
+            "Informacion kontakti",
+            "Lidhje me website",
+            "Konfigurim butonash kontakti"
+          ],
+          "additional": [
+            "Dizajn i identitetit social",
+            "Shabllone profesionale postimesh",
+            "Strategji përmbajtjeje",
+            "Kalendar publikimi",
+            "Integrim mjetesh marketingu"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "Biznese të Reja",
+            "description": "Kompani që lansohen dhe kanë nevojë për prezencë profesionale në mediat sociale nga dita e parë."
+          },
+          {
+            "type": "Kompani në Rimarkë",
+            "description": "Biznese që rifreskoj nëimazhin e tyre dhe dëshirojnë profile të mediave sociale të përditësuara dhe të qëndrueshme."
+          },
+          {
+            "type": "Marka në Zgjerim",
+            "description": "Kompani gati për të krijuar prezencë në platforma të reja ose për të konsoliduar profile ekzistuese."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "Përzgjedhje Platforme",
+              "description": "Identifikoni cilat platforma sociale përshtaten më mirë me objektivat tuaja të biznesit dhe audiencën e synuar."
+            },
+            {
+              "title": "Krijimi i Llogarisë",
+              "description": "Krijoni ose pretendoni llogari biznesi në platformat e zgjedhura me emërtim dhe konfigurimi të duhur."
+            },
+            {
+              "title": "Dizajn Vizual",
+              "description": "Dizajnoni fotografi profili, fotografi kapaku dhe mjete vizuale profesionale për çdo platformë."
+            },
+            {
+              "title": "Optimizimi i Profilit",
+              "description": "Plotësoni të gjithë informacionin e profilit, përshkrimet, detajet e kontaktit dhe optimizimin e cilësimeve."
+            },
+            {
+              "title": "Integrim Marke",
+              "description": "Siguroni markë, mesazh dhe identitet vizual të qëndrueshëm në të gjitha platformat."
+            },
+            {
+              "title": "Trajnim & Dorëzim",
+              "description": "Jepni akses, trajnim për menaxhimin e profileve dhe udhëzime për ruajtjen e qëndrueshmërisë."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Gati për të Lansuar Mediat Tuaja Sociale?",
+          "subtitle": "Le të krijojmë profile profesionale që krijojnë prezencë të fortë marke",
+          "primary": "Konfiguro Profilet e Mia",
+          "secondary": "Shih Shembuj"
+        },
+        "packages": {
+          "basic": {
+            "name": "Bazik",
+            "tagline": "Profile sociale profesionale gati për nisje",
+            "features": [
+              "Konfigurim në platformat kryesore",
+              "Bio & brand alignment",
+              "Kopertina highlight"
+            ],
+            "ideal": "Biznese të vogla që fillojnë online"
+          },
+          "professional": {
+            "name": "Profesional",
+            "tagline": "Prani e rafinuar multi-platformë",
+            "features": [
+              "Të gjitha platformat kryesore",
+              "Paketë identiteti vizual",
+              "Starter kit përmbajtjeje"
+            ],
+            "ideal": "Biznese në rritje që duan një zgjidhje të plotë",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "Sistem i plotë nisjeje sociale",
+            "features": [
+              "Arkitekturë e plotë kanalesh",
+              "Bibliotekë shabllonesh",
+              "Mbështetje kampanje nisjeje"
+            ],
+            "ideal": "Brande të konsoliduara që duan rezultate premium"
+          }
+        }
+      },
+      "social-management": {
+        "hero": {
+          "title": "Menaxhimi i Mediave Sociale",
+          "subtitle": "Ndërtimi i pranisë digjitale të qëndrueshme me përmbajtje strategjike.",
+          "cta": "Rrit Prezencën Time"
+        },
+        "problem": {
+          "title": "Sfida e Menaxhimit",
+          "description": "Ruajtja e një prezence aktive dhe angazhuese në mediat sociale është e zënë kohë dhe komplekse. Shumë biznese postojnë në mënyrë të paqëndrueshme ose luftojnë për të krijuar përmbajtje që rezonon me audiencën e tyre.",
+          "painPoints": [
+            "Nuk ka kohë për të krijuar dhe postuar vazhdimisht përmbajtje cilësore",
+            "Vështirësi në angazhimin e ndjekësve dhe ndërtimin e komunitetit",
+            "Postime të paqëndrueshme që dëmtojnë rrezen dhe angazhimin",
+            "Mungesë strategjie që rezulton në performancë të dobët",
+            "Mundësi të humbura për t'u lidhur me klientë potencialë",
+            "Vështirësi në matjen e ROI të mediave sociale"
+          ]
+        },
+        "solution": {
+          "title": "Zgjidhja Jonë e Menaxhimit",
+          "description": "Ndërtimi i pranisë digjitale të qëndrueshme me përmbajtje strategjike.",
+          "differentiators": [
+            "Planifikim Strategjik Përmbajtjeje",
+            "Krijim Profesional Përmbajtjeje",
+            "Kalendar i Qëndrueshëm Postimesh",
+            "Menaxhim Aktiv Komuniteti",
+            "Analiza Performance",
+            "Ekspertizë Platformash"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "TrendingUp",
+            "title": "Rritje e Qëndrueshme",
+            "description": "Postime të rregullta dhe strategjike rrisin audiencën tuaj dhe rrisin angazhimin me markën tuaj."
+          },
+          {
+            "icon": "Users",
+            "title": "Ndërtim Komuniteti",
+            "description": "Angazhimi aktiv ndërton komunitet besnidore rreth markës suaj dhe krijon ambasadorë marke."
+          },
+          {
+            "icon": "Target",
+            "title": "Arrini Audiencën Tuaj",
+            "description": "Përmbajtja strategjike arrin dhe rezonon me klientët tuaj idealë ku ata kalojnë kohë."
+          },
+          {
+            "icon": "Clock",
+            "title": "Kurseni Kohë",
+            "description": "Lironi kohën tuaj për t'u fokusuar në biznesin kryesor ndërsa profesionistët menaxhojnë mediat tuaja sociale."
+          },
+          {
+            "icon": "Award",
+            "title": "Përmbajtje Profesionale",
+            "description": "Përmbajtje me cilësi të lartë dhe angazhuese që përfaqëson markën tuaj profesionalisht dhe dallon."
+          },
+          {
+            "icon": "Zap",
+            "title": "Gjeneroni Rezultate",
+            "description": "Prezenca strategjike sociale gjeneron trafik web, gjeneron klientë potencialë dhe rrit shitjet."
+          }
+        ],
+        "features": {
+          "included": [
+            "Planifikim përmbajtjeje",
+            "Postime profesionale",
+            "Dizajn grafik",
+            "Copywriting marketingu",
+            "Publikim i rregullt",
+            "Përmirësim angazhimi",
+            "Analizë rezultatesh"
+          ],
+          "additional": [
+            "Video Reels/TikTok",
+            "Fotografi profesionale",
+            "Video marketingu",
+            "Influencer marketing",
+            "Menaxhim komuniteti",
+            "Strategji mujore",
+            "Raporte të avancuara"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "Pronarë të Zënë",
+            "description": "Kompani që dëshirojnë prezencë sociale profesionale pa angazhim kohor të menaxhimit ditor."
+          },
+          {
+            "type": "Marka në Rritje",
+            "description": "Biznese gati për të shkallëzuar prezencën e tyre në mediat sociale dhe ndërtuar komunitete të angazhuara."
+          },
+          {
+            "type": "Kompani B2C",
+            "description": "Biznese të orientuara nga konsumatori që kanë nevojë për angazhim të vazhdueshëm me klientët në platformat sociale."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "Zhvillim Strategjie",
+              "description": "Krijoni strategji gjithëpërfshirëse të mediave sociale të përshtatur me objektivat tuaja të biznesit dhe audiencën e synuar."
+            },
+            {
+              "title": "Planifikim Përmbajtjeje",
+              "description": "Zhvilloni kalendar mujor përmbajtjeje me tema, tema dhe program postimesh."
+            },
+            {
+              "title": "Krijim Përmbajtjeje",
+              "description": "Dizajnoni dhe shkruani postime angazhuese, grafikë dhe përmbajtje multimediale për çdo platformë."
+            },
+            {
+              "title": "Postim i Planifikuar",
+              "description": "Postoni përmbajtje në mënyrë të qëndrueshme në kohët optimale për rreze dhe angazhim maksimal."
+            },
+            {
+              "title": "Angazhim Komuniteti",
+              "description": "Monitoroni, përgjigjuni dhe angazhohuni me audiencën tuaj për të ndërtuar marrëdhënie dhe komunitet."
+            },
+            {
+              "title": "Optimizim Performance",
+              "description": "Analizoni rezultatet, optimizoni strategjinë dhe përmirësoni vazhdimisht performancën."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Gati për të Rritur Mediat Tuaja Sociale?",
+          "subtitle": "Le të ndërtojmë një komunitet të angazhuar rreth markës suaj",
+          "primary": "Fillo Menaxhimin",
+          "secondary": "Shih Punën Tonë"
+        },
+        "packages": {
+          "basic": {
+            "name": "Bazik",
+            "tagline": "Postime të qëndrueshme në brand",
+            "features": [
+              "8 postime / muaj",
+              "Shkrim captions",
+              "Përgjigje bazë komuniteti"
+            ],
+            "ideal": "Biznese të vogla që fillojnë online"
+          },
+          "professional": {
+            "name": "Profesional",
+            "tagline": "Menaxhim social i fokusuar në rritje",
+            "features": [
+              "16 postime / muaj",
+              "Kalendar përmbajtjeje",
+              "Engagement & raportim"
+            ],
+            "ideal": "Biznese në rritje që duan një zgjidhje të plotë",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "Motor i plotë rritjeje sociale",
+            "features": [
+              "24+ postime / muaj",
+              "Strategji reels/stories",
+              "Kreativitet & analitika prioritare"
+            ],
+            "ideal": "Brande të konsoliduara që duan rezultate premium"
+          }
+        }
+      },
+      "ads": {
+        "hero": {
+          "title": "Menaxhimi i Reklamave Facebook & Instagram",
+          "subtitle": "Krijimi i fushatave reklamuese që gjenerojnë lead-e të kualifikuara dhe rrisin shitjet.",
+          "cta": "Fillo Fushatat e Mia"
+        },
+        "problem": {
+          "title": "Sfida e Reklamimit",
+          "description": "Shumë biznese harxhojnë para në reklama të mediave sociale që nuk konvertojnë, luftojnë me targetimin ose mungon ekspertiza për të optimizuar fushatat për kthim maksimal të investimit.",
+          "painPoints": [
+            "Harxhim i buxhetit reklamues në fushata që nuk konvertojnë",
+            "Vështirësi në arritjen e audiencës së duhur",
+            "Krijime reklamuese të dobëta që nuk tërheqin vëmendjen",
+            "Mungesë ekspertize në optimizimin e fushatave",
+            "Pamundësi për të matur ose kuptuar performancën e reklamave",
+            "Konkurrentët po marrin rezultate më të mira me kosto më të ulëta"
+          ]
+        },
+        "solution": {
+          "title": "Zgjidhja Jonë e Menaxhimit të Reklamave",
+          "description": "Krijimi i fushatave reklamuese që gjenerojnë lead-e të kualifikuara dhe rrisin shitjet.",
+          "differentiators": [
+            "Strategji e Bazuar në të Dhëna",
+            "Targetim i Avancuar",
+            "Krijime Bindëse",
+            "Optimizim i Vazhdueshëm",
+            "Raportim Transparent",
+            "Histori e Vërtetuar Suksesi"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "Target",
+            "title": "Klientë të Kualifikuar",
+            "description": "Arrini klientët ideal me targetim të saktë bazuar në demografinë, interesat, sjelljet dhe më shumë."
+          },
+          {
+            "icon": "TrendingUp",
+            "title": "Kthim i Matshëm i Investimit",
+            "description": "Gjurmoni çdo euro të shpenzuar me analiza të detajuara që tregojnë saktësisht se si reklamat ndikojnë në rezultatin tuaj."
+          },
+          {
+            "icon": "Zap",
+            "title": "Rezultate të Shpejta",
+            "description": "Filloni të gjeneroni klientë dhe shitje menjëherë, ndryshe nga metodat organike që kërkojnë muaj për t'u ndërtuar."
+          },
+          {
+            "icon": "Award",
+            "title": "Krijime Profesionale",
+            "description": "Krijime reklamuese tërheqëse të dizajnuara për të ndaluar scrolling-un dhe për të nxitur veprim nga audienca juaj."
+          },
+          {
+            "icon": "Shield",
+            "title": "Performancë e Optimizuar",
+            "description": "Testimi dhe optimizimi i vazhdueshëm sigurojnë që fushatat tuaja të përmirësohen me kalimin e kohës dhe kostot të ulen."
+          },
+          {
+            "icon": "Rocket",
+            "title": "Rritje e Shkallëzueshme",
+            "description": "Fushatat e suksesshme mund të shkallëzohen për të arritur më shumë klientë dhe për të drejtuar rritje eksponenciale."
+          }
+        ],
+        "features": {
+          "included": [
+            "Analizë audience",
+            "Strategji reklamimi",
+            "Konfigurim Meta Business Manager",
+            "Krijim reklamash",
+            "Copywriting",
+            "Targetim klientësh",
+            "Monitorim performance"
+          ],
+          "additional": [
+            "Video profesionale reklamuese",
+            "A/B testing",
+            "Remarketing",
+            "Pixel dhe Conversion API",
+            "Landing pages",
+            "Automatizim lead-esh",
+            "Optimizim i vazhdueshëm"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "Biznese E-commerce",
+            "description": "Dyqane online që duan të rrisin shitjet e produkteve dhe të shkallëzojnë të ardhurat përmes reklamimit me pagesë."
+          },
+          {
+            "type": "Gjenerim Klientësh",
+            "description": "Biznese shërbimesh që kanë nevojë për rrjedhë të qëndrueshme klientësh të kualifikuar dhe kërkesash konsulence."
+          },
+          {
+            "type": "Biznese Lokale",
+            "description": "Kompani që synojnë klientë lokalë dhe drejtojnë trafik këmbësor ose konvertime lokale."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "Strategji & Planifikim",
+              "description": "Përcaktoni objektivat e fushatës, audiencën e synuar, buxhetin dhe metrikat e suksesit."
+            },
+            {
+              "title": "Kërkimi i Audiencës",
+              "description": "Identifikoni dhe segmentoni klientët ideal me parametra të detajuar targetimi."
+            },
+            {
+              "title": "Zhvillimi i Krijimeve",
+              "description": "Dizajnoni krijime reklamuese bindëse dhe shkruani tekste bindëse që nxisin veprim."
+            },
+            {
+              "title": "Lansimi i Fushatës",
+              "description": "Konfiguroni gjurmimin, konfiguroni fushatat dhe lansoni reklama me cilësimet optimale."
+            },
+            {
+              "title": "Monitorim & Optimizim",
+              "description": "Monitorim dhe optimizim ditor për të përmirësuar performancën dhe për të ulur kostot."
+            },
+            {
+              "title": "Shkallëzim & Rritje",
+              "description": "Shkallëzoni fushatat e suksesshme dhe zgjeroni arritshmërinë për të drejtuar rritje eksponenciale."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Gati për të Gjeneruar Klientë dhe Shitje?",
+          "subtitle": "Le të krijojmë fushata reklamuese që ofrojnë rezultate të vërteta biznesi",
+          "primary": "Fillo Fushatat",
+          "secondary": "Shiko Rastet Studimore"
+        },
+        "packages": {
+          "basic": {
+            "name": "Bazik",
+            "tagline": "Kampanja reklame gati për nisje",
+            "features": [
+              "Konfigurim kampanje",
+              "Targeting bazë audience",
+              "Ngarkim creative & tracking"
+            ],
+            "ideal": "Biznese të vogla që fillojnë online"
+          },
+          "professional": {
+            "name": "Profesional",
+            "tagline": "Ads performance që sjellin lead",
+            "features": [
+              "Strukturë multi-adset",
+              "Testim A/B creative",
+              "Optimizim javor"
+            ],
+            "ideal": "Biznese në rritje që duan një zgjidhje të plotë",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "Sistem reklamash i shkallëzuar",
+            "features": [
+              "Kampanja full-funnel",
+              "Tracking i avancuar",
+              "Strategist i dedikuar ads"
+            ],
+            "ideal": "Brande të konsoliduara që duan rezultate premium"
+          }
+        }
+      },
+      "email": {
+        "hero": {
+          "title": "Konfigurimi Email Biznesi",
+          "subtitle": "Email biznesi profesional që rrit besueshmërinë dhe komunikimin.",
+          "cta": "Konfiguro Email-in Tim"
+        },
+        "problem": {
+          "title": "Sfida e Email-it",
+          "description": "Përdorimi i ofruesve email falas si Gmail ose Yahoo për komunikime biznesi dëmton besueshmërinë dhe e bën kompaninë tuaj të duket joprofesionale për klientët dhe partnerët.",
+          "painPoints": [
+            "Adresat @gmail.com ose @yahoo.com që duken joprofesionale",
+            "Mungesa e qëndrueshmërisë së markës në komunikime email",
+            "Besueshmëri që mungon me klientët dhe partnerët e biznesit",
+            "Asnjë kontroll mbi dorëzimin dhe sigurinë e email-it",
+            "Vështirësi në menaxhimin e email-eve të anëtarëve të shumtë të ekipit",
+            "Risku i humbjes së aksesit në llogaritë email falas"
+          ]
+        },
+        "solution": {
+          "title": "Zgjidhja Jonë e Email Biznesi",
+          "description": "Email biznesi profesional që rrit besueshmërinë dhe komunikimin.",
+          "differentiators": [
+            "Email Domaini të Personalizuar",
+            "I Sigurt & i Besueshëm",
+            "Konfigurimi Profesional",
+            "Menaxhimi i Lehtë",
+            "Llogari të Shumta",
+            "Mbështetje e Plotë"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "Award",
+            "title": "Besueshmëri Profesionale",
+            "description": "Adresat email të personalizuara si emri@kompania-juaj.al vendosin menjëherë profesionalizëm dhe besim."
+          },
+          {
+            "icon": "Shield",
+            "title": "Siguri e Përmirësuar",
+            "description": "Hosting-u email biznesi ofron siguri më të mirë, filtrimin e spam-it dhe kontroll mbi komunikimet tuaja."
+          },
+          {
+            "icon": "Target",
+            "title": "Qëndrueshmëri e Markës",
+            "description": "Çdo email përforcon markën tuaj me domenin e kompanisë tuaj në çdo komunikim."
+          },
+          {
+            "icon": "Users",
+            "title": "Bashkëpunimi i Ekipit",
+            "description": "Menaxhimi i lehtë i llogarive email të shumta për anëtarët e ekipit tuaj."
+          },
+          {
+            "icon": "Globe",
+            "title": "Dorëzim më i Mirë",
+            "description": "Hosting-u profesional email siguron që mesazhet tuaja të arrijnë kutitë hyrëse të klientëve, jo dosjet spam."
+          },
+          {
+            "icon": "Zap",
+            "title": "Akses i Lehtë",
+            "description": "Aksesoni email-in nga çdo pajisje me webmail, klientë desktop dhe aplikacione mobile."
+          }
+        ],
+        "features": {
+          "included": [
+            "Krijim email me domain",
+            "Konfigurim në pajisje",
+            "Nënshkrim profesional",
+            "Konfigurim bazë sigurie",
+            "Sinkronizim me aplikacione email"
+          ],
+          "additional": [
+            "Microsoft 365",
+            "Google Workspace",
+            "Kalendarë biznesi",
+            "Ruajtje cloud",
+            "Menaxhim përdoruesish",
+            "Sisteme bashkëpunimi ekipi"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "Biznese të Reja",
+            "description": "Kompani që vendosin prani profesionale dhe kanë nevojë për komunikime biznesi të besueshme."
+          },
+          {
+            "type": "Ekipe në Rritje",
+            "description": "Biznese që shtojnë anëtarë ekipi dhe kanë nevojë për sistem të organizuar menaxhimi email."
+          },
+          {
+            "type": "Kompani Rimarkëzimi",
+            "description": "Biznese me emra të rinj domaini që kanë nevojë për konfigurimin email dhe migrimin nga llogaritë e vjetra."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "Mbledhja e Kërkesave",
+              "description": "Identifikoni adresat email të nevojshme, kërkesat e ruajtjes dhe nevojat speciale."
+            },
+            {
+              "title": "Konfigurimi Hosting Email",
+              "description": "Konfiguroni hosting email profesional me siguri dhe mbrojtje spam."
+            },
+            {
+              "title": "Konfigurimi DNS",
+              "description": "Vendosni regjistrimet DNS të duhura për dorëzimin e email-it dhe sigurinë (SPF, DKIM, DMARC)."
+            },
+            {
+              "title": "Krijimi i Llogarive",
+              "description": "Krijoni të gjitha llogaritë email me fjalëkalime të sigurta dhe cilësime të përshtatshme."
+            },
+            {
+              "title": "Konfigurimi i Pajisjeve",
+              "description": "Konfiguroni email-in në kompjutera, telefona dhe tableta për akses të lehtë."
+            },
+            {
+              "title": "Trajnim & Dokumentacion",
+              "description": "Ofroni trajnim për përdorimin e sistemit email dhe dokumentacion për referencë."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Gati për Email Biznesi Profesional?",
+          "subtitle": "Le të konfigurojmë email që përmirëson besueshmërinë tuaj profesionale",
+          "primary": "Konfiguro Email",
+          "secondary": "Mëso Më Shumë"
+        },
+        "packages": {
+          "basic": {
+            "name": "Bazik",
+            "tagline": "Konfigurim email biznesi profesional",
+            "features": [
+              "Konfigurim email domaini",
+              "Krijim mailbox",
+              "Setup pajisje & app"
+            ],
+            "ideal": "Biznese të vogla që fillojnë online"
+          },
+          "professional": {
+            "name": "Profesional",
+            "tagline": "Sistem i besueshëm email biznesi",
+            "features": [
+              "Mailbox të shumta",
+              "Aliases & forwarding",
+              "Praktika më të mira sigurie"
+            ],
+            "ideal": "Biznese në rritje që duan një zgjidhje të plotë",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "Infrastrukturë email enterprise",
+            "features": [
+              "Routing i avancuar",
+              "Onboarding ekipi",
+              "Mbështetje e vazhdueshme"
+            ],
+            "ideal": "Brande të konsoliduara që duan rezultate premium"
+          }
+        }
+      },
+      "lead-forms": {
+        "hero": {
+          "title": "Formulare Gjenerimi Klientësh",
+          "subtitle": "Shndërrimi i vizitorëve të website-it në klientë potencialë.",
+          "cta": "Krijo Formularet e Mia"
+        },
+        "problem": {
+          "title": "Sfida e Konvertimit të Formularëve",
+          "description": "Shumica e faqeve kanë formulare që kërkojnë shumë, duken joprofesionale ose krijojnë fërkim që pengon vizitorët të bëhen klientë.",
+          "painPoints": [
+            "Norma të ulëta plotësimi formularësh duke harxhuar trafikun",
+            "Formulare që kërkojnë shumë pyetje duke shkaktuar braktisje",
+            "Dizajn i dobët formularësh duke krijuar konfuzion dhe frustracion",
+            "Asnjë strategji për të kapur lloje të ndryshme klientësh",
+            "Mundësi të humbura për të kualifikuar klientë automatikisht",
+            "Mungesa e automatizimit të ndjekjes pas dorëzimit të formularit"
+          ]
+        },
+        "solution": {
+          "title": "Zgjidhja Jonë e Formularëve të Klientëve",
+          "description": "Shndërrimi i vizitorëve të website-it në klientë potencialë.",
+          "differentiators": [
+            "Optimizimi i Konvertimit",
+            "Pyetje Strategjike",
+            "Validim Inteligjent",
+            "Auto-Kualifikim",
+            "Integrimi CRM",
+            "Optimizuar për Mobile"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "TrendingUp",
+            "title": "Konvertime më të Larta",
+            "description": "Formularet e optimizuara konvertojnë më shumë vizitorë në klientë duke reduktuar fërkimin dhe duke udhëhequr përdoruesit qetësisht."
+          },
+          {
+            "icon": "Target",
+            "title": "Klientë të Kualifikuar",
+            "description": "Pyetjet strategjike ndihmojnë të kualifikojnë klientë automatikisht, duke kursyer kohë dhe duke u fokusuar në mundësitë më të mira."
+          },
+          {
+            "icon": "Zap",
+            "title": "Njoftimet e Menjëhershme",
+            "description": "Merrni njoftim të menjëhershëm për klientë të rinj për të bërë ndjekje shpejt ndërsa interesi është i lartë."
+          },
+          {
+            "icon": "Shield",
+            "title": "Mbrojtje Spam",
+            "description": "Mbrojtja e integruar spam siguron që të merrni vetëm pyetje të ligjshme, jo dërgesa bot."
+          },
+          {
+            "icon": "Users",
+            "title": "Përvojë më e Mirë Përdoruesi",
+            "description": "Formularet miqësore për përdoruesit krijojnë përshtypje pozitive dhe e bëjnë të lehtë për klientët t'ju kontaktojnë."
+          },
+          {
+            "icon": "Rocket",
+            "title": "Ndjekje e Automatizuar",
+            "description": "Emailet automatike të konfirmimit dhe integrimi CRM thjeshtojnë procesin tuaj të menaxhimit të klientëve."
+          }
+        ],
+        "features": {
+          "included": [
+            "Dizajn profesional formulari",
+            "Formulare kontakti",
+            "Mbledhje të dhënash klientësh",
+            "Njoftime automatike",
+            "Integrim email",
+            "Optimizim konvertimi"
+          ],
+          "additional": [
+            "Integrim CRM",
+            "Automatizim email",
+            "Formulare inteligjente",
+            "Chatbot",
+            "Sisteme rezervimi",
+            "Dashboard kontakti"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "Biznese Shërbimesh",
+            "description": "Kompani që gjenerojnë klientë për konsulenca, kuota dhe kërkesa shërbimesh."
+          },
+          {
+            "type": "Kompani B2B",
+            "description": "Biznese që kualifikojnë dhe kapim klientë ndërmarrjeje për ekipet e shitjeve."
+          },
+          {
+            "type": "Shërbime Vlerë të Lartë",
+            "description": "Kompani me ofertat komplekse që kanë nevojë për kualifikim të detajuar klientësh."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "Përcaktimi i Objektivave",
+              "description": "Përcaktoni objektivat e formularit, kriteret e kualifikimit të klientëve dhe objektivat e konvertimit."
+            },
+            {
+              "title": "Strategjia e Formularit",
+              "description": "Dizajnoni rrjedhën e pyetjeve, zgjedhjen e fushave dhe logjikën për të maksimizuar konvertimet."
+            },
+            {
+              "title": "Dizajni & Ndërtimi",
+              "description": "Krijoni formulare tërheqëse vizualisht, miqësore për përdoruesit që përputhen me markën tuaj."
+            },
+            {
+              "title": "Konfigurimi i Integrimit",
+              "description": "Lidhni formularet me email, CRM dhe sisteme të tjera për menaxhim pa probleme klientësh."
+            },
+            {
+              "title": "Testimi & Lansimi",
+              "description": "Testoni në mënyrë të plotë të gjitha funksionalitetet dhe vendosni në faqen tuaj."
+            },
+            {
+              "title": "Optimizimi",
+              "description": "Monitoroni performancën dhe optimizoni vazhdimisht për norma më të mira konvertimi."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Gati për të Kapur Më Shumë Klientë?",
+          "subtitle": "Le të krijojmë formulare që transformojnë vizitorët e faqes në klientë të kualifikuar",
+          "primary": "Krijo Formulare",
+          "secondary": "Shiko Shembuj"
+        },
+        "packages": {
+          "basic": {
+            "name": "Bazik",
+            "tagline": "Formular i qartë për lead",
+            "features": [
+              "Fusha të personalizuara",
+              "Njoftime email",
+              "Mbrojtje spam"
+            ],
+            "ideal": "Biznese të vogla që fillojnë online"
+          },
+          "professional": {
+            "name": "Profesional",
+            "tagline": "Sistem lead i optimizuar për konvertime",
+            "features": [
+              "Formulare multi-hap",
+              "Dërgesë gati për CRM",
+              "Flow falënderimi"
+            ],
+            "ideal": "Biznese në rritje që duan një zgjidhje të plotë",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "Stack i avancuar lead generation",
+            "features": [
+              "Logjikë kondicionale",
+              "Integrime & automatizim",
+              "Analitikë konversionsh"
+            ],
+            "ideal": "Brande të konsoliduara që duan rezultate premium"
+          }
+        }
+      },
+      "maintenance": {
+        "hero": {
+          "title": "Mirëmbajtje Faqe Interneti",
+          "subtitle": "Mbajtja e website-eve të sigurta, të përditësuara dhe me performancë maksimale.",
+          "cta": "Mbro Faqen Time"
+        },
+        "problem": {
+          "title": "Sfida e Mirëmbajtjes",
+          "description": "Faqet e internetit kërkojnë mirëmbajtje të vazhdueshme për të mbetur të sigurta, të shpejta dhe funksionale. Faqet e lëna pas dore bëhen të cenueshme, të ngadalta dhe përfundimisht prishen, duke dëmtuar biznesin tuaj.",
+          "painPoints": [
+            "Faqja e internetit po hakerizohet ose infektohet me malware",
+            "Shpejtësi ngadalta ngarkimi duke frustruar vizitorët",
+            "Veçori të prishura dhe shtojca të vjetruara duke shkaktuar gabime",
+            "Asnjë backup duke rrezikuar humbje të plotë të të dhënave",
+            "Dobësi sigurie duke vënë biznesin në rrezik",
+            "Asnjë mbështetje teknike kur lindin probleme"
+          ]
+        },
+        "solution": {
+          "title": "Zgjidhja Jonë e Mirëmbajtjes",
+          "description": "Mbajtja e website-eve të sigurta, të përditësuara dhe me performancë maksimale.",
+          "differentiators": [
+            "Monitorim Proaktiv",
+            "Përditësime të Rregullta",
+            "Backup Ditor",
+            "Mbrojtje Sigurie",
+            "Optimizim Performancash",
+            "Mbështetje me Prioritet"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "Shield",
+            "title": "Siguri e Përmirësuar",
+            "description": "Përditësimet e rregullta të sigurisë dhe monitorimi mbrojnë faqen tuaj nga hackerët dhe malware."
+          },
+          {
+            "icon": "Zap",
+            "title": "Performancë Optimale",
+            "description": "Optimizimi i vazhdueshëm siguron që faqja juaj të ngarkojë shpejt dhe të funksionojë në mënyrë të përsosur."
+          },
+          {
+            "icon": "Clock",
+            "title": "Kurseni Kohë",
+            "description": "Fokusohuni në biznesin tuaj ndërsa profesionistët menaxhojnë të gjithë mirëmbajtjen teknike dhe përditësimet."
+          },
+          {
+            "icon": "Award",
+            "title": "Mbështetje Profesionale",
+            "description": "Mbështetje eksperte e disponueshme kur keni nevojë për ndihmë ose pyetje rreth faqes tuaj."
+          },
+          {
+            "icon": "Rocket",
+            "title": "Parandaloni Problemet",
+            "description": "Mirëmbajtja proaktive kap dhe ndrequn problemet para se të ndikojnë biznesin tuaj."
+          },
+          {
+            "icon": "Heart",
+            "title": "Qetësi Mendore",
+            "description": "Dini që faqja juaj është e mbrojtur, e ruajtur dhe e mirëmbajtur profesionalisht."
+          }
+        ],
+        "features": {
+          "included": [
+            "Përditësime teknike",
+            "Monitorim",
+            "Kontrolle sigurie",
+            "Backup",
+            "Kontrolle performance",
+            "Rregullim gabimesh",
+            "Përditësime përmbajtjeje"
+          ],
+          "additional": [
+            "Përmirësime mujore dizajni",
+            "Veçori të reja",
+            "Optimizim i vazhdueshëm SEO",
+            "Monitorim 24/7",
+            "Raporte mujore",
+            "Menaxhim hosting/domain"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "Faqe Biznesi",
+            "description": "Kompani që mbështeten në faqen e tyre për biznes dhe kanë nevojë për operim të besueshëm dhe të sigurt."
+          },
+          {
+            "type": "Dyqane E-commerce",
+            "description": "Dyqane online që kërkojnë kohë funksionimi maksimale, siguri dhe performancë për shitjet."
+          },
+          {
+            "type": "Profesionistë të Zënë",
+            "description": "Pronarë biznesi që dëshirojnë mirëmbajtje profesionale pa përfshirje teknike."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "Vlerësimi Fillestar",
+              "description": "Audit gjithëpërfshirës i gjendjes aktuale të faqes, sigurisë dhe performancës."
+            },
+            {
+              "title": "Konfigurimi & Optimizimi",
+              "description": "Konfiguroni monitorimin, backup-et, sigurinë dhe kryeni optimizimin fillestar."
+            },
+            {
+              "title": "Përditësime të Rregullta",
+              "description": "Kontrolle dhe përditësime javore për të mbajtur të gjithë komponentët të sigurt dhe aktualë."
+            },
+            {
+              "title": "Monitorim",
+              "description": "Monitorim 24/7 i kohës së funksionimit dhe skanim sigurie për të kapur problemet menjëherë."
+            },
+            {
+              "title": "Optimizim Performancash",
+              "description": "Optimizim mujor për të mbajtur ngarkimin e shpejtë dhe operimin e qetë."
+            },
+            {
+              "title": "Raportimi",
+              "description": "Raporte të rregullta që tregojnë aktivitetet e mirëmbajtjes, statusin e sigurisë dhe performancën."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Gati për të Mbrojtur Faqen Tuaj?",
+          "subtitle": "Le ta mbajmë faqen tuaj të sigurt, të shpejtë dhe pa shqetësime",
+          "primary": "Fillo Mirëmbajtjen",
+          "secondary": "Mëso Më Shumë"
+        },
+        "packages": {
+          "basic": {
+            "name": "Bazik",
+            "tagline": "Mirëmbajtje thelbësore website",
+            "features": [
+              "Përditësime mujore",
+              "Kontrollë sigurie",
+              "Monitorim backup"
+            ],
+            "ideal": "Biznese të vogla që fillojnë online"
+          },
+          "professional": {
+            "name": "Profesional",
+            "tagline": "Mirëmbajtje & mbështetje proaktive",
+            "features": [
+              "Rregullime prioritare",
+              "Kontrollë performancë",
+              "Orë përditësimi përmbajtjeje"
+            ],
+            "ideal": "Biznese në rritje që duan një zgjidhje të plotë",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "Plan i plotë besueshmërie",
+            "features": [
+              "Monitorim 24/7",
+              "Përditësime të vogla pa limit",
+              "Kanal i dedikuar mbështetjeje"
+            ],
+            "ideal": "Brande të konsoliduara që duan rezultate premium"
+          }
+        }
+      },
+      "landing-pages": {
+        "hero": {
+          "title": "Landing Pages Konvertim të Lartë",
+          "subtitle": "Faqe me konvertim të lartë, të dizajnuara posaçërisht për fushata marketingu.",
+          "cta": "Krijo Landing Pages"
+        },
+        "problem": {
+          "title": "Sfida e Landing Pages",
+          "description": "Shumica e fushatave të marketingut dërgojnë trafikun në faqe të përgjithshme të website-it që nuk konvertojnë mirë. Landing pages të dobëta harxhojnë shpenzimin reklamues dhe humbin mundësi konvertimi.",
+          "painPoints": [
+            "Norma të ulëta konvertimi duke harxhuar buxhetin reklamues",
+            "Faqe të përgjithshme që nuk përputhen me mesazhin e reklamës",
+            "Shumë shpërqendrime dhe opcione navigimi",
+            "Përvojë e dobët mobile duke humbur trafikun mobile",
+            "Shpejtësi ngadalta ngarkimi duke rritur normat e kërcimit",
+            "Asnjë thirrje e qartë për veprim ose propozim vlere"
+          ]
+        },
+        "solution": {
+          "title": "Zgjidhja Jonë e Landing Pages",
+          "description": "Faqe me konvertim të lartë, të dizajnuara posaçërisht për fushata marketingu.",
+          "differentiators": [
+            "Dizajn i Fokusuar në Konvertim",
+            "Shpejtësi Ngarkimi të Shpejtë",
+            "Gati për Testime A/B",
+            "Optimizuar për Mobile",
+            "Mesazh i Qartë",
+            "Integrimi Analytics"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "Target",
+            "title": "Konvertime më të Larta",
+            "description": "Faqe të ndërtuara posaçërisht konvertojnë shumë më mirë se faqet e përgjithshme të website-it, duke maksimizuar kthimin e investimit të fushatës."
+          },
+          {
+            "icon": "Zap",
+            "title": "Përputhje Mesazhi",
+            "description": "Landing pages të përshtatura me mesazhin e reklamës krijojnë përvojë koherente që ndërton besim dhe konverton."
+          },
+          {
+            "icon": "Rocket",
+            "title": "Rezultate të Shpejta",
+            "description": "Nisni fushata më shpejt me landing pages të dedikuara gati për të kapur klientë nga dita e parë."
+          },
+          {
+            "icon": "Award",
+            "title": "Dizajn Profesional",
+            "description": "Dizajn i bukur modern që përfaqëson markën tuaj profesionalisht dhe dallohet nga konkurrentët."
+          },
+          {
+            "icon": "TrendingUp",
+            "title": "Performancë e Optimizuar",
+            "description": "Faqe me ngarkim të shpejtë të optimizuara për mobile sigurojnë performancë maksimale në të gjitha pajisjet."
+          },
+          {
+            "icon": "Users",
+            "title": "Përvojë më e Mirë Përdoruesi",
+            "description": "Faqe të fokusuara pa shpërqendrime udhëheqin vizitorët qetësisht drejt konvertimit."
+          }
+        ],
+        "features": {
+          "included": [
+            "Dizajn i fokusuar në konvertim",
+            "Strukturë marketingu",
+            "Përmbajtje bindëse",
+            "Formulare kontakti",
+            "Seksione call-to-action",
+            "Optimizim mobil",
+            "Integrim reklamash"
+          ],
+          "additional": [
+            "A/B testing",
+            "Video promocionale",
+            "Chatbot",
+            "Integrim CRM",
+            "Facebook/Google Pixel",
+            "Automatizim lead-esh",
+            "Analizë e sjelljes së vizitorëve"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "Fushata Marketingu",
+            "description": "Biznese që ekzekutojnë reklamim të paguar duke kërkuar landing pages të dedikuara për fushata."
+          },
+          {
+            "type": "Lansimet e Produkteve",
+            "description": "Kompani që lançojnë produkte ose shërbime të reja duke kërkuar faqe konvertimi të fokusuara."
+          },
+          {
+            "type": "Gjenerimi i Klientëve",
+            "description": "Biznese që maksimizojnë kapjen e klientëve nga përpjekjet e marketingut me landing pages të optimizuara."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "Strategjia e Fushatës",
+              "description": "Kuptoni ofertën tuaj, audiencën dhe objektivat e fushatës për të informuar strategjinë e landing page."
+            },
+            {
+              "title": "Wireframe & Planifikim",
+              "description": "Planifikoni strukturën e faqes, hierarkinë e përmbajtjes dhe rrjedhën e konvertimit për rezultate optimale."
+            },
+            {
+              "title": "Dizajni & Teksti",
+              "description": "Krijoni dizajn bindës dhe tekst bindës që nxit veprimin."
+            },
+            {
+              "title": "Zhvillimi",
+              "description": "Ndërtoni landing page të shpejtë të optimizuar për mobile me të gjithë integrimin teknik."
+            },
+            {
+              "title": "Testimi & Lansimi",
+              "description": "Testoni plotësisht në pajisje dhe shfletues para lansimit të fushatës."
+            },
+            {
+              "title": "Optimizo",
+              "description": "Monitoroni performancën dhe optimizoni vazhdimisht për norma më të mira konvertimi."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Gati për të Rritur Konvertimet?",
+          "subtitle": "Le të krijojmë landing pages që drejtojnë rezultate marketingu",
+          "primary": "Krijo Faqe",
+          "secondary": "Shiko Shembuj"
+        },
+        "packages": {
+          "basic": {
+            "name": "Bazik",
+            "tagline": "Landing page e fokusuar që konverton",
+            "features": [
+              "1 landing page",
+              "Layout mobile-first",
+              "Integrim formulari lead"
+            ],
+            "ideal": "Biznese të vogla që fillojnë online"
+          },
+          "professional": {
+            "name": "Profesional",
+            "tagline": "Faqe kampanje me konvertime të larta",
+            "features": [
+              "Deri në 3 landing pages",
+              "Strukturë gati për A/B",
+              "Tracking & pixels"
+            ],
+            "ideal": "Biznese në rritje që duan një zgjidhje të plotë",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "Sistem i plotë rritjeje landing pages",
+            "features": [
+              "Faqe kampanje pa limit",
+              "Elemente të avancuara CRO",
+              "Mbështetje e vazhdueshme iterimesh"
+            ],
+            "ideal": "Brande të konsoliduara që duan rezultate premium"
+          }
+        }
+      }
+    },
+    "common": {
+      "whatsIncluded": "Çfarë Përfshihet",
+      "idealFor": "Ideale Për",
+      "choosePackage": "Zgjidhni Paketin Tuaj",
+      "selectPerfect": "Zgjidhni zgjidhjen perfekte për nevojat e biznesit tuaj",
+      "mostPopular": "Më i Popullarizuar",
+      "idealForLabel": "Ideale për:",
+      "getStarted": "Fillo Tani",
+      "additionalOptions": "Opsione Shtesë",
+      "capabilitiesHeading": "Detajet e Shërbimit",
+      "keyBenefits": "Përfitimet Kryesore",
+      "ourProcess": "Procesi Ynë"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Rreth WEB LAUNCH",
+      "subtitle": "Ne jemi një agjenci digjitale premium që transformon bizneset përmes zgjidhjeve inovative digjitale"
+    },
+    "mission": {
+      "title": "Misioni Ynë",
+      "description1": "Në WEB LAUNCH, ne besojmë se çdo biznes meriton një prezencë të fuqishme digjitale. Misioni ynë është të ndihmojmë bizneset e të gjitha madhësive të vendosin dhe të rrisin prezencën e tyre online përmes faqeve profesionale të internetit, brandingut strategjik dhe marketingut efektiv digjital.",
+      "description2": "Ne kombinojmë kreativitetin, teknologjinë dhe strategjitë e bazuara në të dhëna për të ofruar zgjidhje digjitale që jo vetëm që duken të mahnitshme, por edhe sjellin rezultate reale biznesi.",
+      "values": {
+        "resultsFocused": {
+          "title": "Fokusuar në Rezultate",
+          "description": "Çdo projekt i dizajnuar për të arritur qëllime të matshme biznesi"
+        },
+        "clientCentric": {
+          "title": "I Fokusuar te Klienti",
+          "description": "Suksesi juaj është suksesi ynë - jemi partnerë në rritje"
+        },
+        "innovationDriven": {
+          "title": "I Drejtuar nga Inovacioni",
+          "description": "Duke përdorur teknologji të avancuar dhe zgjidhje kreative"
+        }
+      }
+    },
+    "values": {
+      "title": "Vlerat Tona",
+      "subtitle": "Parimet që drejtojnë gjithçka që bëjmë",
+      "excellence": {
+        "title": "Përsosmëria",
+        "description": "Ne ofrojmë cilësi premium në çdo projekt, pa kompromis"
+      },
+      "growth": {
+        "title": "Rritja",
+        "description": "Ne fokusohemi në krijimin e zgjidhjeve që drejtojnë rritjen e qëndrueshme të biznesit"
+      },
+      "integrity": {
+        "title": "Integriteti",
+        "description": "Komunikim i ndershëm dhe procese transparente në gjithçka që bëjmë"
+      }
+    },
+    "whyChoose": {
+      "title": "Pse Bizneset Zgjedhin WEB LAUNCH",
+      "international": "Arritje Ndërkombëtare: Ofrojmë zgjidhje në të gjitha gjuhët për klientë në mbarë botën",
+      "fullService": "Zgjidhje me Shërbim të Plotë: Gjithçka që ju nevojitet nën një çati",
+      "provenTrack": "Rekord i Provuar: 30+ projekte të suksesshme",
+      "modernTech": "Teknologji Moderne: Ndërtuar me mjetet dhe kornizat më të fundit",
+      "ongoingSupport": "Mbështetje e Vazhdueshme: Jemi këtu për ju edhe shumë kohë pas lansimit"
+    }
+  },
+  "portfolio": {
+    "hero": {
+      "title": "Portofoli Ynë",
+      "subtitle": "Eksploroni projektet tona të suksesshme dhe transformimet digjitale"
+    },
+    "comingSoon": {
+      "title": "Projekte Emocionuese së Shpejti",
+      "description": "Aktualisht po përditësojmë portofolinë tonë me projektet tona më të fundit të suksesshme. Kthehuni së shpejti për të parë se si kemi ndihmuar bizneset të transformojnë prezencën e tyre digjitale."
+    }
+  },
+  "process": {
+    "hero": {
+      "title": "Procesi Ynë",
+      "subtitle": "Një metodologji e provuar që siguron dorëzimin e suksesshëm të projektit çdo herë"
+    },
+    "steps": {
+      "1": {
+        "number": "01",
+        "title": "Zbulimi",
+        "description": "Ne fillojmë duke kuptuar biznesin tuaj, qëllimet, audiencën e synuar dhe kërkesat e projektit përmes konsultimeve të detajuara."
+      },
+      "2": {
+        "number": "02",
+        "title": "Strategjia",
+        "description": "Ne zhvillojmë një strategji gjithëpërfshirëse përfshirë fushën e projektit, kohën, qasjen teknike dhe metrikat e suksesit."
+      },
+      "3": {
+        "number": "03",
+        "title": "Dizajni",
+        "description": "Ekipi ynë i dizajnit krijon ndërfaqe të bukura dhe miqësore për përdoruesit që pasqyrojnë markën tuaj dhe angazhojnë audiencën tuaj."
+      },
+      "4": {
+        "number": "04",
+        "title": "Zhvillimi",
+        "description": "Ne ndërtojmë zgjidhjen tuaj duke përdorur teknologji moderne, praktika më të mira dhe kod të pastër për performancë optimale."
+      },
+      "5": {
+        "number": "05",
+        "title": "Testimi",
+        "description": "Testim rigoroz i sigurimit të cilësisë në pajisje dhe shfletues për të siguruar që gjithçka funksionon përsosur."
+      },
+      "6": {
+        "number": "06",
+        "title": "Lansimi",
+        "description": "Ne vendosim projektin tuaj në prodhim, konfigurojmë gjithçka siç duhet dhe sigurojmë një live të qetë."
+      },
+      "7": {
+        "number": "07",
+        "title": "Mbështetja",
+        "description": "Mirëmbajtje, përditësime dhe mbështetje e vazhdueshme për të mbajtur prezencën tuaj digjitale të fortë dhe të përditësuar."
+      }
+    },
+    "cta": {
+      "title": "Gati për të Filluar Projektin Tuaj?",
+      "subtitle": "Le të diskutojmë qëllimet tuaja dhe të krijojmë një strategji për sukses",
+      "button": "Fillo Sot"
+    }
+  },
+  "contact": {
+    "title": "Le të Ndërtojmë së Bashku të Ardhmen Tuaj Digjitale",
+    "subtitle": "Keni një ide projekti? Na tregoni për biznesin tuaj dhe ekipi ynë do t'ju ndihmojë të krijoni një zgjidhje digjitale të fuqishme.",
+    "phone": {
+      "label": "Na Telefononi"
+    },
+    "email": {
+      "label": "Dërgoni Email"
+    },
+    "instagram": {
+      "label": "Na Ndiqni"
+    },
+    "whatsapp": {
+      "label": "WhatsApp"
+    },
+    "form": {
+      "steps": {
+        "1": {
+          "title": "Informacione Biznesi & Kontakti",
+          "fullName": "Personi Kontaktues",
+          "businessName": "Emri i Biznesit",
+          "email": "Email",
+          "phone": "Numri i Telefonit",
+          "country": "Shteti",
+          "preferredLanguage": "Gjuha e Preferuar",
+          "selectLanguage": "Zgjidhni gjuhën tuaj të preferuar",
+          "subtitle": "Na tregoni për biznesin tuaj. Këto detaje përdoren për të gjitha shërbimet e zgjedhura."
+        },
+        "2": {
+          "title": "Zgjidhni Shërbimet",
+          "subtitle": "Zgjidhni një ose disa shërbime"
+        }
+      },
+      "services": {
+        "website-development": "Zhvillimi i Faqes së Internetit",
+        "branding": "Dizajni i Logos & Branding",
+        "seo": "Shërbime SEO",
+        "google-business": "Optimizimi i Google Business",
+        "social-setup": "Konfigurimi i Mediave Sociale",
+        "social-management": "Menaxhimi i Mediave Sociale",
+        "ads": "Reklamat Facebook & Instagram",
+        "email": "Konfigurimi i Email Biznesi",
+        "lead-forms": "Formularët e Gjenerimit të Klientëve",
+        "maintenance": "Mirëmbajtja e Faqes",
+        "landing-pages": "Faqet e Zbritjes"
+      },
+      "languages": {
+        "albanian": "Shqip",
+        "english": "Anglisht",
+        "german": "Gjermanisht",
+        "french": "Frëngjisht",
+        "italian": "Italisht",
+        "turkish": "Turqisht",
+        "spanish": "Spanjisht"
+      },
+      "privacy": {
+        "title": "Konfidencialiteti & Mbrojtja e të Dhënave",
+        "message": "Të gjitha informacionet që jepni trajtohen si rreptësisht konfidenciale. Të dhënat tuaja ruhen në mënyrë të sigurt dhe aksesohen vetëm nga ekipi i WEB LAUNCH për qëllimin e ofrimit të shërbimeve të kërkuara. Ne nuk i ndajmë kurrë informacionet tuaja me palë të treta pa lejen tuaj."
+      },
+      "consent": {
+        "text": "Pranoj <privacy>Politikën e Privatësisë</privacy> dhe <terms>Kushtet dhe Termat</terms> e WEB LAUNCH."
+      },
+      "validation": {
+        "required": "Kjo fushë është e detyrueshme",
+        "emailInvalid": "Ju lutemi vendosni një email të vlefshëm",
+        "phoneInvalid": "Ju lutemi vendosni një numër telefoni të vlefshëm",
+        "selectService": "Ju lutemi zgjidhni të paktën një shërbim",
+        "urlInvalid": "Ju lutemi vendosni një URL të vlefshme të faqes",
+        "consentRequired": "Ju lutemi pranoni Politikën e Privatësisë dhe Kushtet dhe Termat për të vazhduar"
+      },
+      "step": "Hapi",
+      "of": "nga",
+      "back": "Prapa",
+      "next": "Vazhdo",
+      "submit": "Dërgo Projektin",
+      "submitting": "Duke dërguar...",
+      "error": "Diçka shkoi keq. Ju lutemi provoni përsëri.",
+      "additionalNotes": "Shënime Shtesë",
+      "additionalNotesPlaceholder": "Ka diçka tjetër që duhet të dimë?",
+      "success": {
+        "title": "Kontrolloni emailin tuaj",
+        "message": "Ju dërguam një email konfirmimi. Klikoni “Konfirmo Kërkesën” për ta dërguar zyrtarisht projektin te WEB LAUNCH. Linku skadon brenda 48 orëve."
+      },
+      "title": "Pyetësori i Zbulimit të Projektit",
+      "subtitle": "Ndihmoni të kuptojmë kërkesat e projektit tuaj duke iu përgjigjur disa pyetjeve.",
+      "questionnaire": {
+        "subtitle": "Ju lutemi përgjigjuni pyetjeve të mëposhtme",
+        "common": {
+          "yes": "Po",
+          "no": "Jo",
+          "uploadButton": "Klikoni për të ngarkuar skedarë",
+          "removeFile": "Hiq skedarin"
+        },
+        "website-development": {
+          "sections": {
+            "businessInfo": "Informacione të Biznesit",
+            "business": "Biznesi & Qëllimet",
+            "design": "Dizajni",
+            "files": "Skedarët"
+          },
+          "businessName": "Emri i Biznesit",
+          "contactPerson": "Personi Kontaktues",
+          "email": "Email",
+          "phone": "Numri i Telefonit",
+          "describe": "Përshkruani biznesin tuaj",
+          "products": "Shërbimet ose produktet",
+          "goal": "Qëllimi kryesor i faqes",
+          "goalOther": "Përshkruani qëllimin shtesë",
+          "pages": "Faqet e website-it",
+          "pagesOther": "Përshkruani faqet shtesë",
+          "style": "Stili i website-it",
+          "reference": "Faqe referuese (Opsionale)",
+          "referencePlaceholder": "https://example.com",
+          "logo": "Ngarkoni Logon",
+          "photos": "Ngarkoni Fotot",
+          "options": {
+            "goals": {
+              "lead-generation": "Gjenerimi i Klientëve",
+              "information": "Informacion",
+              "bookings": "Rezervime",
+              "online-store": "Dyqan Online",
+              "portfolio": "Portofol",
+              "other": "Tjetër"
+            },
+            "pages": {
+              "home": "Ballina",
+              "about": "Rreth Nesh",
+              "services": "Shërbimet",
+              "products": "Produktet",
+              "gallery": "Galeria",
+              "blog": "Blogu",
+              "faq": "FAQ",
+              "contact": "Kontakti",
+              "portfolio": "Portofol",
+              "other": "Tjetër"
+            }
+          },
+          "websiteUrl": "URL e faqes ekzistuese (Opsionale)",
+          "websiteUrlPlaceholder": "https://example.com",
+          "brandGuide": "Udhëzuesi i markës"
+        },
+        "branding": {
+          "businessName": "Emri i Biznesit",
+          "industry": "Industria",
+          "describe": "Përshkrimi i biznesit",
+          "logoLook": "Përshkruani logon ideale",
+          "colors": "Ngjyrat e preferuara",
+          "references": "Referenca të logos",
+          "referencesPlaceholder": "Ngjitni URL ose përshkruani logo që ju pëlqejnë...",
+          "brandGuide": "Udhëzuesi i markës",
+          "logo": "Ngarkoni asetet ekzistuese të logos (opsionale)"
+        },
+        "seo": {
+          "websiteUrl": "URL e faqes (Opsionale)",
+          "mainServices": "Shërbimet kryesore",
+          "cities": "Qytetet e synuara",
+          "keywords": "Fjalët kyçe",
+          "keywordsPlaceholder": "p.sh. dizajn uebi Kosovë, marketing digjital Prishtinë",
+          "competitors": "Konkurrentët"
+        },
+        "google-business": {
+          "exists": "A ekziston profili Google Business?",
+          "businessName": "Emri i Biznesit",
+          "address": "Adresa e Biznesit",
+          "phone": "Telefoni i Biznesit",
+          "hours": "Orari i Punës",
+          "hoursPlaceholder": "p.sh. Hën–Pre 09:00–17:00",
+          "category": "Kategoria e Biznesit",
+          "categoryPlaceholder": "p.sh. Restorant, Dentist, Hotel",
+          "loginEmail": "Emaili i hyrjes në Google Business",
+          "loginPassword": "Fjalëkalimi i Google Business",
+          "credentialsNotice": "Kredencialet përdoren vetëm për konfigurim dhe trajtohen si rreptësisht konfidenciale.",
+          "sections": {
+            "profile": "Profili i Biznesit",
+            "credentials": "Aksesi në Google Business"
+          }
+        },
+        "social-setup": {
+          "platforms": "Platformat",
+          "describe": "Përshkrimi i Biznesit",
+          "facebookLogin": "Përdoruesi ose Email i Facebook",
+          "facebookPassword": "Fjalëkalimi i Facebook",
+          "instagramUsername": "Përdoruesi i Instagram",
+          "instagramPassword": "Fjalëkalimi i Instagram",
+          "tiktokUsername": "Përdoruesi i TikTok",
+          "tiktokPassword": "Fjalëkalimi i TikTok",
+          "linkedinUsername": "Përdoruesi i LinkedIn",
+          "linkedinPassword": "Fjalëkalimi i LinkedIn",
+          "logo": "Ngarkoni Logon",
+          "credentialsNotice": "Kredencialet përdoren vetëm për konfigurim dhe trajtohen si rreptësisht konfidenciale.",
+          "options": {
+            "platforms": {
+              "facebook": "Facebook",
+              "instagram": "Instagram",
+              "tiktok": "TikTok",
+              "linkedin": "LinkedIn",
+              "youtube": "YouTube"
+            }
+          },
+          "sections": {
+            "setup": "Detajet e Konfigurimit",
+            "credentials": "Aksesi i Llogarive"
+          },
+          "brandGuide": "Udhëzuesi i markës"
+        },
+        "social-management": {
+          "objective": "Objektivi",
+          "platforms": "Platformat",
+          "postsPerMonth": "Postime në muaj",
+          "postsPlaceholder": "p.sh. 20",
+          "logo": "Ngarkoni Logon",
+          "photos": "Ngarkoni Fotot",
+          "videos": "Ngarkoni Video",
+          "facebookLogin": "Hyrja në Facebook",
+          "instagramLogin": "Hyrja në Instagram",
+          "options": {
+            "objectives": {
+              "brand-awareness": "Njohja e Markës",
+              "lead-generation": "Gjenerimi i Klientëve",
+              "sales": "Shitjet",
+              "follower-growth": "Rritja e Ndjekësve"
+            },
+            "platforms": {
+              "facebook": "Facebook",
+              "instagram": "Instagram",
+              "tiktok": "TikTok",
+              "linkedin": "LinkedIn",
+              "youtube": "YouTube"
+            }
+          },
+          "sections": {
+            "plan": "Plani i Përmbajtjes",
+            "assets": "Asetet Mediale",
+            "credentials": "Aksesi i Llogarive"
+          },
+          "brandGuide": "Udhëzuesi i markës"
+        },
+        "ads": {
+          "objective": "Objektivi i Fushatës",
+          "budget": "Buxheti Mujor",
+          "targetArea": "Qytetet e Synuara",
+          "targetPlaceholder": "p.sh. Prishtinë, Kosovë",
+          "offer": "Oferta",
+          "bmEmail": "Email i Facebook Business Manager",
+          "bmPassword": "Fjalëkalimi i Facebook Business Manager",
+          "adAccountId": "ID e Llogarisë Meta Ads",
+          "images": "Ngarkoni Imazhe",
+          "videos": "Ngarkoni Video",
+          "credentialsNotice": "Kredencialet përdoren vetëm për konfigurim dhe trajtohen si rreptësisht konfidenciale.",
+          "options": {
+            "objectives": {
+              "lead-generation": "Gjenerimi i Klientëve",
+              "traffic": "Trafik",
+              "sales": "Shitjet",
+              "messages": "Mesazhe"
+            }
+          },
+          "sections": {
+            "campaign": "Detajet e Fushatës",
+            "credentials": "Aksesi i Business Manager",
+            "creatives": "Asetet Kreative"
+          }
+        },
+        "email": {
+          "domain": "Domeni",
+          "howMany": "Numri i llogarive email",
+          "names": "Emrat e dëshiruar të emailit",
+          "namesPlaceholder": "p.sh. info, kontakt, support, agron"
+        },
+        "lead-forms": {
+          "purpose": "Qëllimi",
+          "fields": "Fushat e kërkuara",
+          "fieldsOther": "Përshkruani fushat shtesë",
+          "emailDestination": "Emaili destinacion",
+          "options": {
+            "fields": {
+              "name": "Emri",
+              "surname": "Mbiemri",
+              "phone": "Telefoni",
+              "email": "Email",
+              "company": "Kompania",
+              "message": "Mesazhi",
+              "file-upload": "Ngarkimi i Skedarit",
+              "other": "Tjetër"
+            }
+          }
+        },
+        "maintenance": {
+          "websiteUrl": "URL e faqes (Opsionale)",
+          "problem": "Problemet aktuale",
+          "tasks": "Puna e kërkuar",
+          "tasksOther": "Përshkruani punën shtesë",
+          "options": {
+            "tasks": {
+              "updates": "Përditësime",
+              "backups": "Kopje rezervë",
+              "content": "Ndryshime përmbajtjeje",
+              "security": "Siguria",
+              "performance": "Performanca",
+              "other": "Tjetër"
+            }
+          }
+        },
+        "landing-pages": {
+          "product": "Produkti ose Shërbimi",
+          "goal": "Qëllimi",
+          "offer": "Oferta",
+          "action": "Veprimi i vizitorit",
+          "actionOther": "Përshkruani veprimin shtesë",
+          "images": "Ngarkoni Imazhe",
+          "videos": "Ngarkoni Video",
+          "options": {
+            "goals": {
+              "lead-generation": "Gjenerimi i Klientëve",
+              "sales": "Shitjet",
+              "bookings": "Rezervim",
+              "event": "Ngjarje"
+            },
+            "actions": {
+              "submit-form": "Dërgo Formularin",
+              "call": "Telefono",
+              "whatsapp": "WhatsApp",
+              "purchase": "Bli",
+              "other": "Tjetër"
+            }
+          }
+        }
+      },
+      "shared": {
+        "title": "Informacione të Përbashkëta të Projektit",
+        "subtitle": "Këto detaje vlejnë për disa shërbime të zgjedhura. Mjafton t’i jepni një herë.",
+        "businessDescription": "Përshkrimi i biznesit",
+        "websiteUrl": "URL e faqes (Opsionale)",
+        "websiteUrlPlaceholder": "https://example.com",
+        "logo": "Logoja e biznesit",
+        "photos": "Foto të biznesit",
+        "videos": "Video të biznesit",
+        "brandGuide": "Udhëzuesi i markës"
+      },
+      "errorPrefix": "Gabim"
+    }
+  },
+  "confirm": {
+    "success": {
+      "title": "Kërkesa u Konfirmua",
+      "message": "Faleminderit. Kërkesa juaj është konfirmuar me sukses.\n\nEkipi ynë i WEB LAUNCH do të shqyrtojë dërgimin tuaj dhe do t'ju kontaktojë brenda 24 orëve të ardhshme për hapat e radhës.\n\nNuk kërkohet asnjë veprim tjetër.",
+      "cta": "Kthehu në Ballina"
+    },
+    "expired": {
+      "title": "Linku i konfirmimit ka skaduar",
+      "message": "Ky link konfirmimi ka skaduar (i vlefshëm 48 orë). Ju lutemi dërgoni përsëri formularin e kontaktit për të marrë një email të ri konfirmimi.",
+      "cta": "Shko te Kontakti"
+    },
+    "invalid": {
+      "title": "Link konfirmimi i pavlefshëm",
+      "message": "Ky link konfirmimi është i pavlefshëm ose i paplotë. Përdorni butonin nga emaili juaj, ose dërgoni formularin përsëri.",
+      "cta": "Shko te Kontakti"
+    },
+    "already": {
+      "title": "Tashmë e konfirmuar",
+      "message": "Kjo kërkesë është konfirmuar tashmë. WEB LAUNCH i ka marrë detajet e projektit dhe do t’ju kontaktojë së shpejti.",
+      "cta": "Kthehu në Ballina"
+    }
+  },
+  "whatsapp": {
+    "ariaLabel": "Na kontaktoni në WhatsApp",
+    "prefill": "Përshëndetje! Dëshiroj të diskutoj projektin tim me WEB LAUNCH."
+  },
+  "legal": {
+    "privacy": {
+      "metaTitle": "Politika e Privatësisë - WEB LAUNCH",
+      "metaDescription": "Politika e privatësisë e agjencisë digjitale WEB LAUNCH",
+      "title": "Politika e Privatësisë",
+      "updated": "Përditësuar së fundi: 11 Korrik 2026",
+      "sections": [
+        {
+          "title": "1. Informacioni që Mbledhim",
+          "intro": "Ne mbledhim informacionin që na jepni drejtpërdrejt kur:",
+          "items": [
+            "Dërgoni një formular kontakti ose kërkesë projekti",
+            "Komunikoni me email, telefon ose rrjete sociale",
+            "Përdorni faqen dhe shërbimet tona"
+          ]
+        },
+        {
+          "title": "2. Si e Përdorim Informacionin",
+          "intro": "Informacionin e përdorim për të:",
+          "items": [
+            "Responduar kërkesave tuaja dhe ofruar mbështetje",
+            "Përpunuar kërkesat e projektit",
+            "Përmirësuar faqen dhe shërbimet",
+            "Përmbushur detyrimet ligjore"
+          ]
+        },
+        {
+          "title": "3. Ndarja e Informacionit",
+          "body": "Ne nuk shesim ose japim me qira të dhënat tuaja personale. Mund t’i ndajmë vetëm me pëlqimin tuaj, për detyrime ligjore, ose me ofrues shërbimesh që na ndihmojnë në operacione."
+        },
+        {
+          "title": "4. Siguria e të Dhënave",
+          "body": "Zbatojmë masa teknike dhe organizative për të mbrojtur të dhënat tuaja nga aksesi, ndryshimi ose ekspozimi i paautorizuar."
+        },
+        {
+          "title": "5. Cookies",
+          "body": "Përdorim cookies për të përmirësuar përvojën e shfletimit dhe për të analizuar trafikun. Mund t’i kontrolloni nga cilësimet e shfletuesit."
+        },
+        {
+          "title": "6. të Drejtat Tuaja",
+          "intro": "Keni të drejtë të:",
+          "items": [
+            "Aksesoni të dhënat tuaja",
+            "Korrigjoni të dhëna të pasakta",
+            "Kërkoni fshirjen e të dhënave",
+            "Kundërshtoni përpunimin",
+            "Tërhiqni pëlqimin në çdo kohë"
+          ]
+        },
+        {
+          "title": "7. Na Kontaktoni",
+          "body": "Për pyetje rreth kësaj politike, na kontaktoni:"
+        }
+      ]
+    },
+    "terms": {
+      "metaTitle": "Kushtet & Termat - WEB LAUNCH",
+      "metaDescription": "Termat dhe kushtet e agjencisë digjitale WEB LAUNCH",
+      "title": "Kushtet & Termat",
+      "updated": "Përditësuar së fundi: 11 Korrik 2026",
+      "sections": [
+        {
+          "title": "1. Pranimi i Kushteve",
+          "body": "Duke përdorur shërbimet e WEB LAUNCH, ju pranoni këto Kushte. Nëse nuk pajtoheni, ju lutemi mos i përdorni shërbimet tona."
+        },
+        {
+          "title": "2. Shërbimet",
+          "body": "WEB LAUNCH ofron zhvillim website, branding, SEO, social media dhe marketing digjital. Specifikat dhe afatet përcaktohen në marrëveshje të veçantë."
+        },
+        {
+          "title": "3. Përgjegjësitë e Klientit",
+          "body": "Klienti duhet të japë informacion të saktë, përmbajtje të nevojshme, feedback në kohë dhe kredencialet e kërkuara."
+        },
+        {
+          "title": "4. Pagesat",
+          "body": "Kushtet e pagesës përcaktohen në marrëveshjen e projektit. Puna mund të pezullohet nëse faturat nuk paguhen sipas afateve."
+        },
+        {
+          "title": "5. Pronësia Intelektuale",
+          "body": "Pas pagesës së plotë, deliverable-t e dakorduara i kalojnë klientit sipas marrëveshjes. WEB LAUNCH mund të shfaqë punë jokonfidenciale në portofol, përveçse kur bie dakord ndryshe."
+        },
+        {
+          "title": "6. Kufizimi i Përgjegjësisë",
+          "body": "WEB LAUNCH nuk është përgjegjës për dëme indirekte ose rrjedhuese, përveçse kur kërkohet nga ligji."
+        },
+        {
+          "title": "7. Kontakt",
+          "body": "Për pyetje rreth kushteve: weblaunchdigital@gmail.com ose +383 45 949 507."
+        }
+      ]
+    }
+  }
+}

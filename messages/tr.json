@@ -1,0 +1,2635 @@
+{
+  "navigation": {
+    "home": "Ana Sayfa",
+    "services": "Hizmetler",
+    "portfolio": "Portföy",
+    "about": "Hakkımızda",
+    "process": "Süreç",
+    "contact": "İletişim",
+    "getStarted": "Başlayın",
+    "selectLanguage": "Dil Seçin",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat"
+  },
+  "home": {
+    "hero": {
+      "badge": "Premium Dijital Çözümler",
+      "title": "İşletmeleri Büyüten Dijital Deneyimler Yaratıyoruz",
+      "subtitle": "WEB LAUNCH, işletmelerin profesyonel web siteleri, güçlü markalar, SEO sistemleri ve müşteri çeken ve çevrimiçi büyümeyi artıran dijital çözümler oluşturmasına yardımcı olur.",
+      "cta": {
+        "primary": "Projenizi Başlatın",
+        "secondary": "Hizmetleri Keşfedin"
+      },
+      "stats": {
+        "projectsValue": "30+",
+        "projects": "Tamamlanan Proje",
+        "languagesValue": "9+",
+        "languages": "Desteklenen Dil",
+        "satisfactionValue": "99%",
+        "satisfaction": "Müşteri Memnuniyeti",
+        "supportValue": "24/7",
+        "support": "Destek Mevcut"
+      }
+    },
+    "trust": {
+      "title": "Neden WEB LAUNCH'u Seçmelisiniz?",
+      "subtitle": "İşletmenizi dönüştüren dijital çözümler sunmak için yaratıcılığı, teknolojiyi ve stratejiyi birleştiriyoruz.",
+      "features": {
+        "design": {
+          "title": "Profesyonel Tasarım",
+          "description": "Marka kimliğinizi yansıtan ve kitlenizi büyüleyen premium tasarımlar."
+        },
+        "technology": {
+          "title": "Modern Teknoloji",
+          "description": "Optimal performans ve ölçeklenebilirlik için son teknoloji ile inşa edilmiştir."
+        },
+        "conversion": {
+          "title": "Dönüşüm Odaklı",
+          "description": "Ziyaretçileri müşterilere dönüştürmek ve sonuç almak için tasarlanmış her element."
+        },
+        "complete": {
+          "title": "Tam Hizmet",
+          "description": "Tüm çevrimiçi iş ihtiyaçlarınızı kapsayan tam hizmet dijital ajans."
+        },
+        "support": {
+          "title": "Özel Destek",
+          "description": "Dijital varlığınızı güçlü tutmak için sürekli destek ve bakım."
+        },
+        "international": {
+          "title": "Uluslararası Erişim",
+          "description": "Dünya çapındaki müşteriler için tüm dillerde çözümler sunuyoruz."
+        }
+      }
+    },
+    "services": {
+      "title": "Hizmetlerimiz",
+      "subtitle": "Çevrimiçi başarı için eksiksiz dijital çözümler",
+      "learnMore": "Daha Fazla Bilgi",
+      "viewAll": "Tüm Hizmetleri Görün",
+      "items": {
+        "website-development": {
+          "title": "Web Site Geliştirme",
+          "description": "Modern tasarım ve güçlü işlevsellikle ziyaretçileri müşteriye dönüştüren profesyonel web siteleri."
+        },
+        "branding": {
+          "title": "Logo Tasarımı & Marka Oluşturma",
+          "description": "İşletmeleri akılda kalıcı ve rakiplerinden farklı kılan güçlü görsel kimlikler."
+        },
+        "seo": {
+          "title": "SEO Hizmetleri",
+          "description": "Web sitelerinin arama motorlarında daha üst sıralara çıkmasına ve organik müşteri çekmesine yardımcı olur."
+        },
+        "google-business": {
+          "title": "Google Business Optimizasyonu",
+          "description": "İşletmeleri Google Arama ve Haritalar’da görünür hale getirir."
+        },
+        "social-setup": {
+          "title": "Sosyal Medya Kurulumu",
+          "description": "Profesyonel sosyal medya temelleri oluşturma."
+        },
+        "social-management": {
+          "title": "Sosyal Medya Yönetimi",
+          "description": "Stratejik içerikle tutarlı dijital varlık oluşturma."
+        },
+        "ads": {
+          "title": "Facebook & Instagram Reklamları",
+          "description": "Nitelikli lead üreten ve satışları artıran reklam kampanyaları oluşturma."
+        },
+        "email": {
+          "title": "İşletme E-posta Kurulumu",
+          "description": "Güvenilirliği ve iletişimi güçlendiren profesyonel iş e-postaları."
+        },
+        "lead-forms": {
+          "title": "Potansiyel Müşteri Formları",
+          "description": "Web sitesi ziyaretçilerini potansiyel müşterilere dönüştürme."
+        },
+        "maintenance": {
+          "title": "Web Site Bakımı",
+          "description": "Web sitelerini güvenli, güncel ve maksimum performanslı tutma."
+        },
+        "landing-pages": {
+          "title": "Açılış Sayfaları",
+          "description": "Pazarlama kampanyaları için özel olarak tasarlanmış yüksek dönüşümlü sayfalar."
+        }
+      }
+    },
+    "cta": {
+      "badge": "İşletmenizi dönüştürmeye hazır mısınız?",
+      "title": "Dijital Geleceğinizi Birlikte İnşa Edelim",
+      "subtitle": "Bir proje fikriniz mi var? İşletmeniz hakkında bize bilgi verin ve ekibimiz güçlü bir dijital çözüm oluşturmanıza yardımcı olsun.",
+      "primary": "Projenizi Başlatın",
+      "secondary": "Hemen Arayın"
+    }
+  },
+  "footer": {
+    "description": "WEB LAUNCH, işletmelerin çevrimiçi büyümesine yardımcı olan premium web siteleri, marka sistemleri ve dijital çözümler oluşturur.",
+    "titles": {
+      "company": "Şirket",
+      "services": "Hizmetler",
+      "languages": "Diller"
+    },
+    "company": {
+      "home": "Ana Sayfa",
+      "services": "Hizmetler",
+      "portfolio": "Portföy",
+      "about": "Hakkımızda",
+      "process": "Süreç",
+      "contact": "İletişim"
+    },
+    "services": {
+      "website": "Web Geliştirme",
+      "branding": "Marka Oluşturma",
+      "seo": "SEO Hizmetleri",
+      "google": "Google Business",
+      "social": "Sosyal Medya",
+      "ads": "Reklam Yönetimi"
+    },
+    "rights": "Tüm hakları saklıdır.",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Şartlar ve Koşullar"
+  },
+  "metadata": {
+    "home": {
+      "title": "WEB LAUNCH - Premium Dijital Ajans | Web Siteleri, Marka, SEO",
+      "description": "WEB LAUNCH, işletmelerin online büyümesine yardımcı olan profesyonel web siteleri, markalaşma, SEO ve dijital pazarlama sunar. Tüm dillerde çözümler sunan uluslararası dijital ajans."
+    },
+    "services": {
+      "title": "Hizmetlerimiz - WEB LAUNCH Dijital Ajans",
+      "description": "Web sitesi geliştirme, marka oluşturma, SEO, Google Business, sosyal medya ve dijital pazarlama hizmetleri dahil olmak üzere eksiksiz dijital çözümler."
+    },
+    "contact": {
+      "title": "Bize Ulaşın - WEB LAUNCH Dijital Ajans",
+      "description": "Dijital projenizi başlatmak için WEB LAUNCH ile iletişime geçin. Profesyonel web sitesi geliştirme, marka oluşturma ve dijital pazarlama hizmetleri."
+    },
+    "about": {
+      "title": "Hakkımızda - WEB LAUNCH Dijital Ajans",
+      "description": "WEB LAUNCH hakkında bilgi edinin - profesyonel dijital çözümlerle işletmelerin çevrimiçi büyümesine yardımcı olan premium bir dijital ajans."
+    },
+    "portfolio": {
+      "title": "Portföyümüz - WEB LAUNCH Projeleri",
+      "description": "Başarılı dijital projelerimizi ve dönüşümlerimizi keşfedin. WEB LAUNCH'un işletmelerin çevrimiçi başarıya ulaşmasına nasıl yardımcı olduğunu görün."
+    },
+    "process": {
+      "title": "Sürecimiz - WEB LAUNCH",
+      "description": "Keşiften lansmanına ve ötesine başarılı dijital projeleri sunmak için kanıtlanmış 7 adımlı sürecimizi keşfedin."
+    }
+  },
+  "services": {
+    "title": "Hizmetlerimiz",
+    "subtitle": "Çevrimiçi başarı için eksiksiz dijital çözümler",
+    "meta": {
+      "website-development": {
+        "title": "Profesyonel Web Sitesi Geliştirme | WEB LAUNCH",
+        "description": "Online varlığınızı profesyonel web geliştirme ile dönüştürün. Modern tasarım, hızlı performans, SEO optimize. Ziyaretçileri müşterilere dönüştüren web siteniz."
+      },
+      "branding": {
+        "title": "Logo Tasarımı & Marka Kimliği Hizmetleri | WEB LAUNCH",
+        "description": "Profesyonel logo tasarımı ve kapsamlı markalaşma ile güçlü bir marka kimliği yaratın. Unutulmaz görsel kimlikle rakiplerden sıyrılın."
+      },
+      "seo": {
+        "title": "SEO Hizmetleri - Arama Motoru Optimizasyonu | WEB LAUNCH",
+        "description": "Sıralamalarınızı artırın ve profesyonel SEO hizmetleriyle organik müşteriler çekin. Sürdürülebilir büyüme için kapsamlı optimizasyon."
+      },
+      "google-business": {
+        "title": "Google Business Optimizasyon Hizmetleri | WEB LAUNCH",
+        "description": "Google Business optimizasyonu ile yerel müşteriler tarafından bulunun. Google Arama ve Haritalar'daki görünürlüğünüzü artırın."
+      },
+      "social-setup": {
+        "title": "Sosyal Medya Kurulum Hizmetleri | WEB LAUNCH",
+        "description": "Tüm büyük platformlarda eksiksik kurulum ve optimizasyon ile sosyal medya varlığınızı profesyonelce başlatın."
+      },
+      "social-management": {
+        "title": "Sosyal Medya Yönetim Hizmetleri | WEB LAUNCH",
+        "description": "Profesyonel içerik, stratejik yayınlar ve topluluk katılımı ile sosyal medya varlığınızı oluşturun ve büyütün."
+      },
+      "ads": {
+        "title": "Facebook & Instagram Reklam Yönetimi | WEB LAUNCH",
+        "description": "Ölçülebilir yatırım getirisi sağlayan veri odaklı reklam kampanyalarıyla nitelikli müşteri adayları oluşturun ve satışları artırın."
+      },
+      "email": {
+        "title": "İş E-postası Kurulumu | WEB LAUNCH",
+        "description": "Domain adınızı kullanarak özel iş e-posta adresleriyle güvenilirlik ve profesyonellik kurun."
+      },
+      "lead-forms": {
+        "title": "Müşteri Adayı Oluşturma Formları | WEB LAUNCH",
+        "description": "Dönüşümleri maksimize eden stratejik olarak tasarlanmış formlarla web sitesi ziyaretçilerini nitelikli müşteri adaylarına dönüştürün."
+      },
+      "maintenance": {
+        "title": "Website Bakımı | WEB LAUNCH",
+        "description": "Web sitenizi profesyonel bakım ve destekle güvenli, hızlı ve güncel tutun."
+      },
+      "landing-pages": {
+        "title": "Yüksek Dönüşüm Landing Sayfaları | WEB LAUNCH",
+        "description": "Ziyaretçileri müşterilere dönüştürmeye odaklanan profesyonel tasarlanmış landing sayfalarıyla kampanya performansını artırın."
+      }
+    },
+    "detail": {
+      "website-development": {
+        "hero": {
+          "title": "Profesyonel Web Sitesi Geliştirme",
+          "subtitle": "Modern tasarım ve güçlü işlevsellikle ziyaretçileri müşteriye dönüştüren profesyonel web siteleri.",
+          "cta": "Projenizi Başlatın"
+        },
+        "problem": {
+          "title": "Web Sitesi Zorluğu",
+          "description": "Günümüzün dijital dünyasında, web siteniz genellikle müşterilerin işletmeniz hakkında aldığı ilk izlenimdir. Ancak birçok şirket sonuç veremeyen web siteleriyle mücadele ediyor.",
+          "painPoints": [
+            "Markanızın profesyonelliğini yansıtmayan güncel olmayan web siteleri",
+            "Ziyaretçilerin içeriğinizi görmeden önce ayrılmasına neden olan yavaş yükleme süreleri",
+            "Akıllı telefonlarda ve tabletlerde müşteri kaybettiren kötü mobil deneyim",
+            "Müşterilerin bilgi bulmasını zorlaştıran zor navigasyon",
+            "Ziyaretçileri potansiyel müşterilere dönüştüremeyen eksik dönüşüm öğeleri",
+            "İşletmenizi riske atan teknik sorunlar ve güvenlik açıkları"
+          ]
+        },
+        "solution": {
+          "title": "Web Geliştirme Çözümümüz",
+          "description": "Modern tasarım ve güçlü işlevsellikle ziyaretçileri müşteriye dönüştüren profesyonel web siteleri.",
+          "differentiators": [
+            "Modern Teknolojiler",
+            "Mobil-İlk Tasarım",
+            "Dönüşüm Optimize",
+            "SEO Temeli",
+            "Hızlı Performans",
+            "Güvenli ve Güvenilir"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "Rocket",
+            "title": "Yıldırım Hızı Performans",
+            "description": "Optimize edilmiş kod ve modern teknoloji, web sitenizin 2 saniyeden kısa sürede yüklenmesini sağlar, ziyaretçileri meşgul tutar ve SEO sıralamalarını iyileştirir."
+          },
+          {
+            "icon": "Target",
+            "title": "Dönüşüm Odaklı Tasarım",
+            "description": "Ziyaretçileri müşterilere ve potansiyel müşterilere dönüştürmek için özel olarak tasarlanmış harekete geçirici mesajların, formların ve içeriğin stratejik yerleşimi."
+          },
+          {
+            "icon": "Shield",
+            "title": "Güvenli ve Güvenilir",
+            "description": "İşletmenizi ve müşterilerinizi korumak için güvenlik en iyi uygulamaları, SSL sertifikaları, düzenli güncellemeler ve güvenilir barındırma ile oluşturulmuştur."
+          },
+          {
+            "icon": "Globe",
+            "title": "Mobil-Uyumlu",
+            "description": "Tüm cihazlarda mükemmel görüntüleme deneyimi - akıllı telefonlar, tabletler ve masaüstü bilgisayarlar. Web siteniz her ekran boyutuna güzelce uyum sağlar."
+          },
+          {
+            "icon": "TrendingUp",
+            "title": "SEO Optimize",
+            "description": "Yerleşik SEO en iyi uygulamaları, temiz kod, hızlı yükleme ve uygun yapı, web sitenizin arama sonuçlarında daha üst sıralarda yer almasına yardımcı olur."
+          },
+          {
+            "icon": "Zap",
+            "title": "Güncellenmesi Kolay",
+            "description": "Kullanıcı dostu içerik yönetim sistemi, teknik bilgi olmadan içeriği, görselleri ve sayfaları kolayca güncellemenizi sağlar."
+          }
+        ],
+        "features": {
+          "included": [
+            "İşletme ve hedef analizi",
+            "Marka kimliğine dayalı modern özel tasarım",
+            "Mobil, tablet ve masaüstü için responsive tasarım",
+            "Profesyonel navigasyon yapısı",
+            "Ana web sitesi sayfaları",
+            "İletişim formları",
+            "Google Maps entegrasyonu",
+            "WhatsApp/doğrudan iletişim butonu",
+            "Temel SEO optimizasyonu",
+            "Yüksek performans ve hızlı yükleme",
+            "Temel web sitesi güvenliği",
+            "Domain ve hosting yapılandırması"
+          ],
+          "additional": [
+            "Premium animasyonlar",
+            "3D tasarım ve etkileşimli deneyimler",
+            "Çok dilli web siteleri",
+            "E-ticaret",
+            "Online rezervasyon sistemleri",
+            "Online ödemeler",
+            "CMS paneli",
+            "AI chatbot entegrasyonu",
+            "CRM entegrasyonu",
+            "Lead oluşturma sistemleri",
+            "Profesyonel blog",
+            "Gelişmiş SEO"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "Küçük İşletmeler",
+            "description": "Profesyonel bir online varlık oluşturmak ve dijital kanallar aracılığıyla yeni müşteriler çekmek isteyen şirketler."
+          },
+          {
+            "type": "Büyüyen Şirketler",
+            "description": "Büyümeyi destekleyen ve artan trafiği zahmetsizce yöneten modern bir web sitesiyle ölçeklenmeye hazır işletmeler."
+          },
+          {
+            "type": "Yerleşik Büyük Kuruluşlar",
+            "description": "Gelişmiş özellikler, entegrasyonlar ve markalarına uygun sofistike bir web varlığına ihtiyaç duyan organizasyonlar."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "Keşif ve Planlama",
+              "description": "Detaylı danışmanlık yoluyla iş hedeflerinizi, hedef kitlenizi ve özel gereksinimlerinizi anlıyoruz."
+            },
+            {
+              "title": "Tasarım ve Prototipleme",
+              "description": "Tasarımcılarımız geliştirme başlamadan önce onayınız için güzel maketler ve prototipler oluşturur."
+            },
+            {
+              "title": "Geliştirme",
+              "description": "Uzman geliştiriciler, modern teknoloji, en iyi uygulamalar ve temiz kod kullanarak web sitenizi oluşturur."
+            },
+            {
+              "title": "İçerik Entegrasyonu",
+              "description": "İçeriğinizi ekliyor, görselleri optimize ediyor ve her şeyin mükemmel şekilde sunulmasını sağlıyoruz."
+            },
+            {
+              "title": "Test ve Kalite Güvencesi",
+              "description": "Kusursuz işlevsellik ve performans sağlamak için tüm cihazlar ve tarayıcılarda kapsamlı test."
+            },
+            {
+              "title": "Başlatma ve Dağıtım",
+              "description": "Web sitenizi başlatıyor, her şeyi düzgün yapılandırıyor ve sorunsuz bir geçiş sağlıyoruz."
+            },
+            {
+              "title": "Eğitim ve Destek",
+              "description": "Web sitenizi yönetme konusunda kapsamlı eğitim ve başarınızı sağlamak için sürekli destek."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Profesyonel Web Siteniz İçin Hazır mısınız?",
+          "subtitle": "İşletmeniz için gerçek sonuçlar sağlayan bir web sitesi oluşturalım",
+          "primary": "Projenizi Başlatın",
+          "secondary": "Portfolyoyu Görüntüle"
+        },
+        "packages": {
+          "basic": {
+            "name": "Temel",
+            "tagline": "İşletmenizi sunan temel web sitesi",
+            "features": [
+              "5 sayfaya kadar",
+              "Mobil uyumlu tasarım",
+              "İletişim formu & temel SEO"
+            ],
+            "ideal": "Online başlayan girişimler ve küçük işletmeler"
+          },
+          "professional": {
+            "name": "Profesyonel",
+            "tagline": "Büyüme odaklı dönüşüm sitesi",
+            "features": [
+              "10 sayfaya kadar",
+              "Özel tasarım sistemi",
+              "Hız & SEO optimizasyonu"
+            ],
+            "ideal": "Tam çözüm isteyen büyüyen işletmeler",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "Ölçeklenebilir gelişmiş web sitesi",
+            "features": [
+              "Esnek sayfa yapısı",
+              "Gelişmiş entegrasyonlar",
+              "Öncelikli destek & analitik"
+            ],
+            "ideal": "Premium sonuç isteyen köklü markalar"
+          }
+        }
+      },
+      "branding": {
+        "hero": {
+          "title": "Logo Tasarımı & Markalaşma",
+          "subtitle": "İşletmeleri akılda kalıcı ve rakiplerinden farklı kılan güçlü görsel kimlikler.",
+          "cta": "Markalaşmanızı Başlatın"
+        },
+        "problem": {
+          "title": "Markalaşma Zorluğu",
+          "description": "Markanız bir logodan daha fazlasıdır - müşterilerin işletmenizi nasıl algıladığı ve hatırladığıdır. Birçok şirket etki yaratamayan zayıf veya tutarsız markalaşma ile mücadele ediyor.",
+          "painPoints": [
+            "Güven vermeyen jenerik veya amatör görünümlü logolar",
+            "Farklı platformlarda tutarsız görsel kimlik",
+            "Hedef kitleye hitap etmeyen belirsiz marka mesajı",
+            "Kalabalık bir pazarda öne çıkmakta zorlanma",
+            "Pazarlama için profesyonel marka materyallerinin eksikliği",
+            "Şirket değerlerini ve vizyonunu yansıtmayan marka kimliği"
+          ]
+        },
+        "solution": {
+          "title": "Markalaşma Çözümümüz",
+          "description": "İşletmeleri akılda kalıcı ve rakiplerinden farklı kılan güçlü görsel kimlikler.",
+          "differentiators": [
+            "Stratejik Marka Konumlandırma",
+            "Unutulmaz Görsel Kimlik",
+            "Eksiksiz Marka Kılavuzları",
+            "Çoklu Konseptler",
+            "Sınırsız Revizyon",
+            "Tam Mülkiyet Hakları"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "Star",
+            "title": "Profesyonel Güvenilirlik",
+            "description": "Premium bir marka kimliği anında güven ve profesyonellik oluşturur, müşterilerin işletmenizi seçme olasılığını artırır."
+          },
+          {
+            "icon": "Target",
+            "title": "Pazar Farklılaşması",
+            "description": "İşletmenizi özel kılan şeyi açıkça ileten benzersiz bir marka kimliği ile rakiplerden sıyrılın."
+          },
+          {
+            "icon": "Heart",
+            "title": "Duygusal Bağ",
+            "description": "Müşterilerin değerleri ve hedefleriyle rezonansa giren markalaşma ile anlamlı bağlantılar kurun."
+          },
+          {
+            "icon": "TrendingUp",
+            "title": "İş Büyümesi",
+            "description": "Güçlü markalaşma daha fazla müşteri çeker, premium fiyatlandırmaya olanak tanır ve uzun vadeli iş değeri oluşturur."
+          },
+          {
+            "icon": "Award",
+            "title": "Marka Tanınırlığı",
+            "description": "Tutarlı, profesyonel markalaşma işletmenizi müşteriler için anında tanınabilir ve unutulmaz kılar."
+          },
+          {
+            "icon": "Zap",
+            "title": "Pazarlama Verimliliği",
+            "description": "Eksiksik bir marka sistemi, kullanıma hazır varlıklar ve net kılavuzlarla tüm pazarlama çabalarınızı kolaylaştırır."
+          }
+        ],
+        "features": {
+          "included": [
+            "İşletme ve sektör analizi",
+            "Yaratıcı araştırma ve konseptler",
+            "Benzersiz logo tasarımı",
+            "Marka renkleri seçimi",
+            "Tipografi seçimi",
+            "Görsel kimlik oluşturma",
+            "Temel logo kullanım kılavuzu",
+            "Çoklu logo versiyonları",
+            "Dijital ve baskı formatları"
+          ],
+          "additional": [
+            "Profesyonel brand book",
+            "Kartvizitler",
+            "Broşürler",
+            "Katalog tasarımı",
+            "Tanıtım materyalleri",
+            "Ürün ambalajı",
+            "Sosyal medya şablonları",
+            "İş materyalleri",
+            "Tam marka kılavuzları"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "Yeni İşletmeler",
+            "description": "Profesyonel olarak başlamak ve güçlü bir ilk izlenim bırakmak için eksiksiz marka kimliğine ihtiyaç duyan girişimler ve yeni şirketler."
+          },
+          {
+            "type": "Yeniden Markalaşan Şirketler",
+            "description": "İmajlarını yenilemek, görünümlerini modernleştirmek veya pazarda yeniden konumlanmak için hazır olan köklü işletmeler."
+          },
+          {
+            "type": "Büyüyen Markalar",
+            "description": "Varlıklarını genişleten ve büyümeyi desteklemek ve daha büyük müşteriler çekmek için profesyonel markalaşmaya ihtiyaç duyan şirketler."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "Marka Keşfi",
+              "description": "Benzersiz konumlandırmanızı anlamak için işletmeniz, değerleriniz, hedef kitleniz ve rekabet ortamınız hakkında derinlemesine analiz."
+            },
+            {
+              "title": "Strateji Geliştirme",
+              "description": "Stratejik içgörüler ve pazar konumlandırmasına dayalı marka kişiliği, mesajlaşma ve görsel yön tanımı."
+            },
+            {
+              "title": "Konsept Oluşturma",
+              "description": "İncelemeniz ve geri bildiriminiz için çoklu logo konseptleri ve görsel yönler tasarlama."
+            },
+            {
+              "title": "İyileştirme",
+              "description": "Marka kimliği tam olarak doğru olana kadar sınırsız revizyonlarla seçtiğiniz yönü mükemmelleştirme."
+            },
+            {
+              "title": "Marka Sistemi Geliştirme",
+              "description": "Kapsamlı marka kılavuzları, renk paletleri, tipografi ve tüm görsel öğelerin oluşturulması."
+            },
+            {
+              "title": "Varlık Oluşturma",
+              "description": "Kartvizitler, şablonlar ve pazarlama varlıkları dahil tüm gerekli marka materyallerinin tasarımı."
+            },
+            {
+              "title": "Teslimat & Eğitim",
+              "description": "Tüm dosyaların, marka kılavuzlarının sağlanması ve marka tutarlılığını koruma konusunda eğitim."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Markanızı İnşa Etmeye Hazır mısınız?",
+          "subtitle": "İşletmenizi unutulmaz kılan bir marka kimliği yaratalım",
+          "primary": "Markalaşmanızı Başlatın",
+          "secondary": "Portföyü Görüntüle"
+        },
+        "packages": {
+          "basic": {
+            "name": "Temel",
+            "tagline": "Markanız için net logo kimliği",
+            "features": [
+              "Ana logo tasarımı",
+              "Renk paleti",
+              "Temel marka kullanım rehberi"
+            ],
+            "ideal": "Online başlayan girişimler ve küçük işletmeler"
+          },
+          "professional": {
+            "name": "Profesyonel",
+            "tagline": "Tam marka kimliği sistemi",
+            "features": [
+              "Logo seti ve varyasyonlar",
+              "Tipografi ve renkler",
+              "Marka kılavuzu PDF"
+            ],
+            "ideal": "Tam çözüm isteyen büyüyen işletmeler",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "Ölçeklenebilir premium marka sistemi",
+            "features": [
+              "Tam görsel kimlik",
+              "Pazarlama şablonları",
+              "Genişletilmiş marka stratejisi"
+            ],
+            "ideal": "Premium sonuç isteyen köklü markalar"
+          }
+        }
+      },
+      "seo": {
+        "hero": {
+          "title": "SEO Hizmetleri",
+          "subtitle": "Web sitelerinin arama motorlarında daha üst sıralara çıkmasına ve organik müşteri çekmesine yardımcı olur.",
+          "cta": "Sıralamalarınızı Artırın"
+        },
+        "problem": {
+          "title": "SEO Zorluğu",
+          "description": "Çoğu işletme Google'ın ilk sayfasında görünmekte zorlanır ve hizmetlerini aktif olarak arayan binlerce potansiyel müşteriyi kaçırır.",
+          "painPoints": [
+            "Müşteriler hizmetlerinizi aradığında arama sonuçlarında görünmez",
+            "Daha üst sıralarda yer alan rakipler potansiyel müşterilerinizi ele geçiriyor",
+            "Harika bir ürün veya hizmete sahip olmanıza rağmen düşük web sitesi trafiği",
+            "Karmaşık SEO gereksinimlerini ve algoritmaları anlamakta zorluk",
+            "Önceki SEO çabaları ölçülebilir sonuç göstermedi",
+            "Organik trafik ücretsiz olabilecekken reklamlara para harcamak"
+          ]
+        },
+        "solution": {
+          "title": "SEO Çözümümüz",
+          "description": "Web sitelerinin arama motorlarında daha üst sıralara çıkmasına ve organik müşteri çekmesine yardımcı olur.",
+          "differentiators": [
+            "White-Hat Teknikler",
+            "Veri Odaklı Strateji",
+            "Kapsamlı Optimizasyon",
+            "Düzenli Raporlama",
+            "Sürdürülebilir Sonuçlar",
+            "Kanıtlanmış Başarı Geçmişi"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "TrendingUp",
+            "title": "Daha Yüksek Sıralamalar",
+            "description": "İşletmeniz için önemli olan anahtar kelimeler için Google'ın ilk sayfasına çıkın ve görünürlüğünüzü önemli ölçüde artırın."
+          },
+          {
+            "icon": "Target",
+            "title": "Nitelikli Trafik",
+            "description": "Hizmetlerinizi aktif olarak arayan ziyaretçiler çekerek daha yüksek dönüşüm oranları ve daha iyi ROI elde edin."
+          },
+          {
+            "icon": "Rocket",
+            "title": "Sürdürülebilir Büyüme",
+            "description": "Ücretli reklamların aksine, SEO zaman içinde büyümeye devam eden kümülatif sonuçlarla uzun vadeli değer sağlar."
+          },
+          {
+            "icon": "Award",
+            "title": "Otorite Oluşturma",
+            "description": "İşletmenizi sektör otoritesi olarak konumlandırın, hem arama motorlarında hem de müşterilerde güven ve itibar kazanın."
+          },
+          {
+            "icon": "Globe",
+            "title": "Rekabet Avantajı",
+            "description": "Sektörünüzdeki arama sonuçlarına hakim olarak rakipleri geride bırakın ve pazar payı kazanın."
+          },
+          {
+            "icon": "Zap",
+            "title": "Maliyet Etkin",
+            "description": "Devam eden reklam harcaması olmadan tutarlı organik trafik oluşturun ve ücretli reklamcılıktan daha iyi uzun vadeli ROI sağlayın."
+          }
+        ],
+        "features": {
+          "included": [
+            "Web sitesi SEO analizi",
+            "Anahtar kelime araştırması",
+            "Başlık ve meta açıklama optimizasyonu",
+            "Site yapısı optimizasyonu",
+            "Hız iyileştirmeleri",
+            "Görsel optimizasyonu",
+            "Teknik SEO temelleri",
+            "Sitemap oluşturma",
+            "Google Search Console kurulumu",
+            "Performans raporları"
+          ],
+          "additional": [
+            "Yerel SEO",
+            "İçerik stratejisi",
+            "Blog yazıları",
+            "Link building",
+            "Rakip analizi",
+            "E-ticaret SEO",
+            "Sıralama takibi",
+            "Sürekli optimizasyon"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "Yerel İşletmeler",
+            "description": "Yerel arama sonuçlarına hakim olmak ve hizmetlerini arayan yakındaki müşterileri çekmek isteyen şirketler."
+          },
+          {
+            "type": "E-ticaret Mağazaları",
+            "description": "Ürün anahtar kelimeleri için sıralanmaya ve organik arama trafiği yoluyla satış yapmaya ihtiyaç duyan online perakendeciler."
+          },
+          {
+            "type": "Hizmet Sağlayıcılar",
+            "description": "Arama motoru görünürlüğü yoluyla nitelikli müşteri adayları çekmek isteyen profesyonel hizmet firmaları."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "SEO Denetimi & Analizi",
+              "description": "Mevcut SEO durumunuzun, teknik sorunların ve rekabet ortamının kapsamlı analizi."
+            },
+            {
+              "title": "Anahtar Kelime Araştırması",
+              "description": "Müşterilerinizin aradığı yüksek değerli anahtar kelimeleri belirleyin ve hedefleme stratejisi geliştirin."
+            },
+            {
+              "title": "Teknik Optimizasyon",
+              "description": "Teknik sorunları düzeltin, site hızını, mobil duyarlılığı ve arama motoru taranabilirliğini iyileştirin."
+            },
+            {
+              "title": "Sayfa İçi Optimizasyon",
+              "description": "İçeriği, meta etiketleri, başlıkları ve hedef anahtar kelimeler için iç bağlantıları optimize edin."
+            },
+            {
+              "title": "İçerik Stratejisi",
+              "description": "İyi sıralanan ve kitlenize değer sağlayan içerik oluşturun ve optimize edin."
+            },
+            {
+              "title": "Link Oluşturma",
+              "description": "Domain otoritesini ve arama sıralamalarını artırmak için yüksek kaliteli backlink'ler oluşturun."
+            },
+            {
+              "title": "İzleme & Optimizasyon",
+              "description": "Zaman içinde sonuçları iyileştirmek için sürekli izleme, raporlama ve optimizasyon."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Google'da Daha Üst Sıralarda Yer Almaya Hazır mısınız?",
+          "subtitle": "İşletmenize nitelikli müşteriler getiren bir SEO stratejisi oluşturalım",
+          "primary": "SEO Stratejisini Başlat",
+          "secondary": "Vaka Çalışmalarını Görüntüle"
+        },
+        "packages": {
+          "basic": {
+            "name": "Temel",
+            "tagline": "Dizinlenme için SEO temelleri",
+            "features": [
+              "Teknik SEO denetimi",
+              "On-page optimizasyon",
+              "Search Console kurulumu"
+            ],
+            "ideal": "Online başlayan girişimler ve küçük işletmeler"
+          },
+          "professional": {
+            "name": "Profesyonel",
+            "tagline": "İstikrarlı sıralama için büyüme SEO",
+            "features": [
+              "Anahtar kelime stratejisi",
+              "İçerik optimizasyonu",
+              "Aylık performans raporu"
+            ],
+            "ideal": "Tam çözüm isteyen büyüyen işletmeler",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "Rekabetçi pazarlar için ileri SEO",
+            "features": [
+              "Tam teknik + içerik SEO",
+              "Otorite ve bağlantı planı",
+              "Sürekli optimizasyon sprintleri"
+            ],
+            "ideal": "Premium sonuç isteyen köklü markalar"
+          }
+        }
+      },
+      "google-business": {
+        "hero": {
+          "title": "Google Business Optimizasyonu",
+          "subtitle": "İşletmeleri Google Arama ve Haritalar’da görünür hale getirir.",
+          "cta": "Kaydımı Optimize Et"
+        },
+        "problem": {
+          "title": "Yerel Görünürlük Zorluğu",
+          "description": "Potansiyel müşterileriniz her gün Google'da sizin gibi işletmeleri arıyor, ancak Google Business Profiliniz optimize edilmemişse, bunun yerine rakiplerinizi buluyorlar.",
+          "painPoints": [
+            "Yerel arama sonuçlarında ve Google Haritalar'da görünmüyor",
+            "Müşterileri uzaklaştıran eksik veya yanlış işletme bilgileri",
+            "Daha iyi yorumlar ve görünürlükle yerel pakete hakim olan rakipler",
+            "Bölgenizde hizmet arayan müşterileri kaçırmak",
+            "Potansiyel müşterilerle güven oluşturacak yorum veya referans yok",
+            "Google varlığınızı etkili bir şekilde nasıl optimize edeceğiniz ve yöneteceğiniz konusunda belirsizlik"
+          ]
+        },
+        "solution": {
+          "title": "Google Business Çözümümüz",
+          "description": "İşletmeleri Google Arama ve Haritalar’da görünür hale getirir.",
+          "differentiators": [
+            "Eksiksiz Profil Optimizasyonu",
+            "Yorum Oluşturma Stratejisi",
+            "Düzenli İçerik Güncellemeleri",
+            "Performans Takibi",
+            "Yerel SEO Entegrasyonu",
+            "Rekabet Analizi"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "MapPin",
+            "title": "Yerel Görünürlük",
+            "description": "Müşteriler Google Arama ve Haritalar'da sizin gibi işletmeleri aradığında belirgin şekilde görünün."
+          },
+          {
+            "icon": "Star",
+            "title": "Güven Oluşturun",
+            "description": "İtibar ve güven oluşturan olumlu yorumları, fotoğrafları ve işletme bilgilerini sergileyin."
+          },
+          {
+            "icon": "Target",
+            "title": "Yerel Müşterileri Çekin",
+            "description": "Ürün ve hizmetlerinizi şu anda aktif olarak arayan bölgenizdeki müşterilere ulaşın."
+          },
+          {
+            "icon": "TrendingUp",
+            "title": "Fiziksel Trafiği Artırın",
+            "description": "Doğru yol tarifleri ve ikna edici işletme bilgileriyle fiziksel konumunuza daha fazla müşteri çekin."
+          },
+          {
+            "icon": "Award",
+            "title": "Rakiplerden Sıyrılın",
+            "description": "Profesyonelce optimize edilmiş profil, yerel arama sonuçlarında rakiplere karşı öne çıkmanıza yardımcı olur."
+          },
+          {
+            "icon": "Globe",
+            "title": "Ücretsiz Pazarlama",
+            "description": "İşletmenizi reklam maliyeti olmadan yerel müşterilere pazarlamak için Google'ın platformundan yararlanın."
+          }
+        ],
+        "features": {
+          "included": [
+            "Google Business profili oluşturma/optimizasyon",
+            "İşletme bilgisi güncellemeleri",
+            "Doğru işletme kategorileri",
+            "Profesyonel açıklama",
+            "Hizmet eklemeleri",
+            "Fotoğraf optimizasyonu",
+            "Yerel arama optimizasyonu",
+            "Çalışma saatleri yapılandırması"
+          ],
+          "additional": [
+            "Yorum stratejisi",
+            "Müşteri yorumu yönetimi",
+            "Haftalık Google Business gönderileri",
+            "İstatistik takibi",
+            "Çoklu lokasyon optimizasyonu",
+            "Gelişmiş yerel SEO"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "Yerel İşletmeler",
+            "description": "Bölgelerinde bulunmaları gereken yerel müşterilere hizmet veren fiziksel işletmeler."
+          },
+          {
+            "type": "Hizmet Sağlayıcılar",
+            "description": "Belirli coğrafi bölgelere hizmet veren ve aktif olarak arayan yerel müşterileri çekmek isteyen şirketler."
+          },
+          {
+            "type": "Çok Lokasyonlu İşletmeler",
+            "description": "Tüm Google profillerinde tutarlı optimizasyona ihtiyaç duyan birden çok lokasyona sahip işletmeler."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "Talep Et & Doğrula",
+              "description": "Google Business Profilinizi talep edin, sahipliği doğrulayın ve tüm özelliklere tam erişim sağlayın."
+            },
+            {
+              "title": "Eksiksik Optimizasyon",
+              "description": "Tüm işletme bilgilerini doldurun, açıklamaları optimize edin, kategorileri seçin ve yüksek kaliteli fotoğraflar ekleyin."
+            },
+            {
+              "title": "İçerik Stratejisi",
+              "description": "İkna edici işletme açıklaması oluşturun, hizmet/ürünler ekleyin ve gönderi programını ayarlayın."
+            },
+            {
+              "title": "Yorum Oluşturma",
+              "description": "Yorum talep stratejisini uygulayın ve tüm yorumlara profesyonelce yanıt verin."
+            },
+            {
+              "title": "Düzenli Güncellemeler",
+              "description": "Düzenli gönderiler, fotoğraflar ve işletme güncellemeleriyle aktif profili koruyun."
+            },
+            {
+              "title": "Performans İzleme",
+              "description": "Metrikleri takip edin, performansı analiz edin ve daha iyi sonuçlar için sürekli optimize edin."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Google'da Bulunmaya Hazır mısınız?",
+          "subtitle": "Daha fazla yerel müşteri çekmek için Google Business Profilinizi optimize edelim",
+          "primary": "Optimizasyonu Başlat",
+          "secondary": "Sonuçları Gör"
+        },
+        "packages": {
+          "basic": {
+            "name": "Temel",
+            "tagline": "Optimize Google Business profili",
+            "features": [
+              "Kurulum ve doğrulama",
+              "Kategoriler ve açıklama",
+              "Fotoğraf yükleme rehberi"
+            ],
+            "ideal": "Online başlayan girişimler ve küçük işletmeler"
+          },
+          "professional": {
+            "name": "Profesyonel",
+            "tagline": "Dönüştüren yerel görünürlük",
+            "features": [
+              "Tam profil optimizasyonu",
+              "Gönderi ve yorum stratejisi",
+              "Insights takibi"
+            ],
+            "ideal": "Tam çözüm isteyen büyüyen işletmeler",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "Yerel hakimiyet paketi",
+            "features": [
+              "İleri yerel SEO",
+              "Yorum büyüme sistemi",
+              "Sürekli liste yönetimi"
+            ],
+            "ideal": "Premium sonuç isteyen köklü markalar"
+          }
+        }
+      },
+      "social-setup": {
+        "hero": {
+          "title": "Sosyal Medya Kurulumu",
+          "subtitle": "Profesyonel sosyal medya temelleri oluşturma.",
+          "cta": "Profillerimi Kur"
+        },
+        "problem": {
+          "title": "Sosyal Medya Zorluğu",
+          "description": "Sosyal medyaya başlamak bunaltıcı olabilir. Birçok işletme profil oluşturur ancak bunları düzgün şekilde kurmayı başaramaz ve güvenilirlik ile keşfedilebilirliği etkileyen kritik öğeleri kaçırır.",
+          "painPoints": [
+            "Eksik veya profesyonel görünmeyen sosyal medya profilleri",
+            "Farklı platformlarda tutarsız markalaşma",
+            "Eksik önemli işletme bilgileri ve iletişim detayları",
+            "Kalitesiz profil ve kapak görüntüleri",
+            "Hangi platformların kullanılacağı ve nasıl kurulacağı konusunda kafa karışıklığı",
+            "Sosyal medya varlığı için net strateji veya temel yok"
+          ]
+        },
+        "solution": {
+          "title": "Sosyal Medya Kurulum Çözümümüz",
+          "description": "Profesyonel sosyal medya temelleri oluşturma.",
+          "differentiators": [
+            "Çoklu Platform Kurulumu",
+            "Marka Tutarlılığı",
+            "Profesyonel Tasarım",
+            "Eksiksik Optimizasyon",
+            "Stratejik Temel",
+            "Eğitim Dahil"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "Globe",
+            "title": "Profesyonel Varlık",
+            "description": "Hedef kitlenizde anında güvenilirlik ve güven oluşturan cilalı, profesyonel profillerle başlayın."
+          },
+          {
+            "icon": "Award",
+            "title": "Marka Tutarlılığı",
+            "description": "Tüm sosyal medya platformlarında tutarlı markalaşma, mesajlaşma ve görsel kimlik sürdürün."
+          },
+          {
+            "icon": "Target",
+            "title": "Keşfedilebilirlik",
+            "description": "Optimize edilmiş profiller, müşterilerin sizin gibi işletmeleri ararken sizi bulmasını kolaylaştırır."
+          },
+          {
+            "icon": "Rocket",
+            "title": "Hızlı Başlangıç",
+            "description": "Müşterilerle etkileşime girmeye hazır profesyonelce kurulmuş profillerle hızla işe koyulun."
+          },
+          {
+            "icon": "Shield",
+            "title": "Platform En İyi Uygulamaları",
+            "description": "Her platformun en iyi uygulamaları ve optimizasyon yönergelerine göre yapılandırılmış profiller."
+          },
+          {
+            "icon": "Zap",
+            "title": "Büyümeye Hazır",
+            "description": "Sağlam temel, içerik yayınlamaya başlamayı ve sosyal medya varlığınızı büyütmeyi kolaylaştırır."
+          }
+        ],
+        "features": {
+          "included": [
+            "Sosyal profil oluşturma",
+            "Biyografi optimizasyonu",
+            "Profil ve kapak görselleri",
+            "Profesyonel işletme açıklaması",
+            "İletişim bilgileri",
+            "Web sitesi bağlantısı",
+            "İletişim butonları kurulumu"
+          ],
+          "additional": [
+            "Sosyal kimlik tasarımı",
+            "Profesyonel gönderi şablonları",
+            "İçerik stratejisi",
+            "Yayın takvimi",
+            "Pazarlama araçları entegrasyonu"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "Yeni İşletmeler",
+            "description": "Başlangıçtan itibaren profesyonel sosyal medya varlığına ihtiyaç duyan şirketler."
+          },
+          {
+            "type": "Yeniden Markalaşan Şirketler",
+            "description": "İmajlarını yenileyen ve güncellenmiş, tutarlı sosyal medya profilleri isteyen işletmeler."
+          },
+          {
+            "type": "Genişleyen Markalar",
+            "description": "Yeni platformlarda varlık oluşturmaya veya mevcut profilleri birleştirmeye hazır şirketler."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "Platform Seçimi",
+              "description": "İş hedeflerinize ve hedef kitlenize en uygun sosyal platformları belirleyin."
+            },
+            {
+              "title": "Hesap Oluşturma",
+              "description": "Seçilen platformlarda doğru isimlendirme ve yapılandırma ile işletme hesapları oluşturun veya talep edin."
+            },
+            {
+              "title": "Görsel Tasarım",
+              "description": "Her platform için profesyonel profil resimleri, kapak fotoğrafları ve görsel varlıklar tasarlayın."
+            },
+            {
+              "title": "Profil Optimizasyonu",
+              "description": "Tüm profil bilgilerini, açıklamaları, iletişim detaylarını ve ayar optimizasyonunu tamamlayın."
+            },
+            {
+              "title": "Marka Entegrasyonu",
+              "description": "Tüm platformlarda tutarlı markalaşma, mesajlaşma ve görsel kimlik sağlayın."
+            },
+            {
+              "title": "Eğitim & Teslim",
+              "description": "Erişim, profil yönetimi eğitimi ve tutarlılığı korumak için yönergeler sağlayın."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Sosyal Medyanızı Başlatmaya Hazır mısınız?",
+          "subtitle": "Güçlü marka varlığı oluşturan profesyonel profiller yaratalım",
+          "primary": "Profillerimi Kur",
+          "secondary": "Örnekleri Görüntüle"
+        },
+        "packages": {
+          "basic": {
+            "name": "Temel",
+            "tagline": "Lansa hazır profesyonel sosyal profiller",
+            "features": [
+              "Ana platformlarda kurulum",
+              "Bio ve marka uyumu",
+              "Highlight kapakları"
+            ],
+            "ideal": "Online başlayan girişimler ve küçük işletmeler"
+          },
+          "professional": {
+            "name": "Profesyonel",
+            "tagline": "Cilalı çok platformlu varlık",
+            "features": [
+              "Tüm ana platformlar",
+              "Görsel kimlik paketi",
+              "Lansman içerik başlangıç kiti"
+            ],
+            "ideal": "Tam çözüm isteyen büyüyen işletmeler",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "Tam sosyal marka lansman sistemi",
+            "features": [
+              "Tam kanal mimarisi",
+              "İçerik şablon kütüphanesi",
+              "Lansman kampanya desteği"
+            ],
+            "ideal": "Premium sonuç isteyen köklü markalar"
+          }
+        }
+      },
+      "social-management": {
+        "hero": {
+          "title": "Sosyal Medya Yönetimi",
+          "subtitle": "Stratejik içerikle tutarlı dijital varlık oluşturma.",
+          "cta": "Varlığımı Büyüt"
+        },
+        "problem": {
+          "title": "Sosyal Medya Yönetim Zorluğu",
+          "description": "Aktif, ilgi çekici sosyal medya varlığını sürdürmek zaman alıcı ve karmaşıktır. Birçok işletme tutarsız yayın yapar veya hedef kitleleriyle rezonansa giren içerik oluşturmakta zorlanır.",
+          "painPoints": [
+            "Sürekli kaliteli içerik oluşturmak ve yayınlamak için zaman yok",
+            "Takipçilerle etkileşim kurmak ve topluluk oluşturmakta zorluk",
+            "Tutarsız yayınlar erişim ve etkileşime zarar veriyor",
+            "Strateji eksikliği kötü performansla sonuçlanıyor",
+            "Potansiyel müşterilerle bağlantı kurma fırsatlarını kaçırma",
+            "Sosyal medya ROI'sini ölçmekte zorluk"
+          ]
+        },
+        "solution": {
+          "title": "Sosyal Medya Yönetim Çözümümüz",
+          "description": "Stratejik içerikle tutarlı dijital varlık oluşturma.",
+          "differentiators": [
+            "Stratejik İçerik Planlama",
+            "Profesyonel İçerik Oluşturma",
+            "Tutarlı Yayın Programı",
+            "Aktif Topluluk Yönetimi",
+            "Performans Analitiği",
+            "Platform Uzmanlığı"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "TrendingUp",
+            "title": "Tutarlı Büyüme",
+            "description": "Düzenli, stratejik yayınlar hedef kitlenizi büyütür ve markanızla etkileşimi artırır."
+          },
+          {
+            "icon": "Users",
+            "title": "Topluluk Oluşturma",
+            "description": "Aktif katılım markanız etrafında sadık topluluk oluşturur ve marka savunucuları yaratır."
+          },
+          {
+            "icon": "Target",
+            "title": "Hedef Kitlenize Ulaşın",
+            "description": "Stratejik içerik, ideal müşterilerinize zaman geçirdikleri yerde ulaşır ve onlarla rezonansa girer."
+          },
+          {
+            "icon": "Clock",
+            "title": "Zaman Kazanın",
+            "description": "Profesyoneller sosyal medyanızı yönetirken siz ana işinize odaklanmak için zamanınızı boşaltın."
+          },
+          {
+            "icon": "Award",
+            "title": "Profesyonel İçerik",
+            "description": "Markanızı profesyonelce temsil eden ve öne çıkan yüksek kaliteli, ilgi çekici içerik."
+          },
+          {
+            "icon": "Zap",
+            "title": "Sonuç Alın",
+            "description": "Stratejik sosyal varlık web sitesi trafiği, müşteri adayları yaratır ve satışları artırır."
+          }
+        ],
+        "features": {
+          "included": [
+            "İçerik planlama",
+            "Profesyonel gönderiler",
+            "Grafik tasarım",
+            "Pazarlama metin yazarlığı",
+            "Düzenli yayınlama",
+            "Etkileşim iyileştirme",
+            "Sonuç analizi"
+          ],
+          "additional": [
+            "Reels/TikTok videoları",
+            "Profesyonel fotoğrafçılık",
+            "Pazarlama videoları",
+            "Influencer marketing",
+            "Topluluk yönetimi",
+            "Aylık stratejiler",
+            "Gelişmiş raporlar"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "Meşgul İşletme Sahipleri",
+            "description": "Günlük yönetim zaman taahhüdü olmadan profesyonel sosyal varlık isteyen şirketler."
+          },
+          {
+            "type": "Büyüyen Markalar",
+            "description": "Sosyal medya varlıklarını ölçeklendirmeye ve ilgili topluluklar oluşturmaya hazır işletmeler."
+          },
+          {
+            "type": "B2C Şirketleri",
+            "description": "Sosyal platformlarda müşterilerle tutarlı etkileşime ihtiyaç duyan tüketici odaklı işletmeler."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "Strateji Geliştirme",
+              "description": "İş hedefleriniz ve hedef kitlenizle uyumlu kapsamlı sosyal medya stratejisi oluşturun."
+            },
+            {
+              "title": "İçerik Planlama",
+              "description": "Temalar, konular ve yayın programı ile aylık içerik takvimi geliştirin."
+            },
+            {
+              "title": "İçerik Oluşturma",
+              "description": "Her platform için ilgi çekici gönderiler, grafikler ve multimedya içeriği tasarlayın ve yazın."
+            },
+            {
+              "title": "Planlanmış Yayınlama",
+              "description": "Maksimum erişim ve etkileşim için optimal zamanlarda tutarlı şekilde içerik yayınlayın."
+            },
+            {
+              "title": "Topluluk Katılımı",
+              "description": "İlişkiler ve topluluk oluşturmak için hedef kitlenizi izleyin, yanıtlayın ve etkileşim kurun."
+            },
+            {
+              "title": "Performans Optimizasyonu",
+              "description": "Sonuçları analiz edin, stratejiyi optimize edin ve performansı sürekli iyileştirin."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Sosyal Medyanızı Büyütmeye Hazır mısınız?",
+          "subtitle": "Markanız etrafında ilgili bir topluluk oluşturalım",
+          "primary": "Yönetimi Başlat",
+          "secondary": "Çalışmalarımızı Gör"
+        },
+        "packages": {
+          "basic": {
+            "name": "Temel",
+            "tagline": "Markaya uygun düzenli paylaşım",
+            "features": [
+              "Ayda 8 gönderi",
+              "Caption yazımı",
+              "Temel topluluk yanıtları"
+            ],
+            "ideal": "Online başlayan girişimler ve küçük işletmeler"
+          },
+          "professional": {
+            "name": "Profesyonel",
+            "tagline": "Büyüme odaklı sosyal medya yönetimi",
+            "features": [
+              "Ayda 16 gönderi",
+              "İçerik takvimi",
+              "Etkileşim ve raporlama"
+            ],
+            "ideal": "Tam çözüm isteyen büyüyen işletmeler",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "Tam hizmet sosyal büyüme motoru",
+            "features": [
+              "Ayda 24+ gönderi",
+              "Reels/stories stratejisi",
+              "Öncelikli kreatif ve analitik"
+            ],
+            "ideal": "Premium sonuç isteyen köklü markalar"
+          }
+        }
+      },
+      "ads": {
+        "hero": {
+          "title": "Facebook & Instagram Reklam Yönetimi",
+          "subtitle": "Nitelikli lead üreten ve satışları artıran reklam kampanyaları oluşturma.",
+          "cta": "Kampanyalarımı Başlat"
+        },
+        "problem": {
+          "title": "Reklam Zorluğu",
+          "description": "Birçok işletme dönüşüm sağlamayan sosyal medya reklamlarına para harcıyor, hedefleme ile mücadele ediyor veya maksimum yatırım getirisi için kampanyaları optimize etme uzmanlığından yoksun.",
+          "painPoints": [
+            "Dönüşüm sağlamayan kampanyalara reklam bütçesi harcamak",
+            "Doğru hedef kitleye ulaşmakta zorluk",
+            "Dikkat çekmeyen zayıf reklam kreatifleri",
+            "Kampanya optimizasyonunda uzmanlık eksikliği",
+            "Reklam performansını ölçememe veya anlayamama",
+            "Rakipler daha düşük maliyetlerle daha iyi sonuçlar elde ediyor"
+          ]
+        },
+        "solution": {
+          "title": "Reklam Yönetim Çözümümüz",
+          "description": "Nitelikli lead üreten ve satışları artıran reklam kampanyaları oluşturma.",
+          "differentiators": [
+            "Veri Odaklı Strateji",
+            "Gelişmiş Hedefleme",
+            "İkna Edici Kreatifler",
+            "Sürekli Optimizasyon",
+            "Şeffaf Raporlama",
+            "Kanıtlanmış Başarı"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "Target",
+            "title": "Nitelikli Müşteri Adayları",
+            "description": "Demografi, ilgi alanları, davranışlar ve daha fazlasına dayalı hassas hedefleme ile ideal müşterilere ulaşın."
+          },
+          {
+            "icon": "TrendingUp",
+            "title": "Ölçülebilir Yatırım Getirisi",
+            "description": "Reklamların alt satırınızı tam olarak nasıl etkilediğini gösteren detaylı analizlerle harcanan her lirayı takip edin."
+          },
+          {
+            "icon": "Zap",
+            "title": "Hızlı Sonuçlar",
+            "description": "Oluşması aylar süren organik yöntemlerin aksine hemen müşteri adayları ve satışlar üretmeye başlayın."
+          },
+          {
+            "icon": "Award",
+            "title": "Profesyonel Kreatifler",
+            "description": "Kaydırmayı durdurmak ve hedef kitlenizden eylem almak için tasarlanmış göz alıcı reklam kreatifleri."
+          },
+          {
+            "icon": "Shield",
+            "title": "Optimize Edilmiş Performans",
+            "description": "Sürekli test ve optimizasyon, kampanyalarınızın zamanla gelişmesini ve maliyetlerin azalmasını sağlar."
+          },
+          {
+            "icon": "Rocket",
+            "title": "Ölçeklenebilir Büyüme",
+            "description": "Başarılı kampanyalar daha fazla müşteriye ulaşmak ve üstel iş büyümesi sağlamak için ölçeklendirilebilir."
+          }
+        ],
+        "features": {
+          "included": [
+            "Hedef kitle analizi",
+            "Reklam stratejisi",
+            "Meta Business Manager kurulumu",
+            "Reklam oluşturma",
+            "Metin yazarlığı",
+            "Müşteri hedefleme",
+            "Performans izleme"
+          ],
+          "additional": [
+            "Profesyonel reklam videoları",
+            "A/B testi",
+            "Remarketing",
+            "Pixel ve Conversion API",
+            "Landing page’ler",
+            "Lead otomasyonu",
+            "Sürekli optimizasyon"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "E-Ticaret İşletmeleri",
+            "description": "Ürün satışlarını artırmak ve ücretli reklamcılık yoluyla geliri ölçeklendirmek isteyen çevrimiçi mağazalar."
+          },
+          {
+            "type": "Müşteri Adayı Oluşturma",
+            "description": "Tutarlı nitelikli müşteri adayı akışı ve danışma talepleri gerektiren hizmet işletmeleri."
+          },
+          {
+            "type": "Yerel İşletmeler",
+            "description": "Yerel müşterileri hedefleyen ve yaya trafiği veya yerel dönüşümler sağlayan şirketler."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "Strateji & Planlama",
+              "description": "Kampanya hedeflerini, hedef kitleyi, bütçeyi ve başarı metriklerini tanımlayın."
+            },
+            {
+              "title": "Kitle Araştırması",
+              "description": "Detaylı hedefleme parametreleriyle ideal müşterileri belirleyin ve segmentlere ayırın."
+            },
+            {
+              "title": "Kreatif Geliştirme",
+              "description": "İkna edici reklam kreatifleri tasarlayın ve eylem sağlayan ikna edici metinler yazın."
+            },
+            {
+              "title": "Kampanya Lansmanı",
+              "description": "Takibi kurun, kampanyaları yapılandırın ve optimal ayarlarla reklamları başlatın."
+            },
+            {
+              "title": "İzleme & Optimizasyon",
+              "description": "Performansı iyileştirmek ve maliyetleri azaltmak için günlük izleme ve optimizasyon."
+            },
+            {
+              "title": "Ölçeklendirme & Büyüme",
+              "description": "Başarılı kampanyaları ölçeklendirin ve üstel büyüme sağlamak için erişimi genişletin."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Müşteri Adayları ve Satışlar Oluşturmaya Hazır mısınız?",
+          "subtitle": "Gerçek iş sonuçları sağlayan reklam kampanyaları oluşturalım",
+          "primary": "Kampanyaları Başlat",
+          "secondary": "Vaka Çalışmalarını Gör"
+        },
+        "packages": {
+          "basic": {
+            "name": "Temel",
+            "tagline": "Lansa hazır reklam kampanyaları",
+            "features": [
+              "Kampanya kurulumu",
+              "Temel kitle hedefleme",
+              "Kreatif yükleme ve takip"
+            ],
+            "ideal": "Online başlayan girişimler ve küçük işletmeler"
+          },
+          "professional": {
+            "name": "Profesyonel",
+            "tagline": "Lead üreten performans reklamları",
+            "features": [
+              "Çoklu adset yapısı",
+              "A/B kreatif testleri",
+              "Haftalık optimizasyon"
+            ],
+            "ideal": "Tam çözüm isteyen büyüyen işletmeler",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "Ölçeklenebilir reklam sistemi",
+            "features": [
+              "Full-funnel kampanyalar",
+              "İleri düzey takip",
+              "Özel reklam stratejisti"
+            ],
+            "ideal": "Premium sonuç isteyen köklü markalar"
+          }
+        }
+      },
+      "email": {
+        "hero": {
+          "title": "İş E-postası Kurulumu",
+          "subtitle": "Güvenilirliği ve iletişimi güçlendiren profesyonel iş e-postaları.",
+          "cta": "E-postamı Kur"
+        },
+        "problem": {
+          "title": "E-posta Zorluğu",
+          "description": "İş iletişimi için Gmail veya Yahoo gibi ücretsiz e-posta sağlayıcılarını kullanmak güvenilirliğe zarar verir ve şirketinizin müşteriler ve ortaklara karşı profesyonel olmadığı izlenimini yaratır.",
+          "painPoints": [
+            "Profesyonel olmayan görünen @gmail.com veya @yahoo.com adresleri",
+            "E-posta iletişiminde marka tutarlılığı eksikliği",
+            "Müşteriler ve iş ortakları ile eksik güvenilirlik",
+            "E-posta teslimatı ve güvenliği üzerinde kontrol yok",
+            "Birden fazla ekip üyesinin e-postalarını yönetme zorluğu",
+            "Ücretsiz e-posta hesaplarına erişimi kaybetme riski"
+          ]
+        },
+        "solution": {
+          "title": "İş E-postası Çözümümüz",
+          "description": "Güvenilirliği ve iletişimi güçlendiren profesyonel iş e-postaları.",
+          "differentiators": [
+            "Özel Domain E-postası",
+            "Güvenli & Güvenilir",
+            "Profesyonel Kurulum",
+            "Kolay Yönetim",
+            "Çoklu Hesaplar",
+            "Tam Destek"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "Award",
+            "title": "Profesyonel Güvenilirlik",
+            "description": "isim@sirketiniz.com gibi özel e-posta adresleri anında profesyonellik ve güven oluşturur."
+          },
+          {
+            "icon": "Shield",
+            "title": "Gelişmiş Güvenlik",
+            "description": "İş e-postası barındırma daha iyi güvenlik, spam filtreleme ve iletişimleriniz üzerinde kontrol sağlar."
+          },
+          {
+            "icon": "Target",
+            "title": "Marka Tutarlılığı",
+            "description": "Her e-posta, her iletişimde şirket domain'iniz ile markanızı güçlendirir."
+          },
+          {
+            "icon": "Users",
+            "title": "Takım İşbirliği",
+            "description": "Ekip üyeleriniz için birden fazla e-posta hesabının kolay yönetimi."
+          },
+          {
+            "icon": "Globe",
+            "title": "Daha İyi Teslimat",
+            "description": "Profesyonel e-posta barındırma, mesajlarınızın müşterilerin gelen kutularına ulaşmasını sağlar, spam klasörlerine değil."
+          },
+          {
+            "icon": "Zap",
+            "title": "Kolay Erişim",
+            "description": "Webmail, masaüstü istemcileri ve mobil uygulamalarla herhangi bir cihazdan e-postaya erişin."
+          }
+        ],
+        "features": {
+          "included": [
+            "Domain e-posta oluşturma",
+            "Cihaz yapılandırması",
+            "Profesyonel imza",
+            "Temel güvenlik yapılandırması",
+            "E-posta uygulamalarıyla senkronizasyon"
+          ],
+          "additional": [
+            "Microsoft 365",
+            "Google Workspace",
+            "İş takvimleri",
+            "Bulut depolama",
+            "Kullanıcı yönetimi",
+            "Ekip iş birliği sistemleri"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "Yeni İşletmeler",
+            "description": "Profesyonel varlık kuran ve güvenilir iş iletişimine ihtiyaç duyan şirketler."
+          },
+          {
+            "type": "Büyüyen Takımlar",
+            "description": "Ekip üyeleri ekleyen ve organize e-posta yönetim sistemine ihtiyaç duyan işletmeler."
+          },
+          {
+            "type": "Yeniden Markalaşan Şirketler",
+            "description": "Yeni domain adlarına sahip, e-posta kurulumu ve eski hesaplardan geçişe ihtiyaç duyan işletmeler."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "Gereksinim Toplama",
+              "description": "İhtiyaç duyulan e-posta adresleri, depolama gereksinimleri ve özel ihtiyaçları belirleyin."
+            },
+            {
+              "title": "E-posta Barındırma Kurulumu",
+              "description": "Güvenlik ve spam koruması ile profesyonel e-posta barındırma yapılandırın."
+            },
+            {
+              "title": "DNS Yapılandırması",
+              "description": "E-posta teslimatı ve güvenlik için uygun DNS kayıtlarını ayarlayın (SPF, DKIM, DMARC)."
+            },
+            {
+              "title": "Hesap Oluşturma",
+              "description": "Güvenli şifreler ve uygun ayarlarla tüm e-posta hesaplarını oluşturun."
+            },
+            {
+              "title": "Cihaz Yapılandırması",
+              "description": "Kolay erişim için bilgisayarlarda, telefonlarda ve tabletlerde e-posta kurun."
+            },
+            {
+              "title": "Eğitim & Dokümantasyon",
+              "description": "E-posta sistemi kullanımı konusunda eğitim ve referans için dokümantasyon sağlayın."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Profesyonel İş E-postası için Hazır mısınız?",
+          "subtitle": "Profesyonel güvenilirliğinizi artıran e-posta kuralım",
+          "primary": "E-posta Kur",
+          "secondary": "Daha Fazla Öğren"
+        },
+        "packages": {
+          "basic": {
+            "name": "Temel",
+            "tagline": "Profesyonel iş e-postası kurulumu",
+            "features": [
+              "Alan adı e-posta yapılandırması",
+              "Posta kutusu oluşturma",
+              "Cihaz ve uygulama kurulumu"
+            ],
+            "ideal": "Online başlayan girişimler ve küçük işletmeler"
+          },
+          "professional": {
+            "name": "Profesyonel",
+            "tagline": "Güvenilir iş e-posta sistemi",
+            "features": [
+              "Birden fazla posta kutusu",
+              "Takma adlar ve yönlendirme",
+              "Güvenlik en iyi uygulamaları"
+            ],
+            "ideal": "Tam çözüm isteyen büyüyen işletmeler",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "Kurumsal e-posta altyapısı",
+            "features": [
+              "Gelişmiş yönlendirme",
+              "Ekip onboarding",
+              "Sürekli e-posta desteği"
+            ],
+            "ideal": "Premium sonuç isteyen köklü markalar"
+          }
+        }
+      },
+      "lead-forms": {
+        "hero": {
+          "title": "Müşteri Adayı Oluşturma Formları",
+          "subtitle": "Web sitesi ziyaretçilerini potansiyel müşterilere dönüştürme.",
+          "cta": "Formlarımı Oluştur"
+        },
+        "problem": {
+          "title": "Form Dönüşüm Zorluğu",
+          "description": "Çoğu web sitesinde çok fazla soru soran, profesyonel görünmeyen veya ziyaretçilerin müşteri adayı olmasını engelleyen sürtünme yaratan formlar var.",
+          "painPoints": [
+            "Trafiği boşa harcayan düşük form tamamlanma oranları",
+            "Çok fazla soru soran formlar terk edilmeye neden oluyor",
+            "Kötü form tasarımı kafa karışıklığı ve hayal kırıklığı yaratıyor",
+            "Farklı müşteri adayı türlerini yakalamak için strateji yok",
+            "Müşteri adaylarını otomatik olarak nitelendirme fırsatları kaçırılıyor",
+            "Form gönderiminden sonra takip otomasyonu eksikliği"
+          ]
+        },
+        "solution": {
+          "title": "Müşteri Adayı Formu Çözümümüz",
+          "description": "Web sitesi ziyaretçilerini potansiyel müşterilere dönüştürme.",
+          "differentiators": [
+            "Dönüşüm Optimizasyonu",
+            "Stratejik Sorgulama",
+            "Akıllı Doğrulama",
+            "Otomatik Nitelendirme",
+            "CRM Entegrasyonu",
+            "Mobil Optimize"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "TrendingUp",
+            "title": "Daha Yüksek Dönüşümler",
+            "description": "Optimize edilmiş formlar sürtünmeyi azaltarak ve kullanıcıları sorunsuz yönlendirerek daha fazla ziyaretçiyi müşteri adayına dönüştürür."
+          },
+          {
+            "icon": "Target",
+            "title": "Nitelikli Müşteri Adayları",
+            "description": "Stratejik sorular müşteri adaylarını otomatik olarak nitelendirmeye yardımcı olur, zaman tasarrufu sağlar ve en iyi fırsatlara odaklanır."
+          },
+          {
+            "icon": "Zap",
+            "title": "Anlık Bildirimler",
+            "description": "İlgi yüksekken hızlı takip edebilmeniz için yeni müşteri adaylarından anında haberdar olun."
+          },
+          {
+            "icon": "Shield",
+            "title": "Spam Koruması",
+            "description": "Yerleşik spam koruması, yalnızca meşru sorguları almanızı sağlar, bot gönderimlerini değil."
+          },
+          {
+            "icon": "Users",
+            "title": "Daha İyi Kullanıcı Deneyimi",
+            "description": "Kullanıcı dostu formlar olumlu izlenim yaratır ve müşterilerin sizinle iletişim kurmasını kolaylaştırır."
+          },
+          {
+            "icon": "Rocket",
+            "title": "Otomatik Takip",
+            "description": "Otomatik onay e-postaları ve CRM entegrasyonu müşteri adayı yönetim sürecinizi basitleştirir."
+          }
+        ],
+        "features": {
+          "included": [
+            "Profesyonel form tasarımı",
+            "İletişim formları",
+            "Müşteri veri toplama",
+            "Otomatik bildirimler",
+            "E-posta entegrasyonu",
+            "Dönüşüm optimizasyonu"
+          ],
+          "additional": [
+            "CRM entegrasyonu",
+            "E-posta otomasyonu",
+            "Akıllı formlar",
+            "Chatbotlar",
+            "Rezervasyon sistemleri",
+            "İletişim panelleri"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "Hizmet İşletmeleri",
+            "description": "Danışmanlıklar, teklifler ve hizmet sorguları için müşteri adayları oluşturan şirketler."
+          },
+          {
+            "type": "B2B Şirketleri",
+            "description": "Satış ekipleri için kurumsal müşteri adaylarını nitelendiren ve yakalayan işletmeler."
+          },
+          {
+            "type": "Yüksek Değerli Hizmetler",
+            "description": "Detaylı müşteri adayı nitelendirmesine ihtiyaç duyan karmaşık teklifleri olan şirketler."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "Hedef Tanımı",
+              "description": "Form hedeflerini, müşteri adayı nitelendirme kriterlerini ve dönüşüm hedeflerini tanımlayın."
+            },
+            {
+              "title": "Form Stratejisi",
+              "description": "Dönüşümleri maksimize etmek için soru akışı, alan seçimi ve mantığı tasarlayın."
+            },
+            {
+              "title": "Tasarım & İnşa",
+              "description": "Markanızla eşleşen görsel olarak çekici, kullanıcı dostu formlar oluşturun."
+            },
+            {
+              "title": "Entegrasyon Kurulumu",
+              "description": "Sorunsuz müşteri adayı yönetimi için formları e-posta, CRM ve diğer sistemlere bağlayın."
+            },
+            {
+              "title": "Test & Lansman",
+              "description": "Tüm işlevleri kapsamlı olarak test edin ve web sitenize dağıtın."
+            },
+            {
+              "title": "Optimizasyon",
+              "description": "Performansı izleyin ve daha iyi dönüşüm oranları için sürekli optimize edin."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Daha Fazla Müşteri Adayı Yakalamaya Hazır mısınız?",
+          "subtitle": "Web sitesi ziyaretçilerini nitelikli müşteri adaylarına dönüştüren formlar oluşturalım",
+          "primary": "Formlar Oluştur",
+          "secondary": "Örnekleri Gör"
+        },
+        "packages": {
+          "basic": {
+            "name": "Temel",
+            "tagline": "Net lead yakalama formu",
+            "features": [
+              "Özel form alanları",
+              "E-posta bildirimleri",
+              "Spam koruması"
+            ],
+            "ideal": "Online başlayan girişimler ve küçük işletmeler"
+          },
+          "professional": {
+            "name": "Profesyonel",
+            "tagline": "Dönüşüm odaklı lead sistemi",
+            "features": [
+              "Çok adımlı formlar",
+              "CRM hazır teslimat",
+              "Teşekkür akışı"
+            ],
+            "ideal": "Tam çözüm isteyen büyüyen işletmeler",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "İleri lead generation yığını",
+            "features": [
+              "Koşullu mantık formları",
+              "Entegrasyon ve otomasyon",
+              "Dönüşüm analitikleri"
+            ],
+            "ideal": "Premium sonuç isteyen köklü markalar"
+          }
+        }
+      },
+      "maintenance": {
+        "hero": {
+          "title": "Website Bakımı",
+          "subtitle": "Web sitelerini güvenli, güncel ve maksimum performanslı tutma.",
+          "cta": "Web Sitemi Koru"
+        },
+        "problem": {
+          "title": "Bakım Zorluğu",
+          "description": "Web siteleri güvenli, hızlı ve işlevsel kalmak için sürekli bakım gerektirir. İhmal edilen web siteleri savunmasız, yavaş hale gelir ve sonunda bozulur, işinize zarar verir.",
+          "painPoints": [
+            "Web sitesi hackleniyor veya kötü amaçlı yazılımla enfekte oluyor",
+            "Yavaş yükleme hızları ziyaretçileri hayal kırıklığına uğratıyor",
+            "Bozuk özellikler ve eski eklentiler hatalara neden oluyor",
+            "Yedekleme yoksa tam veri kaybı riski var",
+            "Güvenlik açıkları işi riske atıyor",
+            "Sorun çıktığında teknik destek yok"
+          ]
+        },
+        "solution": {
+          "title": "Bakım Çözümümüz",
+          "description": "Web sitelerini güvenli, güncel ve maksimum performanslı tutma.",
+          "differentiators": [
+            "Proaktif İzleme",
+            "Düzenli Güncellemeler",
+            "Günlük Yedeklemeler",
+            "Güvenlik Koruması",
+            "Performans Optimizasyonu",
+            "Öncelikli Destek"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "Shield",
+            "title": "Gelişmiş Güvenlik",
+            "description": "Düzenli güvenlik güncellemeleri ve izleme web sitenizi hackerlardan ve kötü amaçlı yazılımlardan korur."
+          },
+          {
+            "icon": "Zap",
+            "title": "Optimal Performans",
+            "description": "Sürekli optimizasyon web sitenizin hızlı yüklenmesini ve kusursuz çalışmasını sağlar."
+          },
+          {
+            "icon": "Clock",
+            "title": "Zaman Tasarrufu",
+            "description": "Profesyoneller tüm teknik bakım ve güncellemeleri yönetirken siz işinize odaklanın."
+          },
+          {
+            "icon": "Award",
+            "title": "Profesyonel Destek",
+            "description": "Web siteniz hakkında yardıma veya sorulara ihtiyaç duyduğunuzda uzman destek mevcuttur."
+          },
+          {
+            "icon": "Rocket",
+            "title": "Sorunları Önleyin",
+            "description": "Proaktif bakım, sorunları işinizi etkilemeden önce yakalar ve düzeltir."
+          },
+          {
+            "icon": "Heart",
+            "title": "Huzur",
+            "description": "Web sitenizin korunduğunu, yedeklendiğini ve profesyonelce bakıldığını bilin."
+          }
+        ],
+        "features": {
+          "included": [
+            "Teknik güncellemeler",
+            "İzleme",
+            "Güvenlik kontrolleri",
+            "Yedeklemeler",
+            "Performans kontrolleri",
+            "Hata düzeltmeleri",
+            "İçerik güncellemeleri"
+          ],
+          "additional": [
+            "Aylık tasarım iyileştirmeleri",
+            "Yeni özellikler",
+            "Sürekli SEO optimizasyonu",
+            "7/24 izleme",
+            "Aylık raporlar",
+            "Hosting/domain yönetimi"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "İş Web Siteleri",
+            "description": "Web sitelerine iş için güvenen ve güvenilir, güvenli işletim gerektiren şirketler."
+          },
+          {
+            "type": "E-Ticaret Mağazaları",
+            "description": "Satışlar için maksimum çalışma süresi, güvenlik ve performans gerektiren çevrimiçi mağazalar."
+          },
+          {
+            "type": "Meşgul Profesyoneller",
+            "description": "Teknik katılım olmadan profesyonel bakım isteyen işletme sahipleri."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "İlk Değerlendirme",
+              "description": "Web sitenizin mevcut durumu, güvenlik ve performansının kapsamlı denetimi."
+            },
+            {
+              "title": "Kurulum & Optimizasyon",
+              "description": "İzleme, yedekleme, güvenlik yapılandırın ve ilk optimizasyonu gerçekleştirin."
+            },
+            {
+              "title": "Düzenli Güncellemeler",
+              "description": "Tüm bileşenleri güvenli ve güncel tutmak için haftalık kontroller ve güncellemeler."
+            },
+            {
+              "title": "İzleme",
+              "description": "Sorunları hemen yakalamak için 7/24 çalışma süresi izleme ve güvenlik tarama."
+            },
+            {
+              "title": "Performans Optimizasyonu",
+              "description": "Hızlı yükleme ve sorunsuz işletimi sürdürmek için aylık optimizasyon."
+            },
+            {
+              "title": "Raporlama",
+              "description": "Bakım faaliyetlerini, güvenlik durumunu ve performansı gösteren düzenli raporlar."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Web Sitenizi Korumaya Hazır mısınız?",
+          "subtitle": "Web sitenizi güvenli, hızlı ve endişesiz tutalım",
+          "primary": "Bakımı Başlat",
+          "secondary": "Daha Fazla Öğren"
+        },
+        "packages": {
+          "basic": {
+            "name": "Temel",
+            "tagline": "Temel web sitesi bakımı",
+            "features": [
+              "Aylık güncellemeler",
+              "Güvenlik kontrolleri",
+              "Yedekleme izleme"
+            ],
+            "ideal": "Online başlayan girişimler ve küçük işletmeler"
+          },
+          "professional": {
+            "name": "Profesyonel",
+            "tagline": "Proaktif bakım ve destek",
+            "features": [
+              "Öncelikli düzeltmeler",
+              "Performans kontrolleri",
+              "İçerik güncelleme saatleri"
+            ],
+            "ideal": "Tam çözüm isteyen büyüyen işletmeler",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "Tam güvenilirlik planı",
+            "features": [
+              "7/24 izleme",
+              "Sınırsız küçük güncellemeler",
+              "Özel destek kanalı"
+            ],
+            "ideal": "Premium sonuç isteyen köklü markalar"
+          }
+        }
+      },
+      "landing-pages": {
+        "hero": {
+          "title": "Yüksek Dönüşüm Landing Sayfaları",
+          "subtitle": "Pazarlama kampanyaları için özel olarak tasarlanmış yüksek dönüşümlü sayfalar.",
+          "cta": "Landing Sayfaları Oluştur"
+        },
+        "problem": {
+          "title": "Landing Sayfası Zorluğu",
+          "description": "Çoğu pazarlama kampanyası trafiği iyi dönüşüm yapmayan genel web sitesi sayfalarına yönlendirir. Kötü landing sayfaları reklam harcamasını boşa harcar ve dönüşüm fırsatlarını kaçırır.",
+          "painPoints": [
+            "Reklam bütçesini boşa harcayan düşük dönüşüm oranları",
+            "Reklam mesajıyla eşleşmeyen genel sayfalar",
+            "Çok fazla dikkat dağıtıcı ve navigasyon seçeneği",
+            "Mobil trafiği kaybeden kötü mobil deneyim",
+            "Hemen çıkma oranlarını artıran yavaş yükleme hızları",
+            "Net bir harekete geçirici mesaj veya değer önerisi yok"
+          ]
+        },
+        "solution": {
+          "title": "Landing Sayfası Çözümümüz",
+          "description": "Pazarlama kampanyaları için özel olarak tasarlanmış yüksek dönüşümlü sayfalar.",
+          "differentiators": [
+            "Dönüşüm Odaklı Tasarım",
+            "Hızlı Yükleme Hızı",
+            "A/B Test Hazır",
+            "Mobil Optimize",
+            "Net Mesajlaşma",
+            "Analytics Entegrasyonu"
+          ]
+        },
+        "benefits": [
+          {
+            "icon": "Target",
+            "title": "Daha Yüksek Dönüşümler",
+            "description": "Amaca yönelik oluşturulmuş sayfalar genel web sitesi sayfalarından önemli ölçüde daha iyi dönüşüm sağlar, kampanya yatırım getirisini maksimize eder."
+          },
+          {
+            "icon": "Zap",
+            "title": "Mesaj Eşleşmesi",
+            "description": "Reklam mesajıyla uyumlu landing sayfaları güven oluşturan ve dönüştüren uyumlu deneyim yaratır."
+          },
+          {
+            "icon": "Rocket",
+            "title": "Hızlı Sonuçlar",
+            "description": "İlk günden müşteri adaylarını yakalamaya hazır özel landing sayfalarıyla kampanyaları daha hızlı başlatın."
+          },
+          {
+            "icon": "Award",
+            "title": "Profesyonel Tasarım",
+            "description": "Markanızı profesyonelce temsil eden ve rakiplerden öne çıkan güzel, modern tasarım."
+          },
+          {
+            "icon": "TrendingUp",
+            "title": "Optimize Edilmiş Performans",
+            "description": "Hızlı yüklenen, mobil optimize edilmiş sayfalar tüm cihazlarda maksimum performans sağlar."
+          },
+          {
+            "icon": "Users",
+            "title": "Daha İyi Kullanıcı Deneyimi",
+            "description": "Dikkat dağıtıcı öğeler olmayan odaklanmış sayfalar ziyaretçileri dönüşüme doğru sorunsuzca yönlendirir."
+          }
+        ],
+        "features": {
+          "included": [
+            "Dönüşüm odaklı tasarım",
+            "Pazarlama yapısı",
+            "İkna edici içerik",
+            "İletişim formları",
+            "Call-to-action bölümleri",
+            "Mobil optimizasyon",
+            "Reklam entegrasyonu"
+          ],
+          "additional": [
+            "A/B testi",
+            "Tanıtım videoları",
+            "Chatbotlar",
+            "CRM entegrasyonu",
+            "Facebook/Google Pixel",
+            "Lead otomasyonu",
+            "Ziyaretçi davranışı analizi"
+          ]
+        },
+        "idealFor": [
+          {
+            "type": "Pazarlama Kampanyaları",
+            "description": "Kampanyalar için özel landing sayfalarına ihtiyaç duyan ücretli reklamcılık yapan işletmeler."
+          },
+          {
+            "type": "Ürün Lansmanları",
+            "description": "Yeni ürünler veya hizmetler başlatan ve odaklanmış dönüşüm sayfaları gerektiren şirketler."
+          },
+          {
+            "type": "Müşteri Adayı Oluşturma",
+            "description": "Optimize edilmiş landing sayfalarıyla pazarlama çabalarından müşteri adayı yakalamasını maksimize eden işletmeler."
+          }
+        ],
+        "process": {
+          "steps": [
+            {
+              "title": "Kampanya Stratejisi",
+              "description": "Landing sayfası stratejisini bilgilendirmek için teklifinizi, kitlenizi ve kampanya hedeflerinizi anlayın."
+            },
+            {
+              "title": "Wireframe & Planlama",
+              "description": "Optimal sonuçlar için sayfa yapısını, içerik hiyerarşisini ve dönüşüm akışını planlayın."
+            },
+            {
+              "title": "Tasarım & Metin",
+              "description": "Eylemi yönlendiren ikna edici tasarım ve ikna edici metin oluşturun."
+            },
+            {
+              "title": "Geliştirme",
+              "description": "Tüm teknik entegrasyonla hızlı, mobil optimize landing sayfası oluşturun."
+            },
+            {
+              "title": "Test & Lansман",
+              "description": "Kampanya lansmanından önce cihazlar ve tarayıcılar arasında kapsamlı test yapın."
+            },
+            {
+              "title": "Optimize Et",
+              "description": "Performansı izleyin ve daha iyi dönüşüm oranları için sürekli optimize edin."
+            }
+          ]
+        },
+        "cta": {
+          "title": "Dönüşümleri Artırmaya Hazır mısınız?",
+          "subtitle": "Pazarlama sonuçları sağlayan landing sayfaları oluşturalım",
+          "primary": "Sayfa Oluştur",
+          "secondary": "Örnekleri Gör"
+        },
+        "packages": {
+          "basic": {
+            "name": "Temel",
+            "tagline": "Dönüştüren odaklı landing page",
+            "features": [
+              "1 landing page",
+              "Mobil öncelikli düzen",
+              "Lead form entegrasyonu"
+            ],
+            "ideal": "Online başlayan girişimler ve küçük işletmeler"
+          },
+          "professional": {
+            "name": "Profesyonel",
+            "tagline": "Yüksek dönüşümlü kampanya sayfaları",
+            "features": [
+              "3 landing page'e kadar",
+              "A/B hazır yapı",
+              "Takip ve pikseller"
+            ],
+            "ideal": "Tam çözüm isteyen büyüyen işletmeler",
+            "popular": true
+          },
+          "premium": {
+            "name": "Premium",
+            "tagline": "Tam landing page büyüme sistemi",
+            "features": [
+              "Sınırsız kampanya sayfası",
+              "İleri CRO öğeleri",
+              "Sürekli iterasyon desteği"
+            ],
+            "ideal": "Premium sonuç isteyen köklü markalar"
+          }
+        }
+      }
+    },
+    "common": {
+      "whatsIncluded": "Neler Dahil",
+      "idealFor": "Kimler İçin",
+      "choosePackage": "Paketinizi Seçin",
+      "selectPerfect": "İşletmenizin ihtiyaçları için mükemmel çözümü seçin",
+      "mostPopular": "En Popüler",
+      "idealForLabel": "İdeal olan:",
+      "getStarted": "Başlayın",
+      "additionalOptions": "Ek Seçenekler",
+      "capabilitiesHeading": "Hizmet Detayları",
+      "keyBenefits": "Temel Faydalar",
+      "ourProcess": "Sürecimiz"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "WEB LAUNCH Hakkında",
+      "subtitle": "İnovatif dijital çözümler aracılığıyla işletmeleri dönüştüren premium bir dijital ajansız"
+    },
+    "mission": {
+      "title": "Misyonumuz",
+      "description1": "WEB LAUNCH'ta, her işletmenin güçlü bir dijital varlığı hak ettiğine inanıyoruz. Misyonumuz, her büyüklükteki işletmenin profesyonel web siteleri, stratejik marka oluşturma ve etkili dijital pazarlama yoluyla çevrimiçi varlıklarını oluşturmasına ve büyütmesine yardımcı olmaktır.",
+      "description2": "Sadece harika görünmekle kalmayıp aynı zamanda gerçek iş sonuçları da sağlayan dijital çözümler sunmak için yaratıcılığı, teknolojiyi ve veriye dayalı stratejileri birleştiriyoruz.",
+      "values": {
+        "resultsFocused": {
+          "title": "Sonuç Odaklı",
+          "description": "Her proje, ölçülebilir iş hedeflerine ulaşmak için tasarlanmıştır"
+        },
+        "clientCentric": {
+          "title": "Müşteri Merkezli",
+          "description": "Sizin başarınız bizim başarımızdır - büyümede ortağız"
+        },
+        "innovationDriven": {
+          "title": "İnovasyon Odaklı",
+          "description": "Son teknoloji ve yaratıcı çözümleri kullanma"
+        }
+      }
+    },
+    "values": {
+      "title": "Değerlerimiz",
+      "subtitle": "Yaptığımız her şeye rehberlik eden ilkeler",
+      "excellence": {
+        "title": "Mükemmellik",
+        "description": "Her projede premium kalite sunuyoruz, hiç taviz vermeden"
+      },
+      "growth": {
+        "title": "Büyüme",
+        "description": "Sürdürülebilir iş büyümesini sağlayan çözümler yaratmaya odaklanıyoruz"
+      },
+      "integrity": {
+        "title": "Dürüstlük",
+        "description": "Yaptığımız her şeyde dürüst iletişim ve şeffaf süreçler"
+      }
+    },
+    "whyChoose": {
+      "title": "İşletmeler Neden WEB LAUNCH'u Seçiyor",
+      "international": "Uluslararası Erişim: Dünya çapındaki müşteriler için tüm dillerde çözümler",
+      "fullService": "Tam Hizmet Çözümleri: İhtiyacınız olan her şey tek çatı altında",
+      "provenTrack": "Kanıtlanmış Başarı: 30+ başarılı proje",
+      "modernTech": "Modern Teknoloji: En son araçlar ve framework'lerle inşa edildi",
+      "ongoingSupport": "Sürekli Destek: Lansmantan çok sonra da sizin için buradayız"
+    }
+  },
+  "portfolio": {
+    "hero": {
+      "title": "Portföyümüz",
+      "subtitle": "Başarılı projelerimizi ve dijital dönüşümlerimizi keşfedin"
+    },
+    "comingSoon": {
+      "title": "Heyecan Verici Projeler Yakında",
+      "description": "Şu anda portföyümüzü en son başarılı projelerimizle güncelliyoruz. İşletmelerin dijital varlıklarını dönüştürmelerine nasıl yardımcı olduğumuzu görmek için yakında tekrar kontrol edin."
+    }
+  },
+  "process": {
+    "hero": {
+      "title": "Sürecimiz",
+      "subtitle": "Her seferinde başarılı proje teslimatı sağlayan kanıtlanmış bir metodoloji"
+    },
+    "steps": {
+      "1": {
+        "number": "01",
+        "title": "Keşif",
+        "description": "İşletmenizi, hedeflerinizi, hedef kitlenizi ve proje gereksinimlerinizi detaylı danışmanlıklar yoluyla anlayarak başlıyoruz."
+      },
+      "2": {
+        "number": "02",
+        "title": "Strateji",
+        "description": "Proje kapsamı, zaman çizelgesi, teknik yaklaşım ve başarı metriklerini içeren kapsamlı bir strateji geliştiriyoruz."
+      },
+      "3": {
+        "number": "03",
+        "title": "Tasarım",
+        "description": "Tasarım ekibimiz, markanızı yansıtan ve kitlenizi meşgul eden güzel, kullanıcı dostu arayüzler yaratır."
+      },
+      "4": {
+        "number": "04",
+        "title": "Geliştirme",
+        "description": "Optimal performans için modern teknoloji, en iyi uygulamalar ve temiz kod kullanarak çözümünüzü oluşturuyoruz."
+      },
+      "5": {
+        "number": "05",
+        "title": "Test",
+        "description": "Her şeyin mükemmel çalıştığından emin olmak için cihazlar ve tarayıcılarda titiz kalite güvence testi."
+      },
+      "6": {
+        "number": "06",
+        "title": "Lansman",
+        "description": "Projenizi üretime dağıtıyor, her şeyi düzgün şekilde yapılandırıyor ve sorunsuz bir canlıya geçiş sağlıyoruz."
+      },
+      "7": {
+        "number": "07",
+        "title": "Destek",
+        "description": "Dijital varlığınızı güçlü ve güncel tutmak için sürekli bakım, güncellemeler ve destek."
+      }
+    },
+    "cta": {
+      "title": "Projenizi Başlatmaya Hazır mısınız?",
+      "subtitle": "Hedeflerinizi tartışalım ve başarı için bir strateji oluşturalım",
+      "button": "Bugün Başlayın"
+    }
+  },
+  "contact": {
+    "title": "Dijital Geleceğinizi Birlikte Oluşturalım",
+    "subtitle": "Bir proje fikriniz mi var? Bize işinizden bahsedin ve ekibimiz güçlü bir dijital çözüm oluşturmanıza yardımcı olacak.",
+    "phone": {
+      "label": "Bizi Arayın"
+    },
+    "email": {
+      "label": "Bize Email Gönderin"
+    },
+    "instagram": {
+      "label": "Bizi Takip Edin"
+    },
+    "whatsapp": {
+      "label": "WhatsApp"
+    },
+    "form": {
+      "steps": {
+        "1": {
+          "title": "İşletme ve İletişim Bilgileri",
+          "fullName": "İletişim Kişisi",
+          "businessName": "İşletme Adı",
+          "email": "E-posta",
+          "phone": "Telefon Numarası",
+          "country": "Ülke",
+          "preferredLanguage": "Tercih Edilen Dil",
+          "selectLanguage": "Tercih ettiğiniz dili seçin",
+          "subtitle": "İşletmenizi tanıtın. Bu bilgiler seçilen tüm hizmetlerde kullanılır."
+        },
+        "2": {
+          "title": "Hizmet Seçin",
+          "subtitle": "Bir veya birden fazla hizmet seçin"
+        }
+      },
+      "services": {
+        "website-development": "Web Sitesi Geliştirme",
+        "branding": "Logo Tasarımı & Markalaşma",
+        "seo": "SEO Hizmetleri",
+        "google-business": "Google Business Optimizasyonu",
+        "social-setup": "Sosyal Medya Kurulumu",
+        "social-management": "Sosyal Medya Yönetimi",
+        "ads": "Facebook & Instagram Reklamları",
+        "email": "Kurumsal E-posta Kurulumu",
+        "lead-forms": "Potansiyel Müşteri Formları",
+        "maintenance": "Web Sitesi Bakımı",
+        "landing-pages": "Açılış Sayfaları"
+      },
+      "languages": {
+        "albanian": "Arnavutça",
+        "english": "İngilizce",
+        "german": "Almanca",
+        "french": "Fransızca",
+        "italian": "İtalyanca",
+        "turkish": "Türkçe",
+        "spanish": "İspanyolca"
+      },
+      "privacy": {
+        "title": "Gizlilik & Veri Koruma",
+        "message": "Sağladığınız tüm bilgiler kesinlikle gizli tutulur. Verileriniz güvenli şekilde saklanır ve yalnızca istenen hizmetleri sunmak amacıyla WEB LAUNCH ekibi tarafından erişilir. Bilgilerinizi izniniz olmadan üçüncü taraflarla asla paylaşmayız."
+      },
+      "consent": {
+        "text": "WEB LAUNCH’ın <privacy>Gizlilik Politikası</privacy> ve <terms>Şartlar ve Koşullar</terms>ını kabul ediyorum."
+      },
+      "validation": {
+        "required": "Bu alan zorunludur",
+        "emailInvalid": "Lütfen geçerli bir e-posta girin",
+        "phoneInvalid": "Lütfen geçerli bir telefon numarası girin",
+        "selectService": "Lütfen en az bir hizmet seçin",
+        "urlInvalid": "Lütfen geçerli bir web sitesi URL’si girin",
+        "consentRequired": "Devam etmek için Gizlilik Politikası ile Şartlar ve Koşulları kabul edin"
+      },
+      "step": "Adım",
+      "of": "/",
+      "back": "Geri",
+      "next": "İleri",
+      "submit": "Projeyi Gönder",
+      "submitting": "Gönderiliyor...",
+      "error": "Bir hata oluştu. Lütfen tekrar deneyin.",
+      "additionalNotes": "Ek Notlar",
+      "additionalNotesPlaceholder": "Bilmemiz gereken başka bir şey var mı?",
+      "success": {
+        "title": "E-postanızı kontrol edin",
+        "message": "Size bir onay e-postası gönderdik. Projenizi WEB LAUNCH’a resmen iletmek için “Talebi Onayla”ya tıklayın. Bağlantı 48 saat içinde sona erer."
+      },
+      "title": "Proje Keşif Anketi",
+      "subtitle": "Birkaç soruyu yanıtlayarak proje gereksinimlerinizi anlamamıza yardımcı olun.",
+      "questionnaire": {
+        "subtitle": "Lütfen aşağıdaki soruları yanıtlayın",
+        "common": {
+          "yes": "Evet",
+          "no": "Hayır",
+          "uploadButton": "Dosya yüklemek için tıklayın",
+          "removeFile": "Dosyayı kaldır"
+        },
+        "website-development": {
+          "sections": {
+            "businessInfo": "İşletme Bilgileri",
+            "business": "İşletme ve Hedefler",
+            "design": "Tasarım",
+            "files": "Dosyalar"
+          },
+          "businessName": "İşletme Adı",
+          "contactPerson": "İletişim Kişisi",
+          "email": "E-posta",
+          "phone": "Telefon Numarası",
+          "describe": "İşletmenizi tanımlayın",
+          "products": "Hizmetler veya ürünler",
+          "goal": "Ana web sitesi hedefi",
+          "goalOther": "Ek hedefi açıklayın",
+          "pages": "Web sitesi sayfaları",
+          "pagesOther": "Ek sayfaları açıklayın",
+          "style": "Web sitesi stili",
+          "reference": "Referans web sitesi (İsteğe bağlı)",
+          "referencePlaceholder": "https://example.com",
+          "logo": "Logo Yükle",
+          "photos": "Fotoğraf Yükle",
+          "options": {
+            "goals": {
+              "lead-generation": "Potansiyel Müşteri",
+              "information": "Bilgilendirme",
+              "bookings": "Rezervasyon",
+              "online-store": "Online Mağaza",
+              "portfolio": "Portföy",
+              "other": "Diğer"
+            },
+            "pages": {
+              "home": "Ana Sayfa",
+              "about": "Hakkımızda",
+              "services": "Hizmetler",
+              "products": "Ürünler",
+              "gallery": "Galeri",
+              "blog": "Blog",
+              "faq": "SSS",
+              "contact": "İletişim",
+              "portfolio": "Portföy",
+              "other": "Diğer"
+            }
+          },
+          "websiteUrl": "Mevcut web sitesi URL’si (İsteğe bağlı)",
+          "websiteUrlPlaceholder": "https://example.com",
+          "brandGuide": "Marka rehberi"
+        },
+        "branding": {
+          "businessName": "İşletme Adı",
+          "industry": "Sektör",
+          "describe": "İşletme açıklaması",
+          "logoLook": "İdeal logonuzu tanımlayın",
+          "colors": "Tercih edilen renkler",
+          "references": "Logo referansları",
+          "referencesPlaceholder": "URL yapıştırın veya beğendiğiniz logoları açıklayın...",
+          "brandGuide": "Marka rehberi",
+          "logo": "Mevcut logo varlıklarını yükleyin (isteğe bağlı)"
+        },
+        "seo": {
+          "websiteUrl": "Web sitesi URL’si (İsteğe bağlı)",
+          "mainServices": "Ana hizmetler",
+          "cities": "Hedef şehirler",
+          "keywords": "Hedef anahtar kelimeler",
+          "keywordsPlaceholder": "örn. web tasarım Kosova, dijital pazarlama Priştine",
+          "competitors": "Rakipler"
+        },
+        "google-business": {
+          "exists": "Google Business profili mevcut mu?",
+          "businessName": "İşletme Adı",
+          "address": "İşletme Adresi",
+          "phone": "İşletme Telefonu",
+          "hours": "Çalışma Saatleri",
+          "hoursPlaceholder": "örn. Pzt–Cum 09:00–17:00",
+          "category": "İşletme Kategorisi",
+          "categoryPlaceholder": "örn. Restoran, Diş Hekimi, Otel",
+          "loginEmail": "Google Business Giriş E-postası",
+          "loginPassword": "Google Business Şifresi",
+          "credentialsNotice": "Kimlik bilgileri yalnızca yapılandırma için kullanılır ve kesinlikle gizli tutulur.",
+          "sections": {
+            "profile": "İşletme Profili",
+            "credentials": "Google Business Erişimi"
+          }
+        },
+        "social-setup": {
+          "platforms": "Platformlar",
+          "describe": "İşletme Açıklaması",
+          "facebookLogin": "Facebook Kullanıcı Adı veya E-posta",
+          "facebookPassword": "Facebook Şifresi",
+          "instagramUsername": "Instagram Kullanıcı Adı",
+          "instagramPassword": "Instagram Şifresi",
+          "tiktokUsername": "TikTok Kullanıcı Adı",
+          "tiktokPassword": "TikTok Şifresi",
+          "linkedinUsername": "LinkedIn Kullanıcı Adı",
+          "linkedinPassword": "LinkedIn Şifresi",
+          "logo": "Logo Yükle",
+          "credentialsNotice": "Kimlik bilgileri yalnızca yapılandırma için kullanılır ve kesinlikle gizli tutulur.",
+          "options": {
+            "platforms": {
+              "facebook": "Facebook",
+              "instagram": "Instagram",
+              "tiktok": "TikTok",
+              "linkedin": "LinkedIn",
+              "youtube": "YouTube"
+            }
+          },
+          "sections": {
+            "setup": "Kurulum Detayları",
+            "credentials": "Hesap Erişimi"
+          },
+          "brandGuide": "Marka rehberi"
+        },
+        "social-management": {
+          "objective": "Hedef",
+          "platforms": "Platformlar",
+          "postsPerMonth": "Aylık gönderi sayısı",
+          "postsPlaceholder": "örn. 20",
+          "logo": "Logo Yükle",
+          "photos": "Fotoğraf Yükle",
+          "videos": "Video Yükle",
+          "facebookLogin": "Facebook Girişi",
+          "instagramLogin": "Instagram Girişi",
+          "options": {
+            "objectives": {
+              "brand-awareness": "Marka Bilinirliği",
+              "lead-generation": "Potansiyel Müşteri",
+              "sales": "Satış",
+              "follower-growth": "Takipçi Büyümesi"
+            },
+            "platforms": {
+              "facebook": "Facebook",
+              "instagram": "Instagram",
+              "tiktok": "TikTok",
+              "linkedin": "LinkedIn",
+              "youtube": "YouTube"
+            }
+          },
+          "sections": {
+            "plan": "İçerik Planı",
+            "assets": "Medya Varlıkları",
+            "credentials": "Hesap Erişimi"
+          },
+          "brandGuide": "Marka rehberi"
+        },
+        "ads": {
+          "objective": "Kampanya Hedefi",
+          "budget": "Aylık Bütçe",
+          "targetArea": "Hedef Şehirler",
+          "targetPlaceholder": "örn. Priştine, Kosova",
+          "offer": "Teklif",
+          "bmEmail": "Facebook Business Manager E-postası",
+          "bmPassword": "Facebook Business Manager Şifresi",
+          "adAccountId": "Meta Reklam Hesabı ID",
+          "images": "Görsel Yükle",
+          "videos": "Video Yükle",
+          "credentialsNotice": "Kimlik bilgileri yalnızca yapılandırma için kullanılır ve kesinlikle gizli tutulur.",
+          "options": {
+            "objectives": {
+              "lead-generation": "Potansiyel Müşteri",
+              "traffic": "Trafik",
+              "sales": "Satış",
+              "messages": "Mesajlar"
+            }
+          },
+          "sections": {
+            "campaign": "Kampanya Detayları",
+            "credentials": "Business Manager Erişimi",
+            "creatives": "Kreatif Varlıklar"
+          }
+        },
+        "email": {
+          "domain": "Domain",
+          "howMany": "E-posta hesabı sayısı",
+          "names": "İstenen e-posta adları",
+          "namesPlaceholder": "örn. info, iletisim, destek, ahmet"
+        },
+        "lead-forms": {
+          "purpose": "Amaç",
+          "fields": "Gerekli alanlar",
+          "fieldsOther": "Ek alanları açıklayın",
+          "emailDestination": "Hedef E-posta",
+          "options": {
+            "fields": {
+              "name": "Ad",
+              "surname": "Soyad",
+              "phone": "Telefon",
+              "email": "E-posta",
+              "company": "Şirket",
+              "message": "Mesaj",
+              "file-upload": "Dosya Yükleme",
+              "other": "Diğer"
+            }
+          }
+        },
+        "maintenance": {
+          "websiteUrl": "Web sitesi URL’si (İsteğe bağlı)",
+          "problem": "Mevcut sorunlar",
+          "tasks": "Talep edilen işler",
+          "tasksOther": "Ek işi açıklayın",
+          "options": {
+            "tasks": {
+              "updates": "Güncellemeler",
+              "backups": "Yedeklemeler",
+              "content": "İçerik Değişiklikleri",
+              "security": "Güvenlik",
+              "performance": "Performans",
+              "other": "Diğer"
+            }
+          }
+        },
+        "landing-pages": {
+          "product": "Ürün veya Hizmet",
+          "goal": "Hedef",
+          "offer": "Teklif",
+          "action": "Ziyaretçi aksiyonu",
+          "actionOther": "Ek aksiyonu açıklayın",
+          "images": "Görsel Yükle",
+          "videos": "Video Yükle",
+          "options": {
+            "goals": {
+              "lead-generation": "Potansiyel Müşteri",
+              "sales": "Satış",
+              "bookings": "Rezervasyon",
+              "event": "Etkinlik"
+            },
+            "actions": {
+              "submit-form": "Form Gönder",
+              "call": "Ara",
+              "whatsapp": "WhatsApp",
+              "purchase": "Satın Al",
+              "other": "Diğer"
+            }
+          }
+        }
+      },
+      "shared": {
+        "title": "Paylaşılan Proje Bilgileri",
+        "subtitle": "Bu bilgiler seçilen birden fazla hizmet için geçerlidir. Yalnızca bir kez girmeniz yeterlidir.",
+        "businessDescription": "İşletme açıklaması",
+        "websiteUrl": "Web sitesi URL’si (İsteğe bağlı)",
+        "websiteUrlPlaceholder": "https://example.com",
+        "logo": "İşletme logosu",
+        "photos": "İşletme fotoğrafları",
+        "videos": "İşletme videoları",
+        "brandGuide": "Marka rehberi"
+      },
+      "errorPrefix": "Hata"
+    }
+  },
+  "confirm": {
+    "success": {
+      "title": "Talep Onaylandı",
+      "message": "Teşekkürler. Talebiniz başarıyla onaylandı.\n\nWEB LAUNCH ekibimiz gönderiminizi inceleyecek ve sonraki adımlar hakkında 24 saat içinde sizinle iletişime geçecektir.\n\nBaşka bir işlem gerekmez.",
+      "cta": "Ana Sayfaya Dön"
+    },
+    "expired": {
+      "title": "Onay bağlantısının süresi doldu",
+      "message": "Bu onay bağlantısının süresi doldu (48 saat geçerlidir). Yeni bir onay e-postası için formu tekrar gönderin.",
+      "cta": "İletişime Git"
+    },
+    "invalid": {
+      "title": "Geçersiz onay bağlantısı",
+      "message": "Bu onay bağlantısı geçersiz veya eksik. E-postadaki düğmeyi kullanın veya formu yeniden gönderin.",
+      "cta": "İletişime Git"
+    },
+    "already": {
+      "title": "Zaten onaylandı",
+      "message": "Bu talep zaten onaylandı. WEB LAUNCH proje bilgilerinizi aldı ve yakında sizinle iletişime geçecek.",
+      "cta": "Ana Sayfaya Dön"
+    }
+  },
+  "whatsapp": {
+    "ariaLabel": "WhatsApp üzerinden bize ulaşın",
+    "prefill": "Merhaba! Projemi WEB LAUNCH ile görüşmek istiyorum."
+  },
+  "legal": {
+    "privacy": {
+      "metaTitle": "Gizlilik Politikası - WEB LAUNCH",
+      "metaDescription": "WEB LAUNCH dijital ajansı gizlilik politikası",
+      "title": "Gizlilik Politikası",
+      "updated": "Son güncelleme: 11 Temmuz 2026",
+      "sections": [
+        {
+          "title": "1. Information We Collect",
+          "intro": "We collect information that you provide directly to us when you:",
+          "items": [
+            "Submit a contact form or project inquiry",
+            "Communicate with us via email, phone, or social media",
+            "Use our website and services"
+          ]
+        },
+        {
+          "title": "2. How We Use Your Information",
+          "intro": "We use the information we collect to:",
+          "items": [
+            "Respond to your inquiries and provide customer support",
+            "Process your project requests",
+            "Improve our website and services",
+            "Comply with legal obligations"
+          ]
+        },
+        {
+          "title": "3. Information Sharing",
+          "body": "We do not sell, trade, or rent your personal information to third parties. We may share your information only with your consent, to comply with legal requirements, or with service providers who assist in our operations."
+        },
+        {
+          "title": "4. Data Security",
+          "body": "We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction."
+        },
+        {
+          "title": "5. Cookies",
+          "body": "We use cookies and similar tracking technologies to improve your browsing experience and analyze website traffic. You can control cookies through your browser settings."
+        },
+        {
+          "title": "6. Your Rights",
+          "intro": "You have the right to:",
+          "items": [
+            "Access your personal information",
+            "Correct inaccurate data",
+            "Request deletion of your data",
+            "Object to processing of your data",
+            "Withdraw consent at any time"
+          ]
+        },
+        {
+          "title": "7. Contact Us",
+          "body": "If you have questions about this Privacy Policy, please contact us:"
+        }
+      ]
+    },
+    "terms": {
+      "metaTitle": "Şartlar ve Koşullar - WEB LAUNCH",
+      "metaDescription": "WEB LAUNCH dijital ajansı hüküm ve koşulları",
+      "title": "Şartlar ve Koşullar",
+      "updated": "Son güncelleme: 11 Temmuz 2026",
+      "sections": [
+        {
+          "title": "1. Agreement to Terms",
+          "body": "By accessing and using WEB LAUNCH services, you agree to be bound by these Terms and Conditions. If you do not agree with any part of these terms, please do not use our services."
+        },
+        {
+          "title": "2. Services",
+          "body": "WEB LAUNCH provides digital agency services including website development, branding, SEO, social media, and digital marketing. Service specifications, deliverables, and timelines will be agreed upon in a separate service agreement."
+        },
+        {
+          "title": "3. Client Responsibilities",
+          "body": "Clients are responsible for providing accurate information, required content, timely feedback, and any credentials needed to deliver the agreed services."
+        },
+        {
+          "title": "4. Payments",
+          "body": "Payment terms are defined in each project agreement. Work may pause if invoices remain unpaid beyond the agreed terms."
+        },
+        {
+          "title": "5. Intellectual Property",
+          "body": "Upon full payment, agreed deliverables are transferred to the client as specified in the service agreement. WEB LAUNCH retains the right to showcase non-confidential work in its portfolio unless otherwise agreed."
+        },
+        {
+          "title": "6. Limitation of Liability",
+          "body": "WEB LAUNCH is not liable for indirect or consequential damages arising from the use of our services, except where required by applicable law."
+        },
+        {
+          "title": "7. Contact",
+          "body": "For questions about these Terms, contact WEB LAUNCH at weblaunchdigital@gmail.com or +383 45 949 507."
+        }
+      ]
+    }
+  }
+}
