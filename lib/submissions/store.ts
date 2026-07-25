@@ -1,6 +1,10 @@
-import { createHash, randomBytes, randomUUID } from 'crypto';
-import { promises as fs } from 'fs';
-import path from 'path';
+import {
+  createCipheriv,
+  createDecipheriv,
+  createHash,
+  randomBytes,
+  randomUUID,
+} from 'crypto';
 import type { LegalConsentRecord } from '@/lib/legal/versions';
 
 export type SubmissionLocale = 'al' | 'en' | 'de' | 'fr' | 'it' | 'tr' | 'es';
@@ -49,13 +53,23 @@ export interface SubmissionRecord {
 
 const TOKEN_TTL_MS = 48 * 60 * 60 * 1000;
 
-const DATA_ROOT = path.join(process.cwd(), 'data');
-const SUBMISSIONS_DIR = path.join(DATA_ROOT, 'submissions');
-const UPLOADS_DIR = path.join(DATA_ROOT, 'uploads');
-const TOKEN_INDEX_DIR = path.join(DATA_ROOT, 'tokens');
-
 const SENSITIVE_FIELD_PATTERN =
   /(password|passwd|secret|credential|bmPassword|loginPassword|facebookPassword|instagramPassword|tiktokPassword|linkedinPassword)/i;
+
+/** In-memory upload buffers — never written to disk (Vercel-safe). */
+const uploadBuffers = new Map<string, Map<string, Buffer>>();
+
+/** Process-local fallback when Redis/KV is not configured. */
+const consumedTokenHashes = new Set<string>();
+const memorySubmissions = new Map<string, SubmissionRecord>();
+
+type TokenPayloadV1 = {
+  v: 1;
+  id: string;
+  locale: SubmissionLocale;
+  exp: number;
+  iat: number;
+};
 
 export function hashToken(token: string): string {
   return createHash('sha256').update(token).digest('hex');
@@ -95,24 +109,6 @@ export function mapPreferredLanguageToLocale(preferred: string): SubmissionLocal
   return map[normalized] || 'en';
 }
 
-async function ensureDirs(): Promise<void> {
-  await fs.mkdir(SUBMISSIONS_DIR, { recursive: true });
-  await fs.mkdir(UPLOADS_DIR, { recursive: true });
-  await fs.mkdir(TOKEN_INDEX_DIR, { recursive: true });
-}
-
-function submissionPath(id: string): string {
-  return path.join(SUBMISSIONS_DIR, `${id}.json`);
-}
-
-function tokenIndexPath(tokenHash: string): string {
-  return path.join(TOKEN_INDEX_DIR, `${tokenHash}.json`);
-}
-
-function uploadsDirFor(id: string): string {
-  return path.join(UPLOADS_DIR, id);
-}
-
 export function isSensitiveField(fieldKey: string): boolean {
   return SENSITIVE_FIELD_PATTERN.test(fieldKey);
 }
@@ -141,20 +137,210 @@ export function splitSensitiveAnswers(
   return { publicAnswers, sensitiveAnswers };
 }
 
+function getSealSecret(): Buffer {
+  const raw =
+    process.env.SUBMISSION_SECRET?.trim() ||
+    process.env.SMTP_PASS?.trim() ||
+    process.env.NEXTAUTH_SECRET?.trim() ||
+    'weblaunch-dev-submission-secret';
+  return createHash('sha256').update(raw).digest();
+}
+
+function getRedisConfig(): { url: string; token: string } | null {
+  const url = (
+    process.env.KV_REST_API_URL ||
+    process.env.UPSTASH_REDIS_REST_URL ||
+    ''
+  ).trim();
+  const token = (
+    process.env.KV_REST_API_TOKEN ||
+    process.env.UPSTASH_REDIS_REST_TOKEN ||
+    ''
+  ).trim();
+  if (!url || !token) return null;
+  return { url: url.replace(/\/$/, ''), token };
+}
+
+async function redisCommand(command: (string | number)[]): Promise<unknown> {
+  const cfg = getRedisConfig();
+  if (!cfg) return null;
+
+  try {
+    const res = await fetch(cfg.url, {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${cfg.token}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(command),
+      cache: 'no-store',
+    });
+
+    if (!res.ok) {
+      const text = await res.text().catch(() => '');
+      console.error('[submissions] Redis command failed', res.status, text);
+      return null;
+    }
+
+    const data = (await res.json()) as { result?: unknown };
+    return data.result ?? null;
+  } catch (err) {
+    console.error('[submissions] Redis request error', err);
+    return null;
+  }
+}
+
+function sealTokenPayload(payload: TokenPayloadV1): string {
+  const key = getSealSecret();
+  const iv = randomBytes(12);
+  const plaintext = Buffer.from(JSON.stringify(payload), 'utf8');
+  const cipher = createCipheriv('aes-256-gcm', key, iv);
+  const encrypted = Buffer.concat([cipher.update(plaintext), cipher.final()]);
+  const tag = cipher.getAuthTag();
+  return [
+    'v1',
+    iv.toString('base64url'),
+    encrypted.toString('base64url'),
+    tag.toString('base64url'),
+  ].join('.');
+}
+
+function unsealTokenPayload(rawToken: string): TokenPayloadV1 | null {
+  try {
+    const parts = rawToken.split('.');
+    if (parts.length !== 4 || parts[0] !== 'v1') return null;
+    const [, ivB64, dataB64, tagB64] = parts;
+    const key = getSealSecret();
+    const iv = Buffer.from(ivB64, 'base64url');
+    const data = Buffer.from(dataB64, 'base64url');
+    const tag = Buffer.from(tagB64, 'base64url');
+    const decipher = createDecipheriv('aes-256-gcm', key, iv);
+    decipher.setAuthTag(tag);
+    const plaintext = Buffer.concat([decipher.update(data), decipher.final()]);
+    const parsed = JSON.parse(plaintext.toString('utf8')) as TokenPayloadV1;
+    if (parsed.v !== 1 || !parsed.id || !parsed.locale || !parsed.exp || !parsed.iat) {
+      return null;
+    }
+    return parsed;
+  } catch {
+    return null;
+  }
+}
+
+function stubSubmissionFromPayload(
+  payload: TokenPayloadV1,
+  overrides: Partial<SubmissionRecord> = {}
+): SubmissionRecord {
+  return {
+    id: payload.id,
+    tokenHash: hashToken(''),
+    createdAt: new Date(payload.iat).toISOString(),
+    expiresAt: new Date(payload.exp).toISOString(),
+    confirmed: false,
+    confirmedAt: null,
+    tokenConsumed: false,
+    locale: payload.locale,
+    clientEmail: '',
+    clientInfo: {
+      fullName: '',
+      businessName: '',
+      email: '',
+      phone: '',
+      country: '',
+      preferredLanguage: '',
+    },
+    selectedServices: [],
+    serviceAnswers: {},
+    sharedAnswers: {},
+    additionalNotes: '',
+    files: [],
+    sensitiveAnswers: {},
+    legalConsent: {
+      accepted: true,
+      acceptedAt: new Date(payload.iat).toISOString(),
+      policyVersion: '',
+      termsVersion: '',
+    },
+    ...overrides,
+  };
+}
+
+async function persistSubmissionRecord(submission: SubmissionRecord): Promise<void> {
+  memorySubmissions.set(submission.id, submission);
+
+  const ttlMs = Math.max(60_000, new Date(submission.expiresAt).getTime() - Date.now());
+  await redisCommand([
+    'SET',
+    `wl:sub:${submission.id}`,
+    JSON.stringify(submission),
+    'PX',
+    ttlMs,
+  ]);
+  await redisCommand([
+    'SET',
+    `wl:tok:${submission.tokenHash}`,
+    submission.id,
+    'PX',
+    ttlMs,
+  ]);
+}
+
+async function markTokenConsumed(
+  tokenHash: string,
+  expiresAtMs: number
+): Promise<'ok' | 'already'> {
+  const ttlMs = Math.max(60_000, expiresAtMs - Date.now());
+
+  if (getRedisConfig()) {
+    const redisResult = await redisCommand([
+      'SET',
+      `wl:consumed:${tokenHash}`,
+      '1',
+      'NX',
+      'PX',
+      ttlMs,
+    ]);
+
+    if (redisResult === 'OK') {
+      consumedTokenHashes.add(tokenHash);
+      return 'ok';
+    }
+
+    const existing = await redisCommand(['GET', `wl:consumed:${tokenHash}`]);
+    if (existing === '1' || existing === 1) {
+      consumedTokenHashes.add(tokenHash);
+      return 'already';
+    }
+
+    // Redis unreachable — fall through to process-local tracking
+  }
+
+  if (consumedTokenHashes.has(tokenHash)) return 'already';
+  consumedTokenHashes.add(tokenHash);
+  return 'ok';
+}
+
+async function isTokenConsumed(tokenHash: string): Promise<boolean> {
+  if (consumedTokenHashes.has(tokenHash)) return true;
+  const redisResult = await redisCommand(['GET', `wl:consumed:${tokenHash}`]);
+  return redisResult === '1' || redisResult === 1;
+}
+
 export async function saveUploadedFile(
   submissionId: string,
   file: File,
   fieldKey: string
 ): Promise<StoredFileMeta> {
-  await ensureDirs();
-  const dir = uploadsDirFor(submissionId);
-  await fs.mkdir(dir, { recursive: true });
-
   const safeBase = file.name.replace(/[^a-zA-Z0-9._-]/g, '_').slice(0, 120) || 'file';
   const storedName = `${randomBytes(8).toString('hex')}_${safeBase}`;
-  const fullPath = path.join(dir, storedName);
   const buffer = Buffer.from(await file.arrayBuffer());
-  await fs.writeFile(fullPath, buffer);
+
+  let bucket = uploadBuffers.get(submissionId);
+  if (!bucket) {
+    bucket = new Map();
+    uploadBuffers.set(submissionId, bucket);
+  }
+  bucket.set(storedName, buffer);
 
   return {
     originalName: file.name,
@@ -176,13 +362,20 @@ export async function createSubmission(input: {
   files: StoredFileMeta[];
   legalConsent: LegalConsentRecord;
 }): Promise<{ submission: SubmissionRecord; rawToken: string }> {
-  await ensureDirs();
-
   const id = input.id || randomUUID();
-  const rawToken = generateSecureToken();
-  const tokenHash = hashToken(rawToken);
   const now = Date.now();
   const { publicAnswers, sensitiveAnswers } = splitSensitiveAnswers(input.serviceAnswers);
+
+  const payload: TokenPayloadV1 = {
+    v: 1,
+    id,
+    locale: input.locale,
+    exp: now + TOKEN_TTL_MS,
+    iat: now,
+  };
+
+  const rawToken = sealTokenPayload(payload);
+  const tokenHash = hashToken(rawToken);
 
   const submission: SubmissionRecord = {
     id,
@@ -204,12 +397,7 @@ export async function createSubmission(input: {
     legalConsent: input.legalConsent,
   };
 
-  await fs.writeFile(submissionPath(id), JSON.stringify(submission, null, 2), 'utf8');
-  await fs.writeFile(
-    tokenIndexPath(tokenHash),
-    JSON.stringify({ submissionId: id, expiresAt: submission.expiresAt }),
-    'utf8'
-  );
+  await persistSubmissionRecord(submission);
 
   return { submission, rawToken };
 }
@@ -219,12 +407,21 @@ export function createSubmissionId(): string {
 }
 
 export async function getSubmissionById(id: string): Promise<SubmissionRecord | null> {
-  try {
-    const raw = await fs.readFile(submissionPath(id), 'utf8');
-    return JSON.parse(raw) as SubmissionRecord;
-  } catch {
-    return null;
+  const local = memorySubmissions.get(id);
+  if (local) return local;
+
+  const raw = await redisCommand(['GET', `wl:sub:${id}`]);
+  if (typeof raw === 'string' && raw) {
+    try {
+      const parsed = JSON.parse(raw) as SubmissionRecord;
+      memorySubmissions.set(id, parsed);
+      return parsed;
+    } catch {
+      return null;
+    }
   }
+
+  return null;
 }
 
 export type ConfirmResult =
@@ -234,53 +431,81 @@ export type ConfirmResult =
   | { status: 'already_confirmed'; submission: SubmissionRecord };
 
 export async function confirmSubmissionByToken(rawToken: string): Promise<ConfirmResult> {
-  if (!rawToken || !/^[a-f0-9]{64}$/i.test(rawToken)) {
+  if (!rawToken || typeof rawToken !== 'string') {
     return { status: 'invalid' };
   }
 
-  const tokenHash = hashToken(rawToken);
-  let index: { submissionId: string; expiresAt: string } | null = null;
-
-  try {
-    const raw = await fs.readFile(tokenIndexPath(tokenHash), 'utf8');
-    index = JSON.parse(raw) as { submissionId: string; expiresAt: string };
-  } catch {
+  const trimmed = rawToken.trim();
+  const payload = unsealTokenPayload(trimmed);
+  if (!payload) {
     return { status: 'invalid' };
   }
 
-  const submission = await getSubmissionById(index.submissionId);
-  if (!submission || submission.tokenHash !== tokenHash) {
-    return { status: 'invalid' };
-  }
-
-  if (submission.confirmed || submission.tokenConsumed) {
-    return { status: 'already_confirmed', submission };
-  }
-
+  const tokenHash = hashToken(trimmed);
   const now = Date.now();
-  if (now > new Date(submission.expiresAt).getTime()) {
-    return { status: 'expired', submission };
+
+  if (now > payload.exp) {
+    return {
+      status: 'expired',
+      submission: stubSubmissionFromPayload(payload, {
+        tokenHash,
+        expiresAt: new Date(payload.exp).toISOString(),
+      }),
+    };
+  }
+
+  const existing = await getSubmissionById(payload.id);
+  const base =
+    existing ||
+    stubSubmissionFromPayload(payload, {
+      tokenHash,
+      expiresAt: new Date(payload.exp).toISOString(),
+    });
+
+  if (
+    base.confirmed ||
+    base.tokenConsumed ||
+    (await isTokenConsumed(tokenHash))
+  ) {
+    return {
+      status: 'already_confirmed',
+      submission: {
+        ...base,
+        tokenHash,
+        confirmed: true,
+        tokenConsumed: true,
+        confirmedAt: base.confirmedAt || new Date(now).toISOString(),
+        locale: payload.locale,
+      },
+    };
+  }
+
+  const consume = await markTokenConsumed(tokenHash, payload.exp);
+  if (consume === 'already') {
+    return {
+      status: 'already_confirmed',
+      submission: {
+        ...base,
+        tokenHash,
+        confirmed: true,
+        tokenConsumed: true,
+        confirmedAt: base.confirmedAt || new Date(now).toISOString(),
+        locale: payload.locale,
+      },
+    };
   }
 
   const updated: SubmissionRecord = {
-    ...submission,
+    ...base,
+    tokenHash,
     confirmed: true,
     confirmedAt: new Date(now).toISOString(),
     tokenConsumed: true,
+    locale: payload.locale,
+    expiresAt: new Date(payload.exp).toISOString(),
   };
 
-  await fs.writeFile(submissionPath(updated.id), JSON.stringify(updated, null, 2), 'utf8');
-
-  // Keep token index for "already confirmed" lookups, but mark single-use consumed
-  await fs.writeFile(
-    tokenIndexPath(tokenHash),
-    JSON.stringify({
-      submissionId: updated.id,
-      expiresAt: updated.expiresAt,
-      consumed: true,
-    }),
-    'utf8'
-  );
+  await persistSubmissionRecord(updated);
 
   return { status: 'success', submission: updated };
 }
@@ -289,20 +514,23 @@ export async function readSubmissionFileBuffers(
   submission: SubmissionRecord
 ): Promise<Array<{ filename: string; content: Buffer; contentType?: string }>> {
   const attachments: Array<{ filename: string; content: Buffer; contentType?: string }> = [];
-  const dir = uploadsDirFor(submission.id);
+  const bucket = uploadBuffers.get(submission.id);
 
   for (const file of submission.files) {
-    try {
-      const content = await fs.readFile(path.join(dir, file.storedName));
-      attachments.push({
-        filename: file.originalName,
-        content,
-        contentType: file.mimeType,
-      });
-    } catch (err) {
-      console.error('[submissions] Failed to read upload:', file.storedName, err);
+    const content = bucket?.get(file.storedName);
+    if (!content) {
+      console.error('[submissions] Upload buffer missing for:', file.storedName);
+      continue;
     }
+    attachments.push({
+      filename: file.originalName,
+      content,
+      contentType: file.mimeType,
+    });
   }
+
+  // Free memory after attachments are prepared for the outbound email
+  uploadBuffers.delete(submission.id);
 
   return attachments;
 }
