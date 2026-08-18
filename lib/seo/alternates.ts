@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { locales, type Locale } from '@/i18n';
 
-const SITE_URL = (process.env.APP_URL || 'https://weblaunch.com').replace(/\/$/, '');
+const SITE_URL = (process.env.APP_URL || 'https://weblaunchworks.com').replace(/\/$/, '');
 
 /**
  * Alternate language tags for SEO.

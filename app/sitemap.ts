@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 const locales = ['al', 'en', 'de', 'fr', 'it', 'tr', 'es'];
-const baseUrl = 'https://weblaunch.com'; // Update with your actual domain
+const baseUrl = 'https://weblaunchworks.com';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes = [
