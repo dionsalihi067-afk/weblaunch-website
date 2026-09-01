@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { buildLanguageAlternates } from '@/lib/seo/alternates';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import LazyWhatsApp from '@/components/LazyWhatsApp';
@@ -11,11 +12,23 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'metadata.about' });
-  
+  const t = await getTranslations({
+    locale,
+    namespace: 'metadata.about'
+  });
+
   return {
     title: t('title'),
     description: t('description'),
+
+    alternates: buildLanguageAlternates(locale, '/about'),
+
+    openGraph: {
+      title: t('title'),
+      description: t('description'),
+      type: 'website',
+      locale: locale === 'en' ? 'en' : locale,
+    },
   };
 }
 
