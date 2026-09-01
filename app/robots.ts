@@ -1,18 +1,11 @@
 import type { MetadataRoute } from 'next';
 
-const SITE_URL = (
-process.env.NEXT_PUBLIC_SITE_URL ||
-process.env.APP_URL ||
-'https://www.weblaunchworks.com'
-).replace(//+$/, '');
-
 export default function robots(): MetadataRoute.Robots {
-return {
-rules: {
-userAgent: '*',
-allow: '/',
-},
-sitemap: `${SITE_URL}/sitemap.xml`,
-host: SITE_URL,
-};
+  return {
+    rules: {
+      userAgent: '*',
+      allow: '/',
+    },
+    sitemap: 'https://www.weblaunchworks.com/sitemap.xml',
+  };
 }
