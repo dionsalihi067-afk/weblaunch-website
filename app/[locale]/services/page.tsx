@@ -1,83 +1,72 @@
 import { Metadata } from 'next';
 import dynamic from 'next/dynamic';
+
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import LazyWhatsApp from '@/components/LazyWhatsApp';
-import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { buildLanguageAlternates } from '@/lib/seo/alternates';
 
-/** Code-split the services grid to reduce initial JavaScript */
+import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { buildPageMetadata } from '@/lib/seo/alternates';
+
 const ServiceGrid = dynamic(
-() => import('@/components/services/ServiceGrid')
+  () => import('@/components/services/ServiceGrid')
 );
 
 export async function generateMetadata({
-params,
+  params,
 }: {
-params: Promise<{ locale: string }>;
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
-const { locale } = await params;
+  const { locale } = await params;
 
-const t = await getTranslations({
-locale,
-namespace: 'metadata',
-});
+  const t = await getTranslations({
+    locale,
+    namespace: 'metadata',
+  });
 
-return {
-title: t('services.title'),
-description: t('services.description'),
-
-```
-alternates: buildLanguageAlternates(locale, '/services'),
-
-openGraph: {
-  title: t('services.title'),
-  description: t('services.description'),
-  type: 'website',
-  locale: locale === 'en' ? 'en' : locale,
-},
-```
-
-};
+  return buildPageMetadata({
+    locale,
+    pathname: '/services',
+    title: t('services.title'),
+    description: t('services.description'),
+  });
 }
 
 export default async function ServicesPage({
-params,
+  params,
 }: {
-params: Promise<{ locale: string }>;
+  params: Promise<{ locale: string }>;
 }) {
-const { locale } = await params;
+  const { locale } = await params;
 
-setRequestLocale(locale);
+  setRequestLocale(locale);
 
-const t = await getTranslations('services');
+  const t = await getTranslations('services');
 
-return (
-<> <Navigation />
+  return (
+    <>
+      <Navigation />
 
-```
-  <main className="pt-16 sm:pt-20">
-    <section className="page-hero relative overflow-hidden bg-mesh">
-      <div className="container-custom relative z-10">
-        <div className="mx-auto max-w-4xl text-center">
-          <h1 className="heading-page mb-4 text-slate-900 sm:mb-6">
-            {t('title')}
-          </h1>
+      <main className="pt-16 sm:pt-20">
+        <section className="page-hero relative overflow-hidden bg-mesh">
+          <div className="container-custom relative z-10">
+            <div className="mx-auto max-w-4xl text-center">
+              <h1 className="heading-page mb-4 text-slate-900 sm:mb-6">
+                {t('title')}
+              </h1>
 
-          <p className="text-lead text-slate-600">
-            {t('subtitle')}
-          </p>
-        </div>
-      </div>
-    </section>
+              <p className="text-lead text-slate-600">
+                {t('subtitle')}
+              </p>
+            </div>
+          </div>
+        </section>
 
-    <ServiceGrid />
-  </main>
+        <ServiceGrid />
+      </main>
 
-  <Footer />
-  <LazyWhatsApp />
-</>
-```
-
-);
+      <Footer />
+      <LazyWhatsApp />
+    </>
+  );
 }

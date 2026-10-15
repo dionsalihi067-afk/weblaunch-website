@@ -2240,7 +2240,8 @@
         "phoneInvalid": "Introduce un número de teléfono válido",
         "selectService": "Selecciona al menos un servicio",
         "urlInvalid": "Introduce una URL de sitio web válida",
-        "consentRequired": "Acepta la Política de privacidad y los Términos y condiciones para continuar"
+        "consentRequired": "Acepta la Política de privacidad y los Términos y condiciones para continuar",
+        "filesTooLarge": "Tus archivos son demasiado grandes. Mantén el total por debajo de 4 MB o envíalos por correo después de enviar el formulario."
       },
       "step": "Paso",
       "of": "de",
@@ -2253,7 +2254,9 @@
       "additionalNotesPlaceholder": "¿Hay algo más que debamos saber?",
       "success": {
         "title": "Revisa tu correo",
-        "message": "Te enviamos un correo de confirmación. Haz clic en “Confirmar solicitud” para enviar oficialmente tu proyecto a WEB LAUNCH. El enlace caduca en 48 horas."
+        "message": "Te enviamos un correo de confirmación. Haz clic en “Confirmar solicitud” para enviar oficialmente tu proyecto a WEB LAUNCH. El enlace caduca en 48 horas.",
+        "receivedTitle": "Solicitud recibida",
+        "receivedMessage": "Nuestro equipo ha recibido tu solicitud y te contactará pronto. No pudimos enviar el correo de confirmación; verifica tu dirección de correo o contáctanos directamente."
       },
       "title": "Cuestionario de descubrimiento del proyecto",
       "subtitle": "Ayúdanos a entender los requisitos de tu proyecto respondiendo algunas preguntas.",
@@ -2533,6 +2536,11 @@
     "already": {
       "title": "Ya confirmada",
       "message": "Esta solicitud ya fue confirmada. WEB LAUNCH recibió tus datos y te contactará pronto.",
+      "cta": "Volver al inicio"
+    },
+    "unavailable": {
+      "title": "Temporalmente no disponible",
+      "message": "No pudimos confirmar tu solicitud en este momento. Tu enlace sigue siendo válido: inténtalo de nuevo en unos minutos.",
       "cta": "Volver al inicio"
     }
   },

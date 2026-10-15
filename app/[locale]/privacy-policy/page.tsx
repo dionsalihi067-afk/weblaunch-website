@@ -5,7 +5,7 @@ import LegalDocumentView from '@/components/LegalDocumentView';
 import { getPrivacyDocument } from '@/lib/legal';
 import { Metadata } from 'next';
 import { setRequestLocale } from 'next-intl/server';
-import { buildLanguageAlternates } from '@/lib/seo/alternates';
+import { buildPageMetadata } from '@/lib/seo/alternates';
 
 export async function generateMetadata({
   params,
@@ -15,19 +15,12 @@ export async function generateMetadata({
   const { locale } = await params;
   const document = getPrivacyDocument(locale);
 
-  return {
+  return buildPageMetadata({
+    locale,
+    pathname: '/privacy-policy',
     title: document.metaTitle,
     description: document.metaDescription,
-
-    alternates: buildLanguageAlternates(locale, '/privacy-policy'),
-
-    openGraph: {
-      title: document.metaTitle,
-      description: document.metaDescription,
-      type: 'website',
-      locale: locale === 'en' ? 'en' : locale,
-    },
-  };
+  });
 }
 
 export default async function PrivacyPolicyPage({

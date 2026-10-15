@@ -7,7 +7,7 @@ import LazyWhatsApp from '@/components/LazyWhatsApp';
 import LegalDocumentView from '@/components/LegalDocumentView';
 
 import { getTermsDocument } from '@/lib/legal';
-import { buildLanguageAlternates } from '@/lib/seo/alternates';
+import { buildPageMetadata } from '@/lib/seo/alternates';
 
 export async function generateMetadata({
   params,
@@ -17,22 +17,12 @@ export async function generateMetadata({
   const { locale } = await params;
   const document = getTermsDocument(locale);
 
-  return {
+  return buildPageMetadata({
+    locale,
+    pathname: '/terms-and-conditions',
     title: document.metaTitle,
     description: document.metaDescription,
-
-    alternates: buildLanguageAlternates(
-      locale,
-      '/terms-and-conditions'
-    ),
-
-    openGraph: {
-      title: document.metaTitle,
-      description: document.metaDescription,
-      type: 'website',
-      locale: locale === 'en' ? 'en' : locale,
-    },
-  };
+  });
 }
 
 export default async function TermsAndConditionsPage({

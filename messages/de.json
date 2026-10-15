@@ -2240,7 +2240,8 @@
         "phoneInvalid": "Bitte geben Sie eine gültige Telefonnummer ein",
         "selectService": "Bitte wählen Sie mindestens einen Service aus",
         "urlInvalid": "Bitte geben Sie eine gültige Website-URL ein",
-        "consentRequired": "Bitte stimmen Sie der Datenschutzrichtlinie und den AGB zu, um fortzufahren"
+        "consentRequired": "Bitte stimmen Sie der Datenschutzrichtlinie und den AGB zu, um fortzufahren",
+        "filesTooLarge": "Ihre Dateien sind zu groß. Bitte halten Sie die Uploads insgesamt unter 4 MB oder senden Sie sie nach dem Absenden per E-Mail."
       },
       "step": "Schritt",
       "of": "von",
@@ -2253,7 +2254,9 @@
       "additionalNotesPlaceholder": "Gibt es noch etwas, das wir wissen sollten?",
       "success": {
         "title": "Prüfen Sie Ihre E-Mail",
-        "message": "Wir haben eine Bestätigungs-E-Mail gesendet. Klicken Sie auf „Anfrage bestätigen“, um Ihr Projekt offiziell an WEB LAUNCH zu übermitteln. Der Link ist 48 Stunden gültig."
+        "message": "Wir haben eine Bestätigungs-E-Mail gesendet. Klicken Sie auf „Anfrage bestätigen“, um Ihr Projekt offiziell an WEB LAUNCH zu übermitteln. Der Link ist 48 Stunden gültig.",
+        "receivedTitle": "Anfrage erhalten",
+        "receivedMessage": "Unser Team hat Ihre Anfrage erhalten und meldet sich in Kürze. Die Bestätigungs-E-Mail konnte nicht gesendet werden. Bitte prüfen Sie Ihre E-Mail-Adresse oder kontaktieren Sie uns direkt."
       },
       "title": "Projekt-Entdeckungsfragebogen",
       "subtitle": "Helfen Sie uns, Ihre Projektanforderungen zu verstehen, indem Sie einige Fragen beantworten.",
@@ -2533,6 +2536,11 @@
     "already": {
       "title": "Bereits bestätigt",
       "message": "Diese Anfrage wurde bereits bestätigt. WEB LAUNCH hat Ihre Projektdaten erhalten und wird sich bald melden.",
+      "cta": "Zur Startseite"
+    },
+    "unavailable": {
+      "title": "Vorübergehend nicht verfügbar",
+      "message": "Wir konnten Ihre Anfrage gerade nicht bestätigen. Ihr Link ist weiterhin gültig — bitte versuchen Sie es in einigen Minuten erneut.",
       "cta": "Zur Startseite"
     }
   },

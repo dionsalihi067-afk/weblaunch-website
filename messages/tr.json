@@ -2240,7 +2240,8 @@
         "phoneInvalid": "Lütfen geçerli bir telefon numarası girin",
         "selectService": "Lütfen en az bir hizmet seçin",
         "urlInvalid": "Lütfen geçerli bir web sitesi URL’si girin",
-        "consentRequired": "Devam etmek için Gizlilik Politikası ile Şartlar ve Koşulları kabul edin"
+        "consentRequired": "Devam etmek için Gizlilik Politikası ile Şartlar ve Koşulları kabul edin",
+        "filesTooLarge": "Dosyalarınız çok büyük. Lütfen toplam yüklemeyi 4 MB altında tutun veya gönderdikten sonra e-posta ile iletin."
       },
       "step": "Adım",
       "of": "/",
@@ -2253,7 +2254,9 @@
       "additionalNotesPlaceholder": "Bilmemiz gereken başka bir şey var mı?",
       "success": {
         "title": "E-postanızı kontrol edin",
-        "message": "Size bir onay e-postası gönderdik. Projenizi WEB LAUNCH’a resmen iletmek için “Talebi Onayla”ya tıklayın. Bağlantı 48 saat içinde sona erer."
+        "message": "Size bir onay e-postası gönderdik. Projenizi WEB LAUNCH’a resmen iletmek için “Talebi Onayla”ya tıklayın. Bağlantı 48 saat içinde sona erer.",
+        "receivedTitle": "Talep alındı",
+        "receivedMessage": "Ekibimiz talebinizi aldı ve kısa süre içinde sizinle iletişime geçecek. Onay e-postası gönderilemedi; lütfen e-posta adresinizi kontrol edin veya bizimle doğrudan iletişime geçin."
       },
       "title": "Proje Keşif Anketi",
       "subtitle": "Birkaç soruyu yanıtlayarak proje gereksinimlerinizi anlamamıza yardımcı olun.",
@@ -2533,6 +2536,11 @@
     "already": {
       "title": "Zaten onaylandı",
       "message": "Bu talep zaten onaylandı. WEB LAUNCH proje bilgilerinizi aldı ve yakında sizinle iletişime geçecek.",
+      "cta": "Ana Sayfaya Dön"
+    },
+    "unavailable": {
+      "title": "Geçici olarak kullanılamıyor",
+      "message": "Talebinizi şu anda onaylayamadık. Bağlantınız hâlâ geçerli — lütfen birkaç dakika sonra tekrar deneyin.",
       "cta": "Ana Sayfaya Dön"
     }
   },

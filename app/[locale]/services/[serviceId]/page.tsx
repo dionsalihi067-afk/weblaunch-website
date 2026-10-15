@@ -20,7 +20,10 @@ import {
   getServiceConfig,
 } from '@/lib/services/serviceData';
 
-import { buildLanguageAlternates } from '@/lib/seo/alternates';
+import { buildPageMetadata } from '@/lib/seo/alternates';
+import { buildServiceGraph } from '@/lib/seo/jsonLd';
+import { SITE_NAME } from '@/lib/seo/site';
+import JsonLd from '@/components/seo/JsonLd';
 import { locales } from '@/i18n';
 
 /** Framer-backed sections — split from the critical service hero path */
@@ -57,22 +60,12 @@ export async function generateMetadata({
     namespace: `services.meta.${serviceId}`,
   });
 
-  return {
+  return buildPageMetadata({
+    locale,
+    pathname: `/services/${serviceId}`,
     title: t('title'),
     description: t('description'),
-
-    alternates: buildLanguageAlternates(
-      locale,
-      `/services/${serviceId}`
-    ),
-
-    openGraph: {
-      title: t('title'),
-      description: t('description'),
-      type: 'website',
-      locale,
-    },
-  };
+  });
 }
 
 export default async function ServiceDetailPage({
@@ -102,13 +95,25 @@ export default async function ServiceDetailPage({
     'services.common'
   );
 
+  const servicesT = await getTranslations('services');
+
   const features = t.raw('features') as {
     included: string[];
     additional: string[];
   };
 
+  const serviceGraph = buildServiceGraph({
+    locale,
+    serviceId,
+    name: t('hero.title'),
+    description: t('hero.subtitle'),
+    homeLabel: SITE_NAME,
+    servicesLabel: servicesT('title'),
+  });
+
   return (
     <>
+      <JsonLd data={serviceGraph} />
       <Navigation />
 
       <main className="pt-16 sm:pt-20">

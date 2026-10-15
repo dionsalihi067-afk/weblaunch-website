@@ -19,10 +19,12 @@ export function isUrlValid(url: string): boolean {
   }
 }
 
+/** Accepts common international formats, e.g. "+383 45 949 507"; 7–15 digits (E.164). */
 export function isPhoneValid(phone: string): boolean {
-  const phoneRegex =
-    /^[+]?[(]?[0-9]{1,4}[)]?[-\s.]?[(]?[0-9]{1,4}[)]?[-\s.]?[0-9]{1,9}$/;
-  return phone.trim().length >= 8 && phoneRegex.test(phone);
+  const trimmed = phone.trim();
+  if (!/^\+?[0-9\s().-]+$/.test(trimmed)) return false;
+  const digits = trimmed.replace(/\D/g, '').length;
+  return digits >= 7 && digits <= 15;
 }
 
 export function isEmptyAnswer(value: AnswerValue | undefined): boolean {

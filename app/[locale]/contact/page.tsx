@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import LazyWhatsApp from '@/components/LazyWhatsApp';
 import { Phone, Mail, Instagram, MapPin } from 'lucide-react';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { buildLanguageAlternates } from '@/lib/seo/alternates';
+import { buildPageMetadata } from '@/lib/seo/alternates';
 
 const ContactForm = dynamic(() => import('@/components/contact/ContactForm'));
 
@@ -21,19 +21,12 @@ export async function generateMetadata({
     namespace: 'metadata',
   });
 
-  return {
+  return buildPageMetadata({
+    locale,
+    pathname: '/contact',
     title: t('contact.title'),
     description: t('contact.description'),
-
-    alternates: buildLanguageAlternates(locale, '/contact'),
-
-    openGraph: {
-      title: t('contact.title'),
-      description: t('contact.description'),
-      type: 'website',
-      locale: locale === 'en' ? 'en' : locale,
-    },
-  };
+  });
 }
 
 export default async function ContactPage({

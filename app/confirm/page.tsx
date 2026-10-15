@@ -22,6 +22,7 @@ async function loadConfirmMessages(locale: SubmissionLocale) {
         expired: { title: string; message: string; cta: string };
         invalid: { title: string; message: string; cta: string };
         already: { title: string; message: string; cta: string };
+        unavailable?: { title: string; message: string; cta: string };
       };
     };
     return messages.confirm;
@@ -82,8 +83,27 @@ export default async function ConfirmPage({
   }
 
   const locale: SubmissionLocale =
-    result.status === 'invalid' ? 'en' : result.submission?.locale || 'en';
+    result.status === 'invalid'
+      ? 'en'
+      : result.status === 'unavailable'
+        ? result.locale
+        : result.submission?.locale || 'en';
   const copy = await loadConfirmMessages(locale);
+
+  if (result.status === 'unavailable') {
+    return (
+      <ConfirmResultView
+        status="unavailable"
+        locale={locale}
+        title={copy?.unavailable?.title || 'Temporarily unavailable'}
+        message={
+          copy?.unavailable?.message ||
+          'We could not confirm your request right now. Your link is still valid — please try again in a few minutes.'
+        }
+        cta={copy?.unavailable?.cta || 'Back to Home'}
+      />
+    );
+  }
 
   if (result.status === 'invalid') {
     return (

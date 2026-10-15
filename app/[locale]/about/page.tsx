@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { buildLanguageAlternates } from '@/lib/seo/alternates';
+import { buildPageMetadata } from '@/lib/seo/alternates';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import LazyWhatsApp from '@/components/LazyWhatsApp';
@@ -17,19 +17,12 @@ export async function generateMetadata({
     namespace: 'metadata.about'
   });
 
-  return {
+  return buildPageMetadata({
+    locale,
+    pathname: '/about',
     title: t('title'),
     description: t('description'),
-
-    alternates: buildLanguageAlternates(locale, '/about'),
-
-    openGraph: {
-      title: t('title'),
-      description: t('description'),
-      type: 'website',
-      locale: locale === 'en' ? 'en' : locale,
-    },
-  };
+  });
 }
 
 export default async function AboutPage({

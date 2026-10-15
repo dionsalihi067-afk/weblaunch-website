@@ -4,7 +4,7 @@ import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import LazyWhatsApp from '@/components/LazyWhatsApp';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { buildLanguageAlternates } from '@/lib/seo/alternates';
+import { buildPageMetadata } from '@/lib/seo/alternates';
 
 /** Code-split the process timeline to reduce initial JavaScript */
 const ProcessTimeline = dynamic(
@@ -23,19 +23,12 @@ export async function generateMetadata({
     namespace: 'metadata.process',
   });
 
-  return {
+  return buildPageMetadata({
+    locale,
+    pathname: '/process',
     title: t('title'),
     description: t('description'),
-
-    alternates: buildLanguageAlternates(locale, '/process'),
-
-    openGraph: {
-      title: t('title'),
-      description: t('description'),
-      type: 'website',
-      locale: locale === 'en' ? 'en' : locale,
-    },
-  };
+  });
 }
 
 export default async function ProcessPage({

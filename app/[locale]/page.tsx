@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import Hero from '@/components/home/Hero';
 import LazyWhatsApp from '@/components/LazyWhatsApp';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { buildLanguageAlternates } from '@/lib/seo/alternates';
+import { buildPageMetadata } from '@/lib/seo/alternates';
 
 /** Below-fold home sections — code-split to shrink initial JS */
 const TrustSection = dynamic(() => import('@/components/home/TrustSection'));
@@ -20,17 +20,11 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'metadata' });
   
-  return {
+  return buildPageMetadata({
+    locale,
     title: t('home.title'),
     description: t('home.description'),
-    alternates: buildLanguageAlternates(locale),
-    openGraph: {
-      title: t('home.title'),
-      description: t('home.description'),
-      type: 'website',
-      locale: locale === 'en' ? 'en' : locale,
-    },
-  };
+  });
 }
 
 export default async function HomePage({

@@ -32,6 +32,7 @@ import {
   type ServiceId,
 } from '@/lib/contact/types';
 import { getResolvedQuestionnaire } from '@/lib/contact/questionnaireConfig';
+import { interpretSubmitResponse } from '@/lib/contact/submitResult';
 import {
   getActiveSharedFields,
   hasSharedStep,
@@ -83,6 +84,9 @@ const emptyPersonalErrors = (): PersonalErrors => ({
 
 type StepKind = 'personal' | 'services' | 'shared' | 'service';
 
+/** Must match MAX_TOTAL_UPLOAD_BYTES in app/api/contact/route.ts. */
+const MAX_UPLOAD_BYTES = 4 * 1024 * 1024;
+
 export default function ContactForm() {
   const t = useTranslations('contact.form');
   const locale = useLocale();
@@ -90,7 +94,10 @@ export default function ContactForm() {
 
   const [currentStep, setCurrentStep] = useState(1);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const submittingRef = useRef(false);
   const [isSuccess, setIsSuccess] = useState(false);
+  const [confirmationEmailSent, setConfirmationEmailSent] = useState(true);
+  const [honeypot, setHoneypot] = useState('');
   const [serviceError, setServiceError] = useState('');
   const [fieldErrors, setFieldErrors] = useState<Record<string, string>>({});
   const [legalConsentAccepted, setLegalConsentAccepted] = useState(false);
@@ -436,6 +443,8 @@ export default function ContactForm() {
       Object.entries(mapping).forEach(([localId, sharedId]) => {
         if (!sharedId) return;
         const sharedVal = formData.sharedAnswers[sharedId];
+        // Shared uploads are already sent once under shared_*; don't duplicate the bytes.
+        if (Array.isArray(sharedVal) && sharedVal[0] instanceof File) return;
         if (sharedVal !== undefined && isEmptyAnswer(enriched[serviceId][localId])) {
           enriched[serviceId][localId] = sharedVal;
         }
@@ -458,9 +467,27 @@ export default function ContactForm() {
     }
     setConsentError('');
 
+    if (submittingRef.current) return;
+
+    const enriched = buildEnrichedServiceAnswers();
+    const totalUploadBytes = [
+      ...Object.values(formData.sharedAnswers),
+      ...Object.values(enriched).flatMap((answers) => Object.values(answers)),
+    ]
+      .filter((answer): answer is File[] => Array.isArray(answer) && answer[0] instanceof File)
+      .flat()
+      .reduce((sum, file) => sum + file.size, 0);
+
+    if (totalUploadBytes > MAX_UPLOAD_BYTES) {
+      alert(t('validation.filesTooLarge'));
+      return;
+    }
+
+    submittingRef.current = true;
     setIsSubmitting(true);
     try {
       const payload = new FormData();
+      payload.append('hp_website', honeypot);
       payload.append('fullName', formData.fullName);
       payload.append('businessName', formData.businessName);
       payload.append('email', formData.email);
@@ -478,7 +505,6 @@ export default function ContactForm() {
         appendAnswer(payload, 'shared', questionId, answer);
       });
 
-      const enriched = buildEnrichedServiceAnswers();
       Object.entries(enriched).forEach(([service, answers]) => {
         Object.entries(answers).forEach(([questionId, answer]) => {
           appendAnswer(payload, service, questionId, answer);
@@ -490,18 +516,22 @@ export default function ContactForm() {
         body: payload,
       });
 
-      let result: { success?: boolean; error?: string } = {};
+      let body: unknown = null;
       try {
-        result = await response.json();
+        body = await response.json();
       } catch {
-        result = { error: `HTTP ${response.status}` };
+        body = null;
       }
 
-      if (response.ok && result.success) {
+      const outcome = interpretSubmitResponse(response.status, body);
+      if (outcome.kind === 'success') {
+        setConfirmationEmailSent(outcome.confirmationEmailSent);
         setIsSuccess(true);
         scrollToForm();
+      } else if (outcome.kind === 'files_too_large') {
+        alert(t('validation.filesTooLarge'));
       } else {
-        const msg = result.error || t('error');
+        const msg = outcome.message || `HTTP ${response.status}`;
         if (process.env.NODE_ENV === 'development') {
           alert(`${t('errorPrefix')}: ${msg}`);
         } else {
@@ -512,6 +542,7 @@ export default function ContactForm() {
       console.error('[ContactForm] submit error:', err);
       alert(t('error'));
     } finally {
+      submittingRef.current = false;
       setIsSubmitting(false);
     }
   };
@@ -524,8 +555,12 @@ export default function ContactForm() {
         className="rounded-2xl bg-white p-6 text-center shadow-xl sm:p-12"
       >
         <CheckCircle className="mx-auto mb-4 h-14 w-14 text-green-500 sm:mb-6 sm:h-20 sm:w-20" />
-        <h3 className="heading-section mb-3 text-gray-900 sm:mb-4">{t('success.title')}</h3>
-        <p className="text-lead text-gray-600">{t('success.message')}</p>
+        <h3 className="heading-section mb-3 text-gray-900 sm:mb-4">
+          {confirmationEmailSent ? t('success.title') : t('success.receivedTitle')}
+        </h3>
+        <p className="text-lead text-gray-600">
+          {confirmationEmailSent ? t('success.message') : t('success.receivedMessage')}
+        </p>
       </motion.div>
     );
   }
@@ -696,6 +731,18 @@ export default function ContactForm() {
                     onChange={(e) => updateField('additionalNotes', e.target.value)}
                     placeholder={t('additionalNotesPlaceholder')}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+                  />
+                </div>
+                <div aria-hidden="true" className="absolute -left-[9999px] h-0 w-0 overflow-hidden">
+                  <label htmlFor="hp_website">Website</label>
+                  <input
+                    id="hp_website"
+                    name="hp_website"
+                    type="text"
+                    tabIndex={-1}
+                    autoComplete="off"
+                    value={honeypot}
+                    onChange={(e) => setHoneypot(e.target.value)}
                   />
                 </div>
                 <PrivacyNotice />

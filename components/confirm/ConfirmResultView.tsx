@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import type { SubmissionLocale } from '@/lib/submissions/store';
 
-type Status = 'success' | 'invalid' | 'expired' | 'already';
+type Status = 'success' | 'invalid' | 'expired' | 'already' | 'unavailable';
 
 interface ConfirmResultViewProps {
   status: Status;

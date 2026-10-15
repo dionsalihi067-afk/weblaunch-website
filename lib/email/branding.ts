@@ -1,4 +1,4 @@
-import { getAppUrl } from '@/lib/email/smtp';
+import { getPublicWebsiteOrigin } from '@/lib/deployment/environment';
 
 export const EMAIL_BRAND = {
   name: 'WEB LAUNCH',
@@ -19,7 +19,7 @@ export const EMAIL_BRAND = {
 } as const;
 
 export function getWebsiteUrl(): string {
-  return getAppUrl();
+  return getPublicWebsiteOrigin();
 }
 
 export function escapeHtml(value: string): string {

@@ -1,4 +1,4 @@
-import { redirect } from 'next/navigation';
+import { permanentRedirect } from 'next/navigation';
 
 export default async function TermsRedirect({
   params,
@@ -6,5 +6,5 @@ export default async function TermsRedirect({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  redirect(`/${locale}/terms-and-conditions`);
+  permanentRedirect(`/${locale}/terms-and-conditions`);
 }

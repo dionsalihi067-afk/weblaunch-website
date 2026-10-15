@@ -2133,7 +2133,8 @@
         "phoneInvalid": "Please enter a valid phone number",
         "selectService": "Please select at least one service",
         "urlInvalid": "Please enter a valid website URL",
-        "consentRequired": "Please accept the Privacy Policy and Terms & Conditions to continue"
+        "consentRequired": "Please accept the Privacy Policy and Terms & Conditions to continue",
+        "filesTooLarge": "Your files are too large. Please keep total uploads under 4 MB or send them by email after submitting."
       },
       "step": "Step",
       "of": "of",
@@ -2146,7 +2147,9 @@
       "additionalNotesPlaceholder": "Anything else we should know?",
       "success": {
         "title": "Check your email",
-        "message": "We sent a confirmation email to your inbox. Please click “Confirm Request” to officially submit your project to WEB LAUNCH. The link expires in 48 hours."
+        "message": "We sent a confirmation email to your inbox. Please click “Confirm Request” to officially submit your project to WEB LAUNCH. The link expires in 48 hours.",
+        "receivedTitle": "Request received",
+        "receivedMessage": "Our team has received your request and will contact you soon. We could not send the confirmation email, so please check that your email address is correct or contact us directly."
       },
       "title": "Project Discovery Questionnaire",
       "subtitle": "Help us understand your project requirements by answering a few questions. This ensures we can provide you with the best possible solution.",
@@ -2533,6 +2536,11 @@
     "already": {
       "title": "Already confirmed",
       "message": "This request was already confirmed. WEB LAUNCH has received your project details and will contact you soon.",
+      "cta": "Back to Home"
+    },
+    "unavailable": {
+      "title": "Temporarily unavailable",
+      "message": "We could not confirm your request right now. Your link is still valid — please try again in a few minutes.",
       "cta": "Back to Home"
     }
   },

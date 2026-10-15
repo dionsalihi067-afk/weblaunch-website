@@ -2240,7 +2240,8 @@
         "phoneInvalid": "Inserisci un numero di telefono valido",
         "selectService": "Seleziona almeno un servizio",
         "urlInvalid": "Inserisci un URL del sito web valido",
-        "consentRequired": "Accetta l’Informativa sulla privacy e i Termini e Condizioni per continuare"
+        "consentRequired": "Accetta l’Informativa sulla privacy e i Termini e Condizioni per continuare",
+        "filesTooLarge": "I file sono troppo grandi. Mantieni il totale sotto i 4 MB oppure inviaceli via email dopo l’invio."
       },
       "step": "Passo",
       "of": "di",
@@ -2253,7 +2254,9 @@
       "additionalNotesPlaceholder": "C'è altro che dovremmo sapere?",
       "success": {
         "title": "Controlla la tua email",
-        "message": "Ti abbiamo inviato un’email di conferma. Clicca su “Conferma richiesta” per inviare ufficialmente il progetto a WEB LAUNCH. Il link scade tra 48 ore."
+        "message": "Ti abbiamo inviato un’email di conferma. Clicca su “Conferma richiesta” per inviare ufficialmente il progetto a WEB LAUNCH. Il link scade tra 48 ore.",
+        "receivedTitle": "Richiesta ricevuta",
+        "receivedMessage": "Il nostro team ha ricevuto la tua richiesta e ti contatterà presto. Non è stato possibile inviare l’email di conferma: verifica il tuo indirizzo email o contattaci direttamente."
       },
       "title": "Questionario di scoperta del progetto",
       "subtitle": "Aiutaci a capire i requisiti del tuo progetto rispondendo ad alcune domande.",
@@ -2534,6 +2537,11 @@
       "title": "Già confermata",
       "message": "Questa richiesta è già stata confermata. WEB LAUNCH ha ricevuto i dettagli e ti contatterà presto.",
       "cta": "Torna alla Home"
+    },
+    "unavailable": {
+      "title": "Temporaneamente non disponibile",
+      "message": "Non è stato possibile confermare la tua richiesta in questo momento. Il link è ancora valido — riprova tra qualche minuto.",
+      "cta": "Torna alla home"
     }
   },
   "whatsapp": {

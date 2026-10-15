@@ -2240,7 +2240,8 @@
         "phoneInvalid": "Veuillez entrer un numéro de téléphone valide",
         "selectService": "Veuillez sélectionner au moins un service",
         "urlInvalid": "Veuillez entrer une URL de site web valide",
-        "consentRequired": "Veuillez accepter la Politique de confidentialité et les Conditions générales pour continuer"
+        "consentRequired": "Veuillez accepter la Politique de confidentialité et les Conditions générales pour continuer",
+        "filesTooLarge": "Vos fichiers sont trop volumineux. Veuillez limiter le total à 4 Mo ou nous les envoyer par e-mail après l’envoi."
       },
       "step": "Étape",
       "of": "sur",
@@ -2253,7 +2254,9 @@
       "additionalNotesPlaceholder": "Y a-t-il autre chose que nous devrions savoir ?",
       "success": {
         "title": "Vérifiez votre e-mail",
-        "message": "Nous avons envoyé un e-mail de confirmation. Cliquez sur « Confirmer la demande » pour transmettre officiellement votre projet à WEB LAUNCH. Le lien expire sous 48 heures."
+        "message": "Nous avons envoyé un e-mail de confirmation. Cliquez sur « Confirmer la demande » pour transmettre officiellement votre projet à WEB LAUNCH. Le lien expire sous 48 heures.",
+        "receivedTitle": "Demande reçue",
+        "receivedMessage": "Notre équipe a bien reçu votre demande et vous contactera bientôt. L’e-mail de confirmation n’a pas pu être envoyé ; veuillez vérifier votre adresse e-mail ou nous contacter directement."
       },
       "title": "Questionnaire de découverte du projet",
       "subtitle": "Aidez-nous à comprendre les besoins de votre projet en répondant à quelques questions.",
@@ -2533,6 +2536,11 @@
     "already": {
       "title": "Déjà confirmée",
       "message": "Cette demande a déjà été confirmée. WEB LAUNCH a reçu vos informations et vous contactera bientôt.",
+      "cta": "Retour à l’accueil"
+    },
+    "unavailable": {
+      "title": "Temporairement indisponible",
+      "message": "Nous n’avons pas pu confirmer votre demande pour le moment. Votre lien reste valable — veuillez réessayer dans quelques minutes.",
       "cta": "Retour à l’accueil"
     }
   },

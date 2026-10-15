@@ -2240,7 +2240,8 @@
         "phoneInvalid": "Ju lutemi vendosni një numër telefoni të vlefshëm",
         "selectService": "Ju lutemi zgjidhni të paktën një shërbim",
         "urlInvalid": "Ju lutemi vendosni një URL të vlefshme të faqes",
-        "consentRequired": "Ju lutemi pranoni Politikën e Privatësisë dhe Kushtet dhe Termat për të vazhduar"
+        "consentRequired": "Ju lutemi pranoni Politikën e Privatësisë dhe Kushtet dhe Termat për të vazhduar",
+        "filesTooLarge": "Skedarët janë shumë të mëdhenj. Ju lutemi mbajini ngarkimet nën 4 MB gjithsej ose na i dërgoni me email pas dërgimit."
       },
       "step": "Hapi",
       "of": "nga",
@@ -2253,7 +2254,9 @@
       "additionalNotesPlaceholder": "Ka diçka tjetër që duhet të dimë?",
       "success": {
         "title": "Kontrolloni emailin tuaj",
-        "message": "Ju dërguam një email konfirmimi. Klikoni “Konfirmo Kërkesën” për ta dërguar zyrtarisht projektin te WEB LAUNCH. Linku skadon brenda 48 orëve."
+        "message": "Ju dërguam një email konfirmimi. Klikoni “Konfirmo Kërkesën” për ta dërguar zyrtarisht projektin te WEB LAUNCH. Linku skadon brenda 48 orëve.",
+        "receivedTitle": "Kërkesa u pranua",
+        "receivedMessage": "Ekipi ynë e ka marrë kërkesën tuaj dhe do t’ju kontaktojë së shpejti. Nuk mundëm të dërgonim email-in e konfirmimit, prandaj kontrolloni nëse adresa juaj e email-it është e saktë ose na kontaktoni drejtpërdrejt."
       },
       "title": "Pyetësori i Zbulimit të Projektit",
       "subtitle": "Ndihmoni të kuptojmë kërkesat e projektit tuaj duke iu përgjigjur disa pyetjeve.",
@@ -2534,6 +2537,11 @@
       "title": "Tashmë e konfirmuar",
       "message": "Kjo kërkesë është konfirmuar tashmë. WEB LAUNCH i ka marrë detajet e projektit dhe do t’ju kontaktojë së shpejti.",
       "cta": "Kthehu në Ballina"
+    },
+    "unavailable": {
+      "title": "Përkohësisht e padisponueshme",
+      "message": "Nuk mundëm ta konfirmojmë kërkesën tuaj tani. Linku juaj është ende i vlefshëm — ju lutemi provoni sërish pas pak minutash.",
+      "cta": "Kthehu në Fillim"
     }
   },
   "whatsapp": {

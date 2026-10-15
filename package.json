@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "seo:check": "node scripts/seo-check.mjs",
+    "test:contact": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/contact-check.mjs",
+    "test": "npm run test:contact && npm run seo:check"
   },
   "dependencies": {
     "next": "^15.3.0",
